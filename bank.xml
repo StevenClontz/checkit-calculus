@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bank version="0.0" xmlns="https://checkit.clontz.org">
+  <title>Calculus</title>
+  <url>https://github.com/StevenClontz/checkit-calculus/</url>
+  <outcomes>
+    <outcome>
+      <title>Limits graphically</title>
+      <slug>LimitGraph</slug>
+      <description>Find limits graphically</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Limits numerically</title>
+      <slug>LimitNum</slug>
+      <description>Find limits numerically</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Limits analytically</title>
+      <slug>LimitAna</slug>
+      <description>Find limits analytically</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Continuity</title>
+      <slug>LimitCont</slug>
+      <description>Define continuity and determine continuity of functions at a
+      point, at endpoints, and on an interval.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Limiting inputs to infinity</title>
+      <slug>LimitInInf</slug>
+      <description>Find limits where inputs approach infinity.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Limits with infinite outputs</title>
+      <slug>LimitOutInf</slug>
+      <description>Find limits where outputs approach infinity.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>L'Hopital</title>
+      <slug>LimitLHop</slug>
+      <description>Use L'Hopital's Rule to find limits.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Derivative definition</title>
+      <slug>DiffDef</slug>
+      <description>Find the derivative of a function using the limit
+      definition.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Derivative notation and concepts</title>
+      <slug>DiffConcept</slug>
+      <description>Use derivative notation correctly, estimate the value of a
+      derivative using difference quotients, and draw corresponding secant and
+      tangent lines on the graph of a function.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Basic derivative rules</title>
+      <slug>DiffBasic</slug>
+      <description>Compute basic derivatives using algebraic
+      rules.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Product/Quotient Rule</title>
+      <slug>DiffProdQuot</slug>
+      <description>Compute derivatives using the Product and Quotient
+      Rules.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Chain Rule</title>
+      <slug>DiffChain</slug>
+      <description>Compute derivatives using the Chain Rule.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Differentiation strategy</title>
+      <slug>DiffMulti</slug>
+      <description>Compute derivatives using a combination of algebraic
+      derivative rules.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Implicit differentiaion</title>
+      <slug>DF7</slug>
+      <description>Find derivatives of implicitly-defined
+      functions.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Rates of change and tangents</title>
+      <slug>AD1</slug>
+      <description>Use derivatives to answer questions about rates of change
+      and equations of tangents.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Rates of change and tangents</title>
+      <slug>AD1test</slug>
+      <description>Use derivatives to answer questions about rates of change
+      and equations of tangents.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Related rates</title>
+      <slug>AD2</slug>
+      <description>Model and analyze scenarios using related
+      rates.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Extreme Value Theorem</title>
+      <slug>AD3</slug>
+      <description>Use the Extreme Value Theorem to find the absolute maximum
+      and minimum values of a continuous function on a closed
+      interval.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Derivative tests</title>
+      <slug>AD4</slug>
+      <description>Apply the First and Second Derivative Tests to classify the
+      critical points as local extrema.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Concavity and inflection</title>
+      <slug>AD5</slug>
+      <description>Determine the intervals of concavity of a function and find
+      all of its points of inflection.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Graphing with derivatives</title>
+      <slug>AD6</slug>
+      <description>Use derivatives to analytically graph
+      functions.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Applied optimization</title>
+      <slug>AD7</slug>
+      <description>Model and analyze scenarios using applied
+      optimization.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Geometry of definite integrals</title>
+      <slug>IN1</slug>
+      <description>Use geometric formulas to find definite
+      integrals.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Approximating definite integrals</title>
+      <slug>IN2</slug>
+      <description>Approximate definite integrals using variations of Riemann
+      sums.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Fundamental Theorem of Calculus</title>
+      <slug>IN3</slug>
+      <description>Evaluate a definite integral using the Fundamental Theorem
+      of Calculus.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Area between curves</title>
+      <slug>IN4</slug>
+      <description>Use definite integrals to find areas between two
+      curves.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Basic antiderivatives and IVPs</title>
+      <slug>IN5</slug>
+      <description>Find basic antiderivatives and solve basic initial value
+      problems.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Substitution method</title>
+      <slug>TI1</slug>
+      <description>Evaluate various integrals via the substitution
+      method.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Integration by parts</title>
+      <slug>TI2</slug>
+      <description>Compute integrals using integration by parts.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Trigonometry and integration</title>
+      <slug>TI3</slug>
+      <description>Compute integrals, using trigonometric substitution and
+      other methods, involving products of trigonometric
+      functions.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Partial fractions</title>
+      <slug>TI4</slug>
+      <description>Integrate using the method of partial
+      fractions.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Integration strategy</title>
+      <slug>TI5</slug>
+      <description>Select appropriate strategies for integration.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Improper integrals</title>
+      <slug>TI6</slug>
+      <description>Identify and compute improper integrals.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Volumes of Revolution</title>
+      <slug>AI1</slug>
+      <description>Compute volumes of solids of revolution.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Areas of Revolution</title>
+      <slug>AI2</slug>
+      <description>Compute areas of surfaces of revolution.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Parametric/vector equations</title>
+      <slug>AI3</slug>
+      <description>Sketch the graph of a two-dimensional parametric/vector
+      equation.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Parametric/vector measurements</title>
+      <slug>AI4</slug>
+      <description>Compute tangents, areas, and arc lengths related to
+      two-dimensional parametric/vector equations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Polar coordiantes and equations</title>
+      <slug>AI5</slug>
+      <description>Convert between polar and Cartesian coordiantes and
+      equations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Polar area</title>
+      <slug>AI6</slug>
+      <description>Compute areas defined by polar coordinates.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Sequence formulas</title>
+      <slug>SQ1</slug>
+      <description>Define and use explicit and recursive formulas for
+      sequences.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Sequence properties and limits</title>
+      <slug>SQ2</slug>
+      <description>Determine if a sequence is convergent, divergent, monotonic,
+      or bounded, and compute limits of convergent sequences.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Partial sum sequence</title>
+      <slug>SQ3</slug>
+      <description>Convert a (telescoping) sequence into its partial sum
+      sequence, and find its limit.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Geometric summations</title>
+      <slug>SQ4</slug>
+      <description>Determine convergence and values of geometric
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Basic convergence tests</title>
+      <slug>SQ5</slug>
+      <description>Use Divergence, Alternating Summation, and Integral Tests to
+      determine convergence of summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Comparison tests</title>
+      <slug>SQ6</slug>
+      <description>Use Direct and Limit Comparison Tests to determine
+      convergence of summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Ratio and Root tests</title>
+      <slug>SQ7</slug>
+      <description>Use Ratio and Root Tests to determine convergence of
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Absolute convergence</title>
+      <slug>SQ8</slug>
+      <description>Determine absolute and conditional convergence of
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Summation convergence stratgy</title>
+      <slug>SQ9</slug>
+      <description>Identify appropriate convergence tests for various
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Power series</title>
+      <slug>PS1</slug>
+      <description>Approximate functions defined as power series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Domain of power series</title>
+      <slug>PS2</slug>
+      <description>Describe the domain of convergence for a given power
+      series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Manipulation of power series</title>
+      <slug>PS3</slug>
+      <description>Compute power series by manipulating known
+      exponential/trigonometric/binomial power series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Taylor series</title>
+      <slug>PS4</slug>
+      <description>Compute a Taylor or Maclaurin series for a
+      function.</description>
+      <alignment></alignment>
+    </outcome>
+  </outcomes>
+</bank>
