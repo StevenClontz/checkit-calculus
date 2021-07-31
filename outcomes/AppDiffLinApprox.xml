@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+A certain function <m>p(x)</m> satisfies
+<m>p({{a}}) = {{La}}</m> and <m>p'({{a}}) = {{Lpa}}</m>.
+            <ol>
+                <li>
+                    <p>
+Explain how to find the local linearization <m>L(x)</m>
+of <m>p(x)</m> at <m>{{a}}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Explain how to estimate the value of <m>p({{adx}})</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Suppose that <m>p'({{a}})=0</m> and you know that
+<m>p''(x) {{d2_ineq}} 0</m> for <m>x {{loc_ineq}} {{a}}</m>.
+Explain how to determine if your estimate of <m>p({{adx}})</m>
+is too large or too small.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Suppose that <m>p''(x) {{d2_comp}} 0</m> for <m>x {{loc_comp}} {{a}}</m>.
+Use this fact and the additional information above to sketch an accurate
+graph of <m>y=p(x)</m> near <m>x={{a}}</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <ol>
+            <li><p><m>L(x)={{L}}</m></p></li>
+            <li><p><m>p({{adx}}) \approx {{Ladx}}</m></p></li>
+            <li><p>The estimate is {{error}}.</p></li>
+            <li><p>N/A</p></li>
+        </ol>
+    </answer>
+</exercise>

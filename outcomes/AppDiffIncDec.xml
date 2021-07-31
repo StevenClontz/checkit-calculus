@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+Explain how to find the following for the function <m>f(x)={{function}}</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+The open intervals where <m>f(x)</m> is increasing or decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+The relative extrema of <m>f(x)</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+
+    {{#increasing}}
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function increases on <m>(-\infty,{{a}})</m>,
+decreases on <m>({{a}},{{b}})</m>, and increases on
+<m>({{b}},\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=({{a}},{{fa}})</m> is a relative maximum,
+and the point <m>(x,y)=({{b}},{{fb}})</m> is a relative minimum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+    {{/increasing}}
+    {{#decreasing}}
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function decreases on <m>(-\infty,{{a}})</m>,
+increases on <m>({{a}},{{b}})</m>, and decreases on
+<m>({{b}},\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=({{a}},{{fa}})</m> is a relative minimum,
+and the point <m>(x,y)=({{b}},{{fb}})</m> is a relative maximum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+    {{/decreasing}}
+</exercise>

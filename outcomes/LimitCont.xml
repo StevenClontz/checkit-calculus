@@ -1,17 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
-        <p>
-            Say hello <m>{{number}}</m> times.
-        </p>
+        <ol>
+            <li>
+                {{#parameter}}
+                <p>Determine the value of <m>b</m> to make <m>{{fn}}(x)</m> continuous at <m>x={{x}}</m>.</p>
+                <p>
+                    <me>
+                        {{fn}}(x) = \begin{cases}
+                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\\
+                        {{f2}}, &amp; x {{f2ineq}} {{x}}
+                        \end{cases}
+                    </me>
+                </p>
+                {{/parameter}}
+            </li>
+            <li>
+                {{#discontinuity}}
+                <p>The function <m>{{fn}}(x)</m> is discontinuous at <m>x={{x}}</m>. Determine if <m>{{fn}}(x)</m> is left- or right-continuous and classify the type of discontinuity present at <m>x={{x}}</m>.</p>
+                <p>
+                    <me>
+                        {{fn}}(x) = \begin{cases}
+                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\\
+                        {{f2}}, &amp; x {{f2ineq}} {{x}}
+                        \end{cases}
+                    </me>
+                </p>
+                {{/discontinuity}}
+            </li>
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#parameter}}
+            <li>To make <m>{{fn}}(x)</m> continuous at <m>x={{x}}</m>, let <m>b={{parameter}}</m>.</li>
+            {{/parameter}}
+            {{#discontinuity}}
+            <li>The function <m>{{fn}}(x)</m> has a {{discontinuitytype}} and is {{rightleftcontinuous}} at <m>x={{x}}</m>.</li>
+            {{/discontinuity}}
+        </ol>
     </answer>
 </exercise>

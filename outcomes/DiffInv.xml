@@ -4,14 +4,20 @@
          the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
+        <ol>
+            {{#functions}}
+            <li><me>{{fn}}({{v}})= {{f}}</me></li>
+            {{/functions}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#functions}}
+            <li><me>{{fn}}&apos; ({{v}})= {{dfdx}}</me></li>
+            {{/functions}}
+        </ol>
     </answer>
 </exercise>

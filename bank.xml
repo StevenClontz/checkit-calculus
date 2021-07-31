@@ -3,119 +3,123 @@
   <title>Calculus</title>
   <url>https://github.com/StevenClontz/checkit-calculus/</url>
   <outcomes>
-    <outcome>
+    <outcome><!-- done, but should be updated once graphics are implemented -->
       <title>Limits graphically</title>
       <slug>LimitGraph</slug>
       <description>Find limits graphically.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Limits numerically</title>
       <slug>LimitNum</slug>
       <description>Find limits numerically.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Limits analytically</title>
       <slug>LimitAna</slug>
       <description>Find limits analytically</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Continuity</title>
       <slug>LimitCont</slug>
       <description>Define continuity and determine continuity of functions at a point, at endpoints, and on an interval.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>Limiting inputs to infinity</title>
+    <outcome><!-- done -->
+      <title>Limits with infinite inputs</title>
       <slug>LimitInInf</slug>
       <description>Find limits where inputs approach infinity.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Limits with infinite outputs</title>
       <slug>LimitOutInf</slug>
       <description>Find limits where outputs approach infinity.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>L'Hopital</title>
-      <slug>LimitLHop</slug>
-      <description>Use L'Hopital's Rule to find limits.</description>
+    <outcome><!-- done -->
+      <title>Difference Quotient</title>
+      <slug>DiffQuotient</slug>
+      <description>Estimate the value of a
+      derivative using difference quotients.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Derivative definition</title>
       <slug>DiffDef</slug>
       <description>Find the derivative of a function using the limit
       definition.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>Derivative notation and concepts</title>
-      <slug>DiffConcept</slug>
-      <description>Use derivative notation correctly, estimate the value of a
-      derivative using difference quotients, and draw corresponding secant and
-      tangent lines on the graph of a function.</description>
-      <alignment></alignment>
-    </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Basic derivative rules</title>
       <slug>DiffBasic</slug>
       <description>Compute basic derivatives using algebraic
       rules.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Product/Quotient Rule</title>
       <slug>DiffProdQuot</slug>
       <description>Compute derivatives using the Product and Quotient
       Rules.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Chain Rule</title>
       <slug>DiffChain</slug>
       <description>Compute derivatives using the Chain Rule.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>Inverse differentiaion</title>
-      <slug>DiffInv</slug>
-      <description>Find derivatives of inverse
-      functions.</description>
-      <alignment></alignment>
-    </outcome>
-    <outcome>
-      <title>Differentiation strategy</title>
-      <slug>DiffStrategy</slug>
-      <description>Compute derivatives using a combination of algebraic
-      derivative rules.</description>
-      <alignment></alignment>
-    </outcome>
-    <outcome>
-      <title>Implicit differentiaion</title>
+    <outcome><!-- Guillermo -->
+      <title>Implicit differentiation</title>
       <slug>DiffImp</slug>
       <description>Find derivatives of implicitly-defined
       functions.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>Rates of change and tangents</title>
-      <slug>AppDiffROC</slug>
-      <description>Use derivatives to answer questions about rates of change
-      and equations of tangents.</description>
+    <outcome><!-- done -->
+      <title>Inverse differentiation</title>
+      <slug>DiffInv</slug>
+      <description>Find derivatives of inverse
+      functions.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Guillermo -->
+      <title>Differentiation strategy</title>
+      <slug>DiffStrategy</slug>
+      <description>Compute derivatives using a combination of rules.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
+      <title>Equations of tangent lines</title>
+      <slug>AppDiffTanLine</slug>
+      <description>Use derivatives to find equations of tangent lines.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
+      <title>Equations of motion</title>
+      <slug>AppDiffMotion</slug>
+      <description>Use derivatives to answer questions about position, velocity, speed,
+          and acceleration.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
+      <title>Linear Approximation</title>
+      <slug>AppDiffLinApprox</slug>
+      <description>Approximate a function with a tangent line.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
       <title>Related rates</title>
       <slug>AppDiffRelRates</slug>
       <description>Model and analyze scenarios using related
       rates.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Reeve -->
       <title>Extreme Value Theorem</title>
       <slug>AppDiffEVT</slug>
       <description>Use the Extreme Value Theorem to find the absolute maximum
@@ -123,83 +127,102 @@
       interval.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Derivative tests</title>
-      <slug>AppDifIncDec</slug>
-      <description>Apply the First and Second Derivative Tests to classify the
+      <slug>AppDiffIncDec</slug>
+      <description>Apply Derivative Tests to classify the
       critical points as local extrema.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Steven -->
       <title>Concavity and inflection</title>
       <slug>AppDiffConcavity</slug>
       <description>Determine the intervals of concavity of a function and find
       all of its points of inflection.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Steven -->
       <title>Graphing with derivatives</title>
       <slug>AppDiffGraph</slug>
       <description>Use derivatives to analytically graph
       functions.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Steven -->
       <title>Applied optimization</title>
       <slug>AppDiffOpt</slug>
       <description>Model and analyze scenarios using applied
       optimization.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Guillermo -->
+      <title>L'Hopital's Rule</title>
+      <slug>AppDiffLH</slug>
+      <description>Use L'Hopital's Rule to find limits.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
       <title>Geometry of definite integrals</title>
       <slug>IntGeometric</slug>
       <description>Use geometric formulas to find definite
       integrals.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Approximating definite integrals</title>
       <slug>IntRiemann</slug>
       <description>Approximate definite integrals using variations of Riemann
       sums.</description>
       <alignment></alignment>
     </outcome>
-          <outcome>
+    <outcome><!-- done -->
       <title>Basic antiderivatives</title>
       <slug>IntBasic</slug>
       <description>Find basic antiderivatives.</description>
       <alignment></alignment>
     </outcome>
-          <outcome>
+    <outcome><!-- done -->
       <title>Initial Value Problems</title>
       <slug>IntIVP</slug>
       <description>Solve basic initial value
       problems.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
-      <title>Fundamental Theorem of Calculus</title>
-      <slug>IntFTC</slug>
+    <outcome><!-- done -->
+      <title>FTC for Definite Integrals</title>
+      <slug>IntFTCDef</slug>
       <description>Evaluate a definite integral using the Fundamental Theorem
       of Calculus.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- Sarah done -->
+      <title>FTC for Derivatives</title>
+      <slug>IntFTCDeriv</slug>
+      <description>Evaluate the derivative of a definite integral using the Fundamental Theorem
+      of Calculus.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- Steven -->
+      <title>Area under curves</title>
+      <slug>IntAreaUnder</slug>
+      <description>Use definite integrals to find areas under curves.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome><!-- done -->
       <title>Area between curves</title>
-      <slug>IntArea</slug>
+      <slug>IntAreaBetween</slug>
       <description>Use definite integrals to find areas between two
       curves.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+    <outcome><!-- done -->
       <title>Substitution method</title>
       <slug>IntSub</slug>
       <description>Evaluate various integrals via the substitution
       method.</description>
       <alignment></alignment>
     </outcome>
-    <outcome>
+<!--     <outcome>
       <title>Integration by parts</title>
       <slug>IntParts</slug>
       <description>Compute integrals using integration by parts.</description>
@@ -366,6 +389,6 @@
       <description>Compute a Taylor or Maclaurin series for a
       function.</description>
       <alignment></alignment>
-    </outcome>
+    </outcome> -->
   </outcomes>
 </bank>

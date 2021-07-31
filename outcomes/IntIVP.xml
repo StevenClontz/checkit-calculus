@@ -1,17 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
-    <statement>
+   <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+           Let <m> f'(x)={{fdiff}} </m>. Find <m>f(x)</m> such that <m>{{IV}}</m>. 
         </p>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
+
     <answer>
         <p>
-            {{hellos}}
+            <me>{{answerB}}</me>
         </p>
     </answer>
 </exercise>

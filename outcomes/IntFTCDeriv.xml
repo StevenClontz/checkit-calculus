@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+            {{#functions}}
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ {{a}} }^{ {{b}} } \left( {{function}} \right) dt
+                        </me>
+                    </p>
+                </li>
+            {{/functions}}
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+            {{#functions}}
+                <li><p><me>{{answer}}</me></p></li>
+            {{/functions}}
+            </ol>
+        </p>
+    </answer>
+</exercise>

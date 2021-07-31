@@ -1,17 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+Expain how to find each of the below indefinite integrals.
         </p>
+        <ol>
+            {{#integrals}}
+            <li>
+                <p>
+                    <me>
+\int \left( {{integrand}} \right) d{{variable}}
+                    </me>
+                </p>
+            </li>
+            {{/integrals}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#integrals}}
+            <li>
+                <p>
+                    <me>
+\int \left( {{integrand}} \right) d{{variable}}
+= {{result}} + C
+                    </me>
+                </p>
+            </li>
+            {{/integrals}}
+        </ol>
     </answer>
 </exercise>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+Suppose the position of an object in {{units}}
+is modeled by the following function.
+<me>s(t)={{position}}</me>
+        </p>
+        <p>
+Explain how to find the object's position, displacement,
+velocity, speed, and acceleration at <m>{{#elapsed}}{{time}}{{/elapsed}}</m>
+seconds. Use appropriate units for each.
+                </p>
+    </statement>
+    <answer>
+        {{#elapsed}}
+        <ul>
+            <li>
+                <p>
+Position: <m>{{position}}</m> {{units}}
+                </p>
+            </li>
+            <li>
+                <p>
+Displacement: <m>{{displacement}}</m> {{units}}
+                </p>
+            </li>
+            <li>
+                <p>
+Velocity: <m>{{velocity}}</m> {{units}} per second
+                </p>
+            </li>
+            <li>
+                <p>
+Speed: <m>{{speed}}</m> {{units}} per second
+                </p>
+            </li>
+            <li>
+                <p>
+Acceleration: <m>{{acceleration}}</m> {{units}} per <m>s^2</m>
+                </p>
+            </li>
+        </ul>
+        {{/elapsed}}
+    </answer>
+</exercise>

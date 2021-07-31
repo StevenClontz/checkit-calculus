@@ -1,17 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+            Determine the following limits and explain your reasoning.
         </p>
+        <ol>
+            {{#limits}}
+            <li><me>\lim_{x\to{{a}} } \frac{ {{num}} }{ {{den}} }</me></li>
+            {{/limits}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#limits}}
+            <li><me>{{limit}}</me></li>
+            {{/limits}}
+        </ol>
     </answer>
 </exercise>

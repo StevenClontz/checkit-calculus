@@ -1,17 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
-    <statement>
+   <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+Explain how to find the general antiderivative for each function.
         </p>
+        <ol>
+            {{#functions}}
+                <li><me>{{function}}</me></li>
+            {{/functions}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
+
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#functions}}
+                <li><p><me>{{answer}}+C</me></p></li>
+            {{/functions}}
+        </ol>
     </answer>
 </exercise>

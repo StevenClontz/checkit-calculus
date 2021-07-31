@@ -1,17 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+Explain how to approximate the area under the curve
+<m>f(x)={{function}}</m> on the
+interval <m>[{{lbound}},{{ubound}}]</m> using a {{side}} Riemann
+sum with {{numintervals}} rectangles of uniform width.
         </p>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
         <p>
-            {{hellos}}
+            <m>{{answer}}</m>
         </p>
     </answer>
 </exercise>

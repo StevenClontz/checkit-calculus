@@ -1,17 +1,97 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
-        <p>
-            Say hello <m>{{number}}</m> times.
-        </p>
+        <p>Sketch the graph of a function <m>{{fn}}(x)</m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</p>
+        <ol>
+            {{#properties}}
+            <!-- Vertical Asymptote -->
+                {{#leftinf}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)</m> is infinite, but <m>\lim_{x\to {{x}}^+} {{fn}}(x)</m> is finite.</p></li>
+                {{/leftinf}}
+                {{#rightinf}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)</m> is finite, but <m>\lim_{x\to {{x}}^+} {{fn}}(x)</m> is infinite.</p></li>
+                {{/rightinf}}
+                {{#bothinf}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)</m> and <m>\lim_{x\to {{x}}^+} {{fn}}(x)</m> are both infinite.</p></li>
+                {{/bothinf}}
+                {{#vertleft}}
+                    <li><p><m>{{fn}}(x)</m> has a vertical asymptote at <m>{{x}}</m>, but <m>\lim_{x\to {{x}}^+} {{fn}}(x)</m> is finite.</p></li>
+                {{/vertleft}}
+                {{#vertright}}
+                    <li><p><m>{{fn}}(x)</m> has a vertical asymptote at <m>{{x}}</m>, but <m>\lim_{x\to {{x}}^-} {{fn}}(x)</m> is finite.</p></li>
+                {{/vertright}}
+            <!-- Removable Discontinuity -->
+                {{#limneqval}}
+                    <li><p><m>\lim_{x\to {{x}}} {{fn}}(x)</m> exists and <m>{{fn}}({{x}})</m> is defined, but <m>\lim_{x\to {{x}}} {{fn}}(x)\neq {{fn}}({{x}})</m>.</p></li>
+                {{/limneqval}}
+                {{#specfuncval}}
+                    <li><p><m>\lim_{x\to {{x}}} {{fn}}(x)={{y1}}</m>, but <m>{{fn}}({{x}})={{y2}}</m>.</p></li>
+                {{/specfuncval}}
+            <!-- Jump Discontinuity -->
+                {{#leftneqright}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)\neq\lim_{x\to {{x}}^+} {{fn}}(x)</m>.</p></li>
+                {{/leftneqright}}
+                {{#jumpspecleft}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)={{y1}}</m> but <m>\lim_{x\to {{x}}^+} {{fn}}(x)\neq{{y1}}</m>.</p></li>
+                {{/jumpspecleft}}
+                {{#jumpspecright}}
+                    <li><p><m>\lim_{x\to {{x}}^+} {{fn}}(x)={{y1}}</m> but <m>\lim_{x\to {{x}}^-} {{fn}}(x)\neq{{y1}}</m>.</p></li>
+                {{/jumpspecright}}
+                {{#jumpspecleftright}}
+                    <li><p><m>\lim_{x\to {{x}}^-} {{fn}}(x)={{y1}}</m> and <m>\lim_{x\to {{x}}^+} {{fn}}(x)={{y2}}</m>.</p></li>
+                {{/jumpspecleftright}}
+            {{/properties}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <p>Answers vary. Here are some things to check for:</p>
+        <ul>
+            <li>Does your graph represent a function? If your graph fails the vertical line test, it is not a function. This means there is more than one point on the graph with the same <m>x</m>-value, which is not allowed!</li>
+        </ul>
+        <ol>
+            {{#properties}}
+            <!-- Vertical Asymptote Answers -->
+                {{#leftinf}}
+                    <li><p>The graph should have a vertical asymptote at <m>x={{x}}</m>. As the function approaches the vertical asymptote from the left, the function outputs should grow infinitely large in magnitude (either in the postive or negative <m>y</m>-direction). As the function approaches the vertical asymptote from the right, the function should bump straight into the vertical asymptote.</p></li>
+                {{/leftinf}}
+                {{#rightinf}}
+                    <li><p>The graph should have a vertical asymptote at <m>x={{x}}</m>. As the function approaches the vertical asymptote from the left, the function should bump straight into the vertical asymptote. As the function approaches the vertical asymptote from the right, the function outputs should grow infinitely large in magnitude (either in the postive or negative <m>y</m>-direction).</p></li>
+                {{/rightinf}}
+                {{#bothinf}}
+                    <li><p>The graph should have a vertical asymptote at <m>x={{x}}</m>. The function should grow in magnitude as it approaches the vertical asymptote from both the left and right.</p></li>
+                {{/bothinf}}
+                {{#vertleft}}
+                    <li><p>The graph should have a vertical asymptote at <m>x={{x}}</m>. As the function approaches the vertical asymptote from the left, the function outputs should grow infinitely large in magnitude (either in the postive or negative <m>y</m>-direction). As the function approaches the vertical asymptote from the right, the function should bump straight into the vertical asymptote.</p></li>
+                {{/vertleft}}
+                {{#vertright}}
+                    <li><p>The graph should have a vertical asymptote at <m>x={{x}}</m>. As the function approaches the vertical asymptote from the left, the function should bump straight into the vertical asymptote. As the function approaches the vertical asymptote from the right, the function outputs should grow infinitely large in magnitude (either in the postive or negative <m>y</m>-direction).</p></li>
+                {{/vertright}}
+            <!-- Removable Discontinuity -->
+                {{#limneqval}}
+                    <li><p>There should be a removable discontinuity (hole) on the graph at <m>x={{x}}</m> (indicated by an open circle on the graph at this point). The function should, however, be defined at <m>x={{x}}</m>, so a point should appear on the graph at <m>x={{x}}</m> above or below the hole in the graph.</p></li>
+                {{/limneqval}}
+                {{#specfuncval}}
+                    <li><p>The graph should approach the point <m>({{x}},{{y1}})</m>, but there should be a removable discontinuity (hole) in the graph right at that point (indicated by an open circle). The actual value of the function at <m>x={{x}}</m> should be <m>{{y2}}</m>, so the point <m>({{x}},{{y2}})</m> should be included on the graph.</p></li>
+                {{/specfuncval}}
+            <!-- Jump Discontinuity -->
+                {{#leftneqright}}
+                    <li><p>There should be one of two things occuring at <m>x={{x}}:</m></p>
+                        <ul>
+                            <li>The graph has a jump discontinuity at <m>x={{x}}</m>, or...</li>
+                            <li>The graph has a vertical asymptote at <m>x={{x}}</m> with distinct function behaviors as the graph approaches the asymptote from the left versus from the right.</li>
+                        </ul>
+                    </li>
+                {{/leftneqright}}
+                {{#jumpspecleft}}
+                    <li><p>There is a jump or infinite discontinuity at <m>x={{x}}</m>, but the function approaches the point <m>({{x}},{{y1}})</m> as <m>x</m> approaches <m>{{x}}</m> from the left.</p></li>
+                {{/jumpspecleft}}
+                {{#jumpspecright}}
+                    <li><p>There is a jump or infinite discontinuity at <m>x={{x}}</m>, but the function approaches the point <m>({{x}},{{y1}})</m> as <m>x</m> approaches <m>{{x}}</m> from the right.</p></li>
+                {{/jumpspecright}}
+                {{#jumpspecleftright}}
+                    <li><p>There is a jump discontinuity at <m>x={{x}}</m> with the graph approaching the point <m>({{x}},{{y1}})</m> as <m>x</m> approaches <m>{{x}}</m> from the left and approaching the point <m>({{x}},{{y2}})</m> as <m>x</m> approaches <m>{{x}}</m> from the right.</p></li>
+                {{/jumpspecleftright}}
+            {{/properties}}
+        </ol>
     </answer>
 </exercise>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+        Let <m>{{function_symbol}}(x) = {{poly}}</m>. Find an equation of the line tangent to the graph at the point <m>({{pointx}}, {{pointy}})</m>.
+        </p>
+
+    </statement>
+    <answer>
+        The equation of the tangent line is <m>y = {{tanline}}</m>.
+    </answer>
+</exercise>
