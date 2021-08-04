@@ -1,17 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+            Answer the following questions concerning
+            <m>f(x)={{fx}}</m>.
         </p>
+        <ol>
+            <li>
+                <p>
+What is the total area between <m>f(x)={{fx}}</m> and the <m>x</m>-axis
+from <m>x={{a}}</m> to <m>x={{b}}</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+What is the net area between <m>f(x)={{fx}}</m> and the <m>x</m>-axis
+from <m>x={{a}}</m> to <m>x={{b}}</m>?
+                </p>
+            </li>
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+         <ol>
+            <li>
+                <p>
+                    <me>
+\left| \int_{ {{a}} }^{ {{z}} } 
+\left( {{fx}} \right) dx \right| +
+\left| \int_{ {{z}} }^{ {{b}} } 
+\left( {{fx}} \right) dx \right| = {{ total }}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int_{ {{a}} }^{ {{b}} } 
+\left( {{fx}} \right) dx = {{ net }}
+                    </me>
+                </p>
+            </li>
+        </ol>
     </answer>
 </exercise>
