@@ -7,117 +7,99 @@
       <title>Limits graphically</title>
       <slug>LimitGraph</slug>
       <description>Find limits graphically.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Limits numerically</title>
       <slug>LimitNum</slug>
       <description>Find limits numerically.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Limits analytically</title>
       <slug>LimitAna</slug>
       <description>Find limits analytically</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Continuity</title>
       <slug>LimitCont</slug>
       <description>Define continuity and determine continuity of functions at a point, at endpoints, and on an interval.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Limits with infinite inputs</title>
       <slug>LimitInInf</slug>
       <description>Find limits where inputs approach infinity.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Limits with infinite outputs</title>
       <slug>LimitOutInf</slug>
       <description>Find limits where outputs approach infinity.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Difference Quotient</title>
       <slug>DiffQuotient</slug>
       <description>Estimate the value of a
       derivative using difference quotients.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Derivative definition</title>
       <slug>DiffDef</slug>
       <description>Find the derivative of a function using the limit
       definition.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Basic derivative rules</title>
       <slug>DiffBasic</slug>
       <description>Compute basic derivatives using algebraic
       rules.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Product/Quotient Rule</title>
       <slug>DiffProdQuot</slug>
       <description>Compute derivatives using the Product and Quotient
       Rules.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Chain Rule</title>
       <slug>DiffChain</slug>
       <description>Compute derivatives using the Chain Rule.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Guillermo -->
       <title>Implicit differentiation</title>
       <slug>DiffImp</slug>
       <description>Find derivatives of implicitly-defined
       functions.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Inverse differentiation</title>
       <slug>DiffInv</slug>
       <description>Find derivatives of inverse
       functions.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Guillermo -->
       <title>Differentiation strategy</title>
       <slug>DiffStrategy</slug>
       <description>Compute derivatives using a combination of rules.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Equations of tangent lines</title>
       <slug>AppDiffTanLine</slug>
       <description>Use derivatives to find equations of tangent lines.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Equations of motion</title>
       <slug>AppDiffMotion</slug>
       <description>Use derivatives to answer questions about position, velocity, speed,
           and acceleration.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Linear Approximation</title>
       <slug>AppDiffLinApprox</slug>
       <description>Approximate a function with a tangent line.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Related rates</title>
       <slug>AppDiffRelRates</slug>
       <description>Model and analyze scenarios using related
       rates.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Reeve -->
       <title>Extreme Value Theorem</title>
@@ -125,193 +107,164 @@
       <description>Use the Extreme Value Theorem to find the absolute maximum
       and minimum values of a continuous function on a closed
       interval.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Derivative tests</title>
       <slug>AppDiffIncDec</slug>
       <description>Apply Derivative Tests to classify the
       critical points as local extrema.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Steven -->
       <title>Concavity and inflection</title>
       <slug>AppDiffConcavity</slug>
       <description>Determine the intervals of concavity of a function and find
       all of its points of inflection.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Steven -->
       <title>Graphing with derivatives</title>
       <slug>AppDiffGraph</slug>
       <description>Use derivatives to analytically graph
       functions.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Steven -->
       <title>Applied optimization</title>
       <slug>AppDiffOpt</slug>
       <description>Model and analyze scenarios using applied
       optimization.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- Guillermo -->
       <title>L'Hopital's Rule</title>
       <slug>AppDiffLH</slug>
       <description>Use L'Hopital's Rule to find limits.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Geometry of definite integrals</title>
       <slug>IntGeometric</slug>
       <description>Use geometric formulas to find definite
       integrals.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Approximating definite integrals</title>
       <slug>IntRiemann</slug>
       <description>Approximate definite integrals using variations of Riemann
       sums.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Basic antiderivatives</title>
       <slug>IntBasic</slug>
       <description>Find basic antiderivatives.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Initial Value Problems</title>
       <slug>IntIVP</slug>
       <description>Solve basic initial value
       problems.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>FTC for Definite Integrals</title>
       <slug>IntFTCDef</slug>
       <description>Evaluate a definite integral using the Fundamental Theorem
       of Calculus.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>FTC for Derivatives</title>
       <slug>IntFTCDeriv</slug>
       <description>Evaluate the derivative of a definite integral using the Fundamental Theorem
       of Calculus.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Area under curves</title>
       <slug>IntAreaUnder</slug>
       <description>Use definite integrals to find areas under curves.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Area between curves</title>
       <slug>IntAreaBetween</slug>
       <description>Use definite integrals to find areas between two
       curves.</description>
-      <alignment></alignment>
     </outcome>
     <outcome><!-- done -->
       <title>Substitution method</title>
       <slug>IntSub</slug>
       <description>Evaluate various integrals via the substitution
       method.</description>
-      <alignment></alignment>
     </outcome>
 <!--     <outcome>
       <title>Integration by parts</title>
       <slug>IntParts</slug>
       <description>Compute integrals using integration by parts.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Integration of Trigonometry</title>
       <slug>IntTrig</slug>
       <description>Compute integrals involving products of trigonometric
       functions.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Trigonometric Substitution</title>
       <slug>IntTrigSub</slug>
       <description>Use trigonometric substitution to find indefinite integrals.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Partial fractions</title>
       <slug>IntPartFrac</slug>
       <description>Integrate using the method of partial
       fractions.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Integration strategy</title>
       <slug>IntStrategy</slug>
       <description>Select appropriate strategies for integration.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Improper integrals</title>
       <slug>IntImproper</slug>
       <description>Identify and compute improper integrals.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Volumes of Revolution</title>
       <slug>AppIntVolRev</slug>
       <description>Compute volumes of solids of revolution.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Areas of Revolution</title>
       <slug>AppIntAreaRev</slug>
       <description>Compute areas of surfaces of revolution.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Parametric/vector equations</title>
       <slug>AppIntParaEq</slug>
       <description>Sketch the graph of a two-dimensional parametric/vector
       equation.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Parametric/vector measurements</title>
       <slug>AppIntParaMeas</slug>
       <description>Compute tangents, areas, and arc lengths related to
       two-dimensional parametric/vector equations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Polar coordinates and equations</title>
       <slug>AppIntPolar</slug>
       <description>Convert between polar and Cartesian coordinates and
       equations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Polar area</title>
       <slug>AppIntPolarArea</slug>
       <description>Compute areas defined by polar coordinates.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Sequence formulas</title>
       <slug>SeqFormulas</slug>
       <description>Define and use explicit and recursive formulas for
       sequences.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Sequence properties and limits</title>
       <slug>SeqProp</slug>
       <description>Determine if a sequence is convergent, divergent, monotonic,
       or bounded, and compute limits of convergent sequences.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Partial sum sequence</title>
@@ -319,76 +272,65 @@
       <description>Compute the first few terms of a telescoping or
           geometric partial sum sequence, and find
           a closed form for this sequence, and compute its limit.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Geometric summations</title>
       <slug>SeqGeom</slug>
       <description>Determine convergence and values of geometric
       summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Basic convergence tests</title>
       <slug>SeqBasicConv</slug>
       <description>Use Divergence, Alternating Summation, and Integral Tests to
       determine convergence of summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Comparison tests</title>
       <slug>SeqComp</slug>
       <description>Use Direct and Limit Comparison Tests to determine
       convergence of summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Ratio and Root tests</title>
       <slug>SeqRatioRoot</slug>
       <description>Use Ratio and Root Tests to determine convergence of
       summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Absolute convergence</title>
       <slug>SeqAbsConv</slug>
       <description>Determine absolute and conditional convergence of
       summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Summation convergence strategy</title>
       <slug>SeqStrategy</slug>
       <description>Identify appropriate convergence tests for various
       summations.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Power series</title>
       <slug>PowSerIntro</slug>
       <description>Approximate functions defined as power series.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Domain of power series</title>
       <slug>PowSerDomain</slug>
       <description>Describe the domain of convergence for a given power
       series.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Manipulation of power series</title>
       <slug>PowSerManip</slug>
       <description>Compute power series by manipulating known
       exponential/trigonometric/binomial power series.</description>
-      <alignment></alignment>
     </outcome>
     <outcome>
       <title>Taylor series</title>
       <slug>PowSerTaylor</slug>
       <description>Compute a Taylor or Maclaurin series for a
       function.</description>
-      <alignment></alignment>
     </outcome> -->
   </outcomes>
 </bank>
