@@ -1,17 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
-        <p>
-            Say hello <m>{{number}}</m> times.
-        </p>
+        <p>Find the absolute minimum and absolute maximum values of the function [insert function] on the interval [a,b].</p>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ul>
+            <li>The absolute [max/min] of [function name] is y=[max value/min value]</li>
+        </ul>
     </answer>
 </exercise>

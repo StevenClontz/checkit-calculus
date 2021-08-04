@@ -14,6 +14,7 @@ def generator():
     # Choose domain split for param piecewise function
     param_domainsplitlist = list(range(-3,0)) + list(range(1,6))
     param_x = choice(param_domainsplitlist)
+    param_y = randint(-3,6)
 
     # Param Piece 1
     param_f1choice = choice(["linear","quadratic","rational"])
@@ -21,12 +22,12 @@ def generator():
     #f1choice="rational"
     if param_f1choice == "linear":
         param_f1(x) = choice([b*x+choice([-1,1])*QQ(randint(1,12)/randint(1,5)),choice([-1,1])*QQ(randint(1,12)/randint(1,5))*x+b])
-        parameter = solve(param_f1(param_x),b)[0].rhs() # solve for b
+        parameter = solve(param_f1(x=param_x)-param_y,b)[0].rhs() # solve for b
     elif param_f1choice == "quadratic":
         quadcoeffs = [b,choice([-1,1])*randint(1,5),choice([-1,1])*QQ(randint(1,12)/randint(1,3))]
         shuffle(quadcoeffs)
         param_f1(x) = quadcoeffs[0]*x^2 + quadcoeffs[1]*x + quadcoeffs[2]
-        parameter = solve(param_f1(param_x),b)[0].rhs() # solve for b
+        parameter = solve(param_f1(x=param_x)-param_y,b)[0].rhs() # solve for b
     elif param_f1choice == "rational":
         # Determine 1 or 2 roots not equal to param_x for the denominator
         param_f1denrootlist = [n for n in range(param_x-5,param_x+6) if n!=param_x]
@@ -49,7 +50,7 @@ def generator():
         if dendegree < 2:
             param_f1num *= x - param_f1numroot2
         param_f1(x) = param_f1num.expand()/param_f1den.expand()
-        parameter = solve(param_f1(param_x),b)[0].rhs() # solve for b
+        parameter = solve(param_f1(x=param_x)-param_y,b)[0].rhs() # solve for b
 
     # Param piece 2 will connect to (param_x,param_y)
     # choose f2 based on complexity of f1
@@ -61,7 +62,6 @@ def generator():
         param_f2choice = choice(["linear","quadratic"])
     # Force a choice by uncommenting the line below and defining f2choice
     #param_f2choice = "quadratic"
-    param_y = randint(-3,6)
     param_slope = choice([-1,1])*QQ(randint(1,5)/randint(1,2))
     param_line = param_slope*(x-param_x) + param_y
     if param_f2choice == "linear":
@@ -82,12 +82,14 @@ def generator():
     # Choose domain split for discontinuity piecewise function
     discont_domainsplitlist = list(range(-3,0)) + list(range(1,6))
     discont_x = choice(discont_domainsplitlist)
+    # Choose a y value to aim for. This may be redefined for removable discontinuity to make numbers nicer.
     discont_y = choice([n for n in range(-3,7) if n!=0])
 
     # Determine discontinuity type
     discontinuitytype = choice(["removable discontinuity","jump discontinuity","infinite discontinuity"])
     # Force a discontinuity type by uncommenting the line below and adjusting the bit in quotes
-    discontinuitytype = "jump discontinuity"
+    #discontinuitytype = "removable discontinuity"
+
     if discontinuitytype == "jump discontinuity":
         # Add more function types here if you like.
         discont_f2choice = choice(["rational"])
@@ -122,14 +124,18 @@ def generator():
         # Add more function types here if you like.
         discont_f2choice = choice(["rational"])
         if discont_f2choice == "rational":
-            discont_f2numroot1 = discont_x
+            # The denominator should have discont_x as a root (or double root). We'll make sure that this discontinuity is not removable.
             discont_f2denroot1 = discont_x
-            # Choose another root of numerator but not discont_x
-            discont_f2numrootlist = list(range(discont_x-3,discont_x))+list(range(discont_x+1,discont_x+4))
-            # Choose another root of denominator to outside discont_f2 domain
-            discont_f2denrootlist = list(range(discont_x-5,discont_x))
-            discont_f2numroot2 = choice(discont_f2numrootlist)
-            discont_f2denroot2 = choice(discont_f2denrootlist)
+            # Choose a second root of the denominator, most of the time less than discont_x
+            discont_f2denroot2 = discont_x + randint(-5,1)
+            # Choose roots of numerator
+            # If discont_x is a double root of the denominator, allow it as a single root of the numerator, otherwise, don't!
+            if discont_f2denroot2 == discont_x:
+                discont_f2numroot1 = discont_x + randint(-5,5)
+            else:
+                discont_f2numroot1 = discont_x + randint(1,5)*choice([-1,1])
+            discont_f2numroot2 = discont_x + randint(1,5)*choice([-1,1])
+            # Define numerator and denominator
             discont_f2num = (x-discont_f2numroot1)*(x-discont_f2numroot2)
             discont_f2den = (x-discont_f2denroot1)*(x-discont_f2denroot2)
             discont_f2 = discont_f2num.expand()/discont_f2den.expand()
@@ -147,25 +153,26 @@ def generator():
         # Add more function types here if you like.
         discont_f2choice = choice(["rational"])
         if discont_f2choice == "rational":
-            # Make sure discont_x is 1 and only 1 root of the numerator
-            discont_f2numrootlist = [n for n in range(x1-3,x2+4) if n!= discont_x]
-            discont_f2numroot2 = choice(discont_f2numrootlist)
+            # Make sure discont_x is a root of the numerator and choose another
+            discont_f2numroot2 = choice(list(range(discont_x-3,discont_x+4)))
             discont_f2num = (x-discont_x)*(x-discont_f2numroot2)
-            # Choose possible denominator roots (not beyond discont_x and not including roots of numerator).
-            discont_f2denrootlist = [n for n in range(discont_x-4,discont_x) if n!=discont_f2numroot2]
+            # Make sure discont_x is a root of the denominator and choose another, not including either root of the numerator
+            discont_f2denrootlist = [n for n in range(discont_x-4,discont_x+5) if n!=discont_x and n!=discont_f2numroot2]
             discont_f2denroot2 = choice(discont_f2denrootlist)
             discont_f2den = (x-discont_x)*(x-discont_f2denroot2)
-            # Define discont_f2 so that discont_f2(discont_x) is discont_y (ensure removable discontinuity)
-            discont_f2init = full_simplify(discont_f2num/discont_f2den)
-            not_discont_y = discont_f2init(discont_x)
-            discont_f2 = (discont_y/not_discont_y)*expand(discont_f2num)/expand(discont_f2den)
+            # Define discont_f2
+            discont_f2 = expand(discont_f2num)/expand(discont_f2den)
+            discont_f2simplified = (discont_f2num/discont_f2den).full_simplify()
+            # Defining discont_y in this way here will make sure that discont_f1 meets up with discont_f2
+            discont_y = discont_f2simplified(x=discont_x)
+            # Choose if left- or right-continuous (or neither)
             rightleftcontinuous = choice(["left-continuous","neither left- nor right-continuous"])
             if rightleftcontinuous == "left-continuous":
                 discont_f1ineq = "\\leq"
-                discont_f2inet = ">"
+                discont_f2ineq = ">"
             else:
                 discont_f1ineq = "<"
-                discont_f2inet = "\\geq"
+                discont_f2ineq = "\\geq"
 
     # Discontinuity Piece 1 will connect to (discont_x,discont_y)
     discont_f1choice = choice(["linear"])
