@@ -101,7 +101,7 @@
       <description>Model and analyze scenarios using related
       rates.</description>
     </outcome>
-    <outcome><!-- Reeve -->
+    <outcome><!-- done -->
       <title>Extreme Value Theorem</title>
       <slug>AppDiffEVT</slug>
       <description>Use the Extreme Value Theorem to find the absolute maximum
