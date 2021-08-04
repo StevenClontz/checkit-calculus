@@ -4,14 +4,45 @@
          the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+For each of the following functions, describe the open intervals
+where it is concave up or concave down, and any inflection points.      
         </p>
+        <ol>
+            {{#fs}}
+                <li>
+                    <p><m>f(x)={{f}}</m></p>
+                </li>
+            {{/fs}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+         <ol>
+            {{#fs}}
+                <li>
+                    <p><m>f''(x)={{fpp}}</m></p>
+                    <ul>
+                        {{#data}}
+                            {{#interval}}
+                                <li>
+                                    <p>
+<m>{{interval}}</m> is concave <em>{{concavity}}</em>
+                                    </p>
+                                </li>
+                            {{/interval}}
+                            {{#point}}
+                                <li>
+                                    <p>
+<m>{{point}}</m>
+{{#inflection}}<em>is</em>{{/inflection}}
+{{^inflection}}is <em>not</em>{{/inflection}}
+an inflection point
+                                    </p>
+                                </li>
+                            {{/point}}
+                        {{/data}}
+                    </ul>
+                </li>
+            {{/fs}}
+        </ol>
     </answer>
 </exercise>

@@ -114,7 +114,7 @@
       <description>Apply Derivative Tests to classify the
       critical points as local extrema.</description>
     </outcome>
-    <outcome><!-- Steven -->
+    <outcome><!-- done -->
       <title>Concavity and inflection</title>
       <slug>AppDiffConcavity</slug>
       <description>Determine the intervals of concavity of a function and find
