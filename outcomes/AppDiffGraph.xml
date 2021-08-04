@@ -1,17 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+The following chart describes the values of <m>f(x)</m> and its
+first and second derivatives at or between a few given values of <m>x</m>.
+        </p>
+        <p>
+        <me>
+\begin{array}{c|{{#xs}}cc{{/xs}}c}
+x
+    {{#xs}}
+        &amp; &amp; {{.}}
+    {{/xs}} \\\hline
+f(x)
+    {{#fs}}
+        &amp; &amp; {{.}}
+    {{/fs}} \\
+f'(x)
+    {{#fps}}
+        &amp; {{.}} &amp;
+    {{/fps}} \\
+f''(x)
+    {{#fpps}}
+        &amp; {{.}} &amp;
+    {{/fpps}} \\
+\end{array}
+        </me>
+        </p>
+        <p>
+Assume that <m>f(x)</m> has vertical asymptotes at each
+<m>x</m>-value where <m>f(x)</m> does not exist, that
+<m>\lim_{x\to-\infty}f(x)= {{l}}</m>, and that
+<m>\lim_{x\to\infty}f(x)= {{r}}</m>.
+        </p>
+        <p>
+Use this information to sketch a reasonable graph of <m>f(x)</m>.
         </p>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
         <p>
-            {{hellos}}
+            (Answer not available.)
         </p>
     </answer>
 </exercise>
