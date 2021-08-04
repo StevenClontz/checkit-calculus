@@ -24,7 +24,7 @@ def generator():
     x3 = listvars[2]
     
     ## send exponent to xml file separately.  remember to differentiate f1^exp_f1
-    exp_f1 = randint(2,6)
+    exp_f1 = randint(3,6)
     f1 = ((randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1]))/(randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1])))
     f1_ = f1^exp_f1
     
@@ -35,7 +35,7 @@ def generator():
     shuffle(trig)
     f2 = sqrt(trig[0])
     
-    f3 = randint(1,6)*x3^(1/randint(2,4)) * (randint(1,6)*x3^randint(1,6) + randint(1,6)*choice([-1,1])*x3^randint(0,6))^randint(1,6)
+    f3 = x3^(1/randint(2,4)) * (randint(1,6)*x3^randint(1,6) + randint(1,6)*choice([-1,1])*x3^randint(0,6))^randint(1,6)
     
     df1_p1 = f1.diff()
     df1 = f1_.diff()
