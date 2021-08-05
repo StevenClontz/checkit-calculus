@@ -6,35 +6,46 @@ def generator():
     f="f"
     g="g"
     h="h"
+    k="k"
 
     listvars=[x,y,t,w]
     shuffle(listvars)
 
-    functionnames=[f,g,h]
+    functionnames=[f,g,h,k]
     shuffle(functionnames)
 
     polynomial=sum([randrange(1,6)*choice([-1,1])*x^i for i in range(3)])
-
     specials = [
-        exp,
-        log,
         sin,
         cos
     ]
     shuffle(specials)
-
-    f1 = choice([-1,1])*randrange(1,10)*specials[0](polynomial(x=listvars[0]))
+    fs = [choice([-1,1])*randrange(1,10)*specials[0](polynomial)]
 
     primes = [2,3,5,7]
     shuffle(primes)
-    f2 = choice([-1,1])*randrange(1,10)*specials[1](listvars[1])^(primes[0]/primes[1])
-
-    df1=f1.diff()
-    df2=f2.diff()
+    coeff=choice([-1,1])*randrange(2,10)
+    fs.append(
+        coeff*specials[1](x^(primes[0]/primes[1]))
+    )
+    fs.append(
+        coeff*specials[1](x)^(primes[0]/primes[1])
+    )
+    
+    fs.append(sum([
+        randrange(1,6)*choice([-1,1])*e^x,
+        randrange(1,6)*choice([-1,1])*x,
+        randrange(1,6)*choice([-1,1]),
+    ])^randrange(3,7))
 
     functions = [
-        {"f":f1,"dfdx":df1, "fn": functionnames[0], "v": listvars[0]},
-        {"f":f2,"dfdx":df2, "fn": functionnames[1], "v": listvars[1]},
+        {
+            "f":fs[i](x=listvars[i]),
+            "dfdx":fs[i].diff()(x=listvars[i]),
+            "fn": functionnames[i], 
+            "v": listvars[i],
+        }
+        for i in range(len(fs))
     ]
     shuffle(functions)
 
