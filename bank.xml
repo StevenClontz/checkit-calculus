@@ -132,7 +132,7 @@
       <description>Model and analyze scenarios using applied
       optimization.</description>
     </outcome>
-    <outcome><!-- Guillermo -->
+    <outcome><!-- done -->
       <title>L'Hôpital's Rule</title>
       <slug>AppDiffLH</slug>
       <description>Use L'Hôpital's Rule to find limits.</description>
