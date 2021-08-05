@@ -2,7 +2,7 @@ def generator():
     x=var("x")
 
     # limit to infinity
-    nums = [choice([-1,1])*i for i in IntegerRange(2,10)]
+    nums = list(IntegerRange(2,10))+list(IntegerRange(-9,-1))
     shuffle(nums)
     a,b,c,d,e,f = nums[:6]
     options = [
@@ -40,7 +40,7 @@ def generator():
     limits = [choice(options)]
 
     # limit to zero
-    nums = [choice([-1,1])*i for i in IntegerRange(2,10)]
+    nums = list(IntegerRange(2,10))+list(IntegerRange(-9,-1))
     shuffle(nums)
     a,b,c,d,e,f = nums[:6]
     options = [
@@ -60,10 +60,10 @@ def generator():
     limits.append(choice(options))
 
     # limit to nonzero
-    nums = [choice([-1,1])*i for i in IntegerRange(2,10)]
+    nums = list(IntegerRange(2,10))+list(IntegerRange(-9,-1))
     shuffle(nums)
     a,b,c,d,e,f = nums[:6]
-    to = randrange(1,6)*choice([-1,1])
+    to = d
     limits.append(
         {
             "to": to,
@@ -74,7 +74,7 @@ def generator():
     )
     
     # not LH
-    nums = [choice([-1,1])*i for i in IntegerRange(2,10)]
+    nums = list(IntegerRange(2,10))+list(IntegerRange(-9,-1))
     shuffle(nums)
     a,b,c,d,e,f = nums[:6]
     options = [
