@@ -2,13 +2,17 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-            Suppose that there is a function <m>g</m> such that <m>g({{base}}) = {{baseval}}</m> and <m>g({{increment}}) = {{incrementval}}</m>. Use these values to estimate <m>g'({{base}})</m>.
+Suppose that there is a function <m>g</m> such that
+<m>g({{base}}) = {{baseval}}</m> and <m>g({{increment}}) = {{incrementval}}</m>.
+Explain how to use these values to estimate <m>g'({{base}})</m>.
         </p>
     </statement>
     <answer>
         <me>
-            g'({{base}}) \approx \frac{ g({{increment}}) - g({{base}}) }{ ({{increment}}) - ({{base}}) } = 
-            \frac{ ({{incrementval}}) - ({{baseval}}) }{ ({{increment}}) - ({{base}}) } = {{secantslope}}
+            g'({{base}}) \approx 
+<!-- \frac{ g({{increment}}) - g({{base}}) }{ ({{increment}}) - ({{base}}) } = 
+\frac{ ({{incrementval}}) - ({{baseval}}) }{ ({{increment}}) - ({{base}}) } =  -->
+            {{secantslope}}
         </me>
     </answer>
 </exercise>

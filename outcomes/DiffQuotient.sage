@@ -2,7 +2,7 @@ def generator():
     base = randrange(-3, 3)
     baseval = (randrange(0, 4) + randrange(1, 5) / 10)*choice([-1, 1])
     increment = base + (choice([1,2,4,5]) / 10)*choice([-1, 1])
-    incrementval = baseval + randrange(-9,9) / 10 
+    incrementval = baseval + randrange(1,10)*choice([-1,1]) / 10 
 
 
     return {
