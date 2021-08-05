@@ -8,7 +8,7 @@
                 <p>
                     <me>
                         {{fn}}(x) = \begin{cases}
-                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\\
+                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\
                         {{f2}}, &amp; x {{f2ineq}} {{x}}
                         \end{cases}
                     </me>
@@ -21,7 +21,7 @@
                 <p>
                     <me>
                         {{fn}}(x) = \begin{cases}
-                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\\
+                        {{f1}}, &amp; x {{f1ineq}} {{x}} \\
                         {{f2}}, &amp; x {{f2ineq}} {{x}}
                         \end{cases}
                     </me>
