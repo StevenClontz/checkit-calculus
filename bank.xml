@@ -133,9 +133,9 @@
       optimization.</description>
     </outcome>
     <outcome><!-- Guillermo -->
-      <title>L'Hopital's Rule</title>
+      <title>L'Hôpital's Rule</title>
       <slug>AppDiffLH</slug>
-      <description>Use L'Hopital's Rule to find limits.</description>
+      <description>Use L'Hôpital's Rule to find limits.</description>
     </outcome>
     <outcome><!-- done -->
       <title>Geometry of definite integrals</title>
