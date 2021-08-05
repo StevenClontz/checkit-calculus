@@ -1,13 +1,43 @@
 <exercise checkit-seed="0000" checkit-slug="LimitOutInf" checkit-title="Limits with infinite outputs">
     <statement>
         <p>
-Explain how to find the value of the given limit at each side.
-Then explain how to find the value of the given limit itself.
+Explain how to find the value of each limit.
         </p>
-                <me>\lim_{x\to-3 } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3^- } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3^+ } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3 } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}</me>
+                </p>
+            </li>
+        </ol>
     </statement>
     <answer>
-<me>\lim_{x\to-3^-} \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}} = -\infty</me>
-<me>\lim_{x\to-3^+} \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}} = +\infty</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3^- } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}=-\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3^+ } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}}=+\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-3 } \frac{{\left(x + 4\right)}^{2} {\left(x - 2\right)}}{{\left(x + 3\right)} {\left(x - 5\right)}} \text{ does not exist }</me>
+                </p>
+            </li>
+        </ol>
     </answer>
 </exercise>

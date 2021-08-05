@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>h(y)= -4 \, \sin\left(2 \, y^{2} - 5 \, y - 5\right)</me></li>
-            <li><me>g(w)= 6 \, \cos\left(w\right)^{\frac{5}{3}}</me></li>
+            <li><me>f(x)= -{\left(4 \, x - 3 \, e^{x} + 4\right)}^{3}</me></li>
+            <li><me>k(w)= 9 \, \cos\left(w^{\frac{7}{5}}\right)</me></li>
+            <li><me>h(y)= -3 \, \sin\left(-5 \, y^{2} + 2 \, y - 5\right)</me></li>
+            <li><me>g(t)= 9 \, \cos\left(t\right)^{\frac{7}{5}}</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>h' (y)= -4 \, {\left(4 \, y - 5\right)} \cos\left(2 \, y^{2} - 5 \, y - 5\right)</me></li>
-            <li><me>g' (w)= -10 \, \cos\left(w\right)^{\frac{2}{3}} \sin\left(w\right)</me></li>
+            <li><me>f' (x)= 3 \, {\left(4 \, x - 3 \, e^{x} + 4\right)}^{2} {\left(3 \, e^{x} - 4\right)}</me></li>
+            <li><me>k' (w)= -\frac{63}{5} \, w^{\frac{2}{5}} \sin\left(w^{\frac{7}{5}}\right)</me></li>
+            <li><me>h' (y)= 6 \, {\left(5 \, y - 1\right)} \cos\left(-5 \, y^{2} + 2 \, y - 5\right)</me></li>
+            <li><me>g' (t)= -\frac{63}{5} \, \cos\left(t\right)^{\frac{2}{5}} \sin\left(t\right)</me></li>
         </ol>
     </answer>
 </exercise>

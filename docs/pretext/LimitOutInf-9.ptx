@@ -1,13 +1,43 @@
 <exercise checkit-seed="0009" checkit-slug="LimitOutInf" checkit-title="Limits with infinite outputs">
     <statement>
         <p>
-Explain how to find the value of the given limit at each side.
-Then explain how to find the value of the given limit itself.
+Explain how to find the value of each limit.
         </p>
-                <me>\lim_{x\to6 } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6^- } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6^+ } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6 } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}</me>
+                </p>
+            </li>
+        </ol>
     </statement>
     <answer>
-<me>\lim_{x\to6^-} \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}} = +\infty</me>
-<me>\lim_{x\to6^+} \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}} = +\infty</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6^- } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}=+\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6^+ } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}=+\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to6 } \frac{{\left(x + 6\right)}^{2} {\left(x - 1\right)}^{3}}{{\left(x + 5\right)} {\left(x - 6\right)}^{4}}=+\infty</me>
+                </p>
+            </li>
+        </ol>
     </answer>
 </exercise>

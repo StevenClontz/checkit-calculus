@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        \frac{11}{3} \, x^{2} + b - x, &amp; x \leq 2 \\\
+                        \frac{11}{3} \, x^{2} + b - x, &amp; x \leq 2 \\
                         -3 \, x + 9, &amp; x &gt; 2
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         h(x) = \begin{cases}
-                        -x + 5, &amp; x &lt; -1 \\\
+                        -x + 5, &amp; x &lt; -1 \\
                         \frac{x - 2}{x^{2} + 8 \, x + 15}, &amp; x \geq -1
                         \end{cases}
                     </me>

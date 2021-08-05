@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        \frac{b x + 2}{x^{2} - 6 \, x}, &amp; x \leq 2 \\\
+                        \frac{b x + 2}{x^{2} - 6 \, x}, &amp; x \leq 2 \\
                         2 \, x + 1, &amp; x &gt; 2
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        -\frac{1}{2} \, x + 6, &amp; x &lt; 2 \\\
+                        -\frac{1}{2} \, x + 6, &amp; x &lt; 2 \\
                         \frac{x^{2} + x}{x^{2} + x - 6}, &amp; x \geq 2
                         \end{cases}
                     </me>

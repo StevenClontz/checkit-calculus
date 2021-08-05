@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>h(y)= 3 \, \log\left(y\right)^{\frac{3}{2}}</me></li>
-            <li><me>f(t)= 2 \, \cos\left(2 \, t^{2} - 4 \, t - 5\right)</me></li>
+            <li><me>g(x)= -5 \, \cos\left(x\right)^{\frac{2}{7}}</me></li>
+            <li><me>k(t)= -5 \, \sin\left(t^{2} + 2 \, t - 4\right)</me></li>
+            <li><me>f(y)= -5 \, \cos\left(y^{\frac{2}{7}}\right)</me></li>
+            <li><me>h(w)= {\left(2 \, w + e^{w} - 2\right)}^{4}</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>h' (y)= \frac{9 \, \sqrt{\log\left(y\right)}}{2 \, y}</me></li>
-            <li><me>f' (t)= -8 \, {\left(t - 1\right)} \sin\left(2 \, t^{2} - 4 \, t - 5\right)</me></li>
+            <li><me>g' (x)= \frac{10 \, \sin\left(x\right)}{7 \, \cos\left(x\right)^{\frac{5}{7}}}</me></li>
+            <li><me>k' (t)= -10 \, {\left(t + 1\right)} \cos\left(t^{2} + 2 \, t - 4\right)</me></li>
+            <li><me>f' (y)= \frac{10 \, \sin\left(y^{\frac{2}{7}}\right)}{7 \, y^{\frac{5}{7}}}</me></li>
+            <li><me>h' (w)= 4 \, {\left(2 \, w + e^{w} - 2\right)}^{3} {\left(e^{w} + 2\right)}</me></li>
         </ol>
     </answer>
 </exercise>

@@ -5,18 +5,30 @@
             Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li> <me>g(y) = \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^5 </me></li>
-            <li><me>h(x) = \sqrt{\sin\left(5 \, x^{3} + 4\right)}  </me></li>
-            <li><me>f(w) = 216 \, w^{\frac{55}{3}}</me></li>
+            <!-- <li> <me>() = \left(  \right)^ </me></li>
+            <li><me>() =   </me></li>
+            <li><me>() = </me></li> -->
+                    <li><p><me>h(x) = \sqrt{\sin\left(5 \, x^{3} + 4\right)}</me></p></li>
+                    <li><p><me>
+                        g(y) = \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^{ 5 }
+                    </me></p></li>
+                    <li><p><me>f(w) = 216 \, w^{\frac{55}{3}}</me></p></li>
         </ol>
         
 
     </statement>
     <answer>
         <ol>
-            <li><me>g'(y) =  5 \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^4 \left( \frac{3 \, {\left(2 \, y + 3\right)} y^{5}}{{\left(y^{6} - 2\right)}^{2}} - \frac{1}{y^{6} - 2} \right) </me></li>
-            <li><me>h'(x) = \frac{15 \, x^{2} \cos\left(5 \, x^{3} + 4\right)}{2 \, \sqrt{\sin\left(5 \, x^{3} + 4\right)}} </me></li>
-            <li><me>f'(w) = 3960 \, w^{\frac{52}{3}} </me></li>
+            <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
+            <li><me>&apos;() =  </me></li>
+            <li><me>&apos;() =  </me></li> -->
+                    <li><p><me>h ' (x) = \frac{15 \, x^{2} \cos\left(5 \, x^{3} + 4\right)}{2 \, \sqrt{\sin\left(5 \, x^{3} + 4\right)}}</me></p></li>
+                    <li><p><me>
+                        g ' (y) = 5
+                        \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^{ 4 }
+                        \left( \frac{3 \, {\left(2 \, y + 3\right)} y^{5}}{{\left(y^{6} - 2\right)}^{2}} - \frac{1}{y^{6} - 2} \right)
+                    </me></p></li>
+                    <li><p><me>f ' (w) = 3960 \, w^{\frac{52}{3}}</me></p></li>
         </ol>
 
     </answer>

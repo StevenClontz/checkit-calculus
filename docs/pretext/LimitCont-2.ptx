@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        b x^{2} + 2 \, x + 6, &amp; x &lt; -2 \\\
+                        b x^{2} + 2 \, x + 6, &amp; x &lt; -2 \\
                         -x^{2} - 10 \, x - 17, &amp; x \geq -2
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        4 \, x - 6, &amp; x \leq 1 \\\
+                        4 \, x - 6, &amp; x \leq 1 \\
                         \frac{x^{2} - 7 \, x + 12}{x^{2} + 3 \, x - 4}, &amp; x &gt; 1
                         \end{cases}
                     </me>

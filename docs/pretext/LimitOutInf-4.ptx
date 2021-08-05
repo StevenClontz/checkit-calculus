@@ -1,13 +1,43 @@
 <exercise checkit-seed="0004" checkit-slug="LimitOutInf" checkit-title="Limits with infinite outputs">
     <statement>
         <p>
-Explain how to find the value of the given limit at each side.
-Then explain how to find the value of the given limit itself.
+Explain how to find the value of each limit.
         </p>
-                <me>\lim_{x\to-5 } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5^- } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5^+ } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5 } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}</me>
+                </p>
+            </li>
+        </ol>
     </statement>
     <answer>
-<me>\lim_{x\to-5^-} \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}} = -\infty</me>
-<me>\lim_{x\to-5^+} \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}} = +\infty</me>
+        <ol>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5^- } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}=-\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5^+ } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}}=+\infty</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to-5 } \frac{{\left(x + 3\right)} {\left(x - 6\right)}^{2}}{{\left(x + 5\right)}^{3} {\left(x - 1\right)}^{3}} \text{ does not exist }</me>
+                </p>
+            </li>
+        </ol>
     </answer>
 </exercise>

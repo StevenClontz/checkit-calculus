@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        \frac{b x^{2} - 3 \, b x - 6 \, x + 18}{x - 1}, &amp; x &lt; 5 \\\
+                        \frac{b x^{2} - 3 \, b x - 6 \, x + 18}{x - 1}, &amp; x &lt; 5 \\
                         -3 \, x + 17, &amp; x \geq 5
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         h(x) = \begin{cases}
-                        \frac{3}{2} \, x - \frac{31}{6}, &amp; x \leq 3 \\\
+                        \frac{3}{2} \, x - \frac{31}{6}, &amp; x \leq 3 \\
                         \frac{x^{2} - 4 \, x + 3}{x^{2} - 9 \, x + 18}, &amp; x &gt; 3
                         \end{cases}
                     </me>

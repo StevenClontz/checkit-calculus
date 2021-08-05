@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>f(y)= -6 \, \cos\left(y\right)^{\frac{3}{5}}</me></li>
-            <li><me>g(x)= 8 \, \sin\left(x^{2} + x + 5\right)</me></li>
+            <li><me>h(w)= -7 \, \cos\left(w\right)^{\frac{3}{5}}</me></li>
+            <li><me>f(x)= 8 \, \sin\left(-2 \, x^{2} + x + 1\right)</me></li>
+            <li><me>k(y)= -7 \, \cos\left(y^{\frac{3}{5}}\right)</me></li>
+            <li><me>g(t)= -{\left(t - 2 \, e^{t} - 1\right)}^{5}</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>f' (y)= \frac{18 \, \sin\left(y\right)}{5 \, \cos\left(y\right)^{\frac{2}{5}}}</me></li>
-            <li><me>g' (x)= 8 \, {\left(2 \, x + 1\right)} \cos\left(x^{2} + x + 5\right)</me></li>
+            <li><me>h' (w)= \frac{21 \, \sin\left(w\right)}{5 \, \cos\left(w\right)^{\frac{2}{5}}}</me></li>
+            <li><me>f' (x)= -8 \, {\left(4 \, x - 1\right)} \cos\left(-2 \, x^{2} + x + 1\right)</me></li>
+            <li><me>k' (y)= \frac{21 \, \sin\left(y^{\frac{3}{5}}\right)}{5 \, y^{\frac{2}{5}}}</me></li>
+            <li><me>g' (t)= 5 \, {\left(t - 2 \, e^{t} - 1\right)}^{4} {\left(2 \, e^{t} - 1\right)}</me></li>
         </ol>
     </answer>
 </exercise>

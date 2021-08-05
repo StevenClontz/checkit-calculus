@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>g(w)= 4 \, \sin\left(-2 \, w^{2} - 5 \, w + 1\right)</me></li>
-            <li><me>f(x)= 8 \, \cos\left(x\right)^{\frac{5}{7}}</me></li>
+            <li><me>k(w)= 4 \, \sin\left(-2 \, w^{2} - 2 \, w - 3\right)</me></li>
+            <li><me>g(t)= 64 \, {\left(t - 2 \, e^{t} + 2\right)}^{6}</me></li>
+            <li><me>h(y)= 9 \, \cos\left(y\right)^{\frac{5}{7}}</me></li>
+            <li><me>f(x)= 9 \, \cos\left(x^{\frac{5}{7}}\right)</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>g' (w)= -4 \, {\left(4 \, w + 5\right)} \cos\left(-2 \, w^{2} - 5 \, w + 1\right)</me></li>
-            <li><me>f' (x)= -\frac{40 \, \sin\left(x\right)}{7 \, \cos\left(x\right)^{\frac{2}{7}}}</me></li>
+            <li><me>k' (w)= -8 \, {\left(2 \, w + 1\right)} \cos\left(-2 \, w^{2} - 2 \, w - 3\right)</me></li>
+            <li><me>g' (t)= -384 \, {\left(t - 2 \, e^{t} + 2\right)}^{5} {\left(2 \, e^{t} - 1\right)}</me></li>
+            <li><me>h' (y)= -\frac{45 \, \sin\left(y\right)}{7 \, \cos\left(y\right)^{\frac{2}{7}}}</me></li>
+            <li><me>f' (x)= -\frac{45 \, \sin\left(x^{\frac{5}{7}}\right)}{7 \, x^{\frac{2}{7}}}</me></li>
         </ol>
     </answer>
 </exercise>

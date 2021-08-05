@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>f(t)= -4 \, \cos\left(t\right)^{\frac{5}{3}}</me></li>
-            <li><me>h(x)= -6 \, \sin\left(-2 \, x^{2} + 5 \, x - 2\right)</me></li>
+            <li><me>k(y)= -7 \, \sin\left(y\right)^{\frac{2}{5}}</me></li>
+            <li><me>h(w)= {\left(2 \, w - 2 \, e^{w} + 3\right)}^{5}</me></li>
+            <li><me>g(x)= 3 \, \cos\left(-2 \, x^{2} + 5 \, x - 2\right)</me></li>
+            <li><me>f(t)= -7 \, \sin\left(t^{\frac{2}{5}}\right)</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>f' (t)= \frac{20}{3} \, \cos\left(t\right)^{\frac{2}{3}} \sin\left(t\right)</me></li>
-            <li><me>h' (x)= 6 \, {\left(4 \, x - 5\right)} \cos\left(-2 \, x^{2} + 5 \, x - 2\right)</me></li>
+            <li><me>k' (y)= -\frac{14 \, \cos\left(y\right)}{5 \, \sin\left(y\right)^{\frac{3}{5}}}</me></li>
+            <li><me>h' (w)= -10 \, {\left(2 \, w - 2 \, e^{w} + 3\right)}^{4} {\left(e^{w} - 1\right)}</me></li>
+            <li><me>g' (x)= 3 \, {\left(4 \, x - 5\right)} \sin\left(-2 \, x^{2} + 5 \, x - 2\right)</me></li>
+            <li><me>f' (t)= -\frac{14 \, \cos\left(t^{\frac{2}{5}}\right)}{5 \, t^{\frac{3}{5}}}</me></li>
         </ol>
     </answer>
 </exercise>

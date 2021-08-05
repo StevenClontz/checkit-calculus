@@ -5,14 +5,18 @@
             Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li><me>f(x)= -5 \, \log\left(-5 \, x^{2} + x - 4\right)</me></li>
-            <li><me>g(t)= -9 \, e^{\left(\frac{7}{3} \, t\right)}</me></li>
+            <li><me>k(w)= {\left(2 \, w + 3 \, e^{w} + 1\right)}^{5}</me></li>
+            <li><me>g(y)= -9 \, \sin\left(y\right)^{\frac{7}{3}}</me></li>
+            <li><me>h(x)= -5 \, \cos\left(5 \, x^{2} - 5 \, x + 1\right)</me></li>
+            <li><me>f(t)= -9 \, \sin\left(t^{\frac{7}{3}}\right)</me></li>
         </ol>
     </statement>
     <answer>
         <ol>
-            <li><me>f' (x)= -\frac{5 \, {\left(10 \, x - 1\right)}}{5 \, x^{2} - x + 4}</me></li>
-            <li><me>g' (t)= -21 \, e^{\left(\frac{7}{3} \, t\right)}</me></li>
+            <li><me>k' (w)= 5 \, {\left(2 \, w + 3 \, e^{w} + 1\right)}^{4} {\left(3 \, e^{w} + 2\right)}</me></li>
+            <li><me>g' (y)= -21 \, \cos\left(y\right) \sin\left(y\right)^{\frac{4}{3}}</me></li>
+            <li><me>h' (x)= 25 \, {\left(2 \, x - 1\right)} \sin\left(5 \, x^{2} - 5 \, x + 1\right)</me></li>
+            <li><me>f' (t)= -21 \, t^{\frac{4}{3}} \cos\left(t^{\frac{7}{3}}\right)</me></li>
         </ol>
     </answer>
 </exercise>

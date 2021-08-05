@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        b x + 5 \, x^{2} - 6, &amp; x \leq -1 \\\
+                        b x + 5 \, x^{2} - 6, &amp; x \leq -1 \\
                         \frac{1}{2} \, x + \frac{7}{2}, &amp; x &gt; -1
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        -x, &amp; x \leq -2 \\\
+                        -x, &amp; x \leq -2 \\
                         \frac{x^{2} + 10 \, x + 24}{x^{2} + 5 \, x + 6}, &amp; x &gt; -2
                         \end{cases}
                     </me>

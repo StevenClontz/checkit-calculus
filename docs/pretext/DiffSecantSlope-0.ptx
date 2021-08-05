@@ -1,0 +1,17 @@
+<exercise checkit-seed="0000" checkit-slug="DiffSecantSlope" checkit-title="Secant slopes">
+    <statement>
+        <p>
+Suppose that there is a function <m>g</m> such that
+<m>g(-3) = 0.1</m> and <m>g(-3.2) = 0.4</m>.
+Explain how to use these values to estimate <m>g'(-3)</m>.
+        </p>
+    </statement>
+    <answer>
+        <me>
+            g'(-3) \approx 
+<!-- \frac{ g(-3.2) - g(-3) }{ (-3.2) - (-3) } = 
+\frac{ (0.4) - (0.1) }{ (-3.2) - (-3) } =  -->
+            -1.50
+        </me>
+    </answer>
+</exercise>

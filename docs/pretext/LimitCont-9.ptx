@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        \frac{b x - 4}{x^{2} - 3 \, x}, &amp; x \leq 2 \\\
+                        \frac{b x - 4}{x^{2} - 3 \, x}, &amp; x \leq 2 \\
                         3 \, x, &amp; x &gt; 2
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        -\frac{3}{2} \, x + 12, &amp; x &lt; 4 \\\
+                        -\frac{3}{2} \, x + 12, &amp; x &lt; 4 \\
                         \frac{x^{2} + 2 \, x + 1}{x^{2} - 8 \, x + 16}, &amp; x \geq 4
                         \end{cases}
                     </me>

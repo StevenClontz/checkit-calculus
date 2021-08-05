@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        b + x, &amp; x &lt; 2 \\\
+                        b + x, &amp; x &lt; 2 \\
                         x^{2} - 6 \, x + 10, &amp; x \geq 2
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         h(x) = \begin{cases}
-                        -\frac{1}{2} \, x + 8, &amp; x \leq 4 \\\
+                        -\frac{1}{2} \, x + 8, &amp; x \leq 4 \\
                         \frac{x^{2} - 9 \, x + 14}{x + 4}, &amp; x &gt; 4
                         \end{cases}
                     </me>

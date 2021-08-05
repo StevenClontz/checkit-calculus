@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         h(x) = \begin{cases}
-                        b x + \frac{12}{5}, &amp; x \leq 4 \\\
+                        b x + \frac{12}{5}, &amp; x \leq 4 \\
                         -x^{2} + 12 \, x - 28, &amp; x &gt; 4
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         f(x) = \begin{cases}
-                        -\frac{1}{2} \, x + 7, &amp; x &lt; 2 \\\
+                        -\frac{1}{2} \, x + 7, &amp; x &lt; 2 \\
                         \frac{x - 4}{x^{2}}, &amp; x \geq 2
                         \end{cases}
                     </me>

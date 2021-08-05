@@ -5,18 +5,30 @@
             Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li> <me>f(w) = \left( -\frac{2 \, w + 5}{3 \, w^{3} + 5} \right)^3 </me></li>
-            <li><me>g(x) = \sqrt{\cos\left(5 \, x^{2} - 2\right)}  </me></li>
-            <li><me>h(y) = {\left(y^{6} + y^{2}\right)}^{2} \sqrt{y}</me></li>
+            <!-- <li> <me>() = \left(  \right)^ </me></li>
+            <li><me>() =   </me></li>
+            <li><me>() = </me></li> -->
+                    <li><p><me>
+                        f(w) = \left( -\frac{2 \, w + 5}{3 \, w^{3} + 5} \right)^{ 3 }
+                    </me></p></li>
+                    <li><p><me>h(y) = {\left(y^{6} + y^{2}\right)}^{2} \sqrt{y}</me></p></li>
+                    <li><p><me>g(x) = \sqrt{\cos\left(5 \, x^{2} - 2\right)}</me></p></li>
         </ol>
         
 
     </statement>
     <answer>
         <ol>
-            <li><me>f'(w) =  3 \left( -\frac{2 \, w + 5}{3 \, w^{3} + 5} \right)^2 \left( \frac{9 \, {\left(2 \, w + 5\right)} w^{2}}{{\left(3 \, w^{3} + 5\right)}^{2}} - \frac{2}{3 \, w^{3} + 5} \right) </me></li>
-            <li><me>g'(x) = -\frac{5 \, x \sin\left(5 \, x^{2} - 2\right)}{\sqrt{\cos\left(5 \, x^{2} - 2\right)}} </me></li>
-            <li><me>h'(y) = 4 \, {\left(y^{6} + y^{2}\right)} {\left(3 \, y^{5} + y\right)} \sqrt{y} + \frac{{\left(y^{6} + y^{2}\right)}^{2}}{2 \, \sqrt{y}} </me></li>
+            <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
+            <li><me>&apos;() =  </me></li>
+            <li><me>&apos;() =  </me></li> -->
+                    <li><p><me>
+                        f ' (w) = 3
+                        \left( -\frac{2 \, w + 5}{3 \, w^{3} + 5} \right)^{ 2 }
+                        \left( \frac{9 \, {\left(2 \, w + 5\right)} w^{2}}{{\left(3 \, w^{3} + 5\right)}^{2}} - \frac{2}{3 \, w^{3} + 5} \right)
+                    </me></p></li>
+                    <li><p><me>h ' (y) = 4 \, {\left(y^{6} + y^{2}\right)} {\left(3 \, y^{5} + y\right)} \sqrt{y} + \frac{{\left(y^{6} + y^{2}\right)}^{2}}{2 \, \sqrt{y}}</me></p></li>
+                    <li><p><me>g ' (x) = -\frac{5 \, x \sin\left(5 \, x^{2} - 2\right)}{\sqrt{\cos\left(5 \, x^{2} - 2\right)}}</me></p></li>
         </ol>
 
     </answer>

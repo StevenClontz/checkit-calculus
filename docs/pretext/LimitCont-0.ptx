@@ -6,7 +6,7 @@
                 <p>
                     <me>
                         g(x) = \begin{cases}
-                        \frac{b x^{2} - b x + 6 \, x - 6}{x + 6}, &amp; x &lt; -3 \\\
+                        \frac{b x^{2} - b x + 6 \, x - 6}{x + 6}, &amp; x &lt; -3 \\
                         2 \, x + 8, &amp; x \geq -3
                         \end{cases}
                     </me>
@@ -17,7 +17,7 @@
                 <p>
                     <me>
                         h(x) = \begin{cases}
-                        -\frac{5}{2} \, x - \frac{17}{2}, &amp; x &lt; -3 \\\
+                        -\frac{5}{2} \, x - \frac{17}{2}, &amp; x &lt; -3 \\
                         \frac{x^{2} + 6 \, x + 8}{x + 5}, &amp; x \geq -3
                         \end{cases}
                     </me>

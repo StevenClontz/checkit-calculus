@@ -1,0 +1,17 @@
+<exercise checkit-seed="0002" checkit-slug="DiffSecantSlope" checkit-title="Secant slopes">
+    <statement>
+        <p>
+Suppose that there is a function <m>g</m> such that
+<m>g(2) = -3.1</m> and <m>g(2.5) = -2.8</m>.
+Explain how to use these values to estimate <m>g'(2)</m>.
+        </p>
+    </statement>
+    <answer>
+        <me>
+            g'(2) \approx 
+<!-- \frac{ g(2.5) - g(2) }{ (2.5) - (2) } = 
+\frac{ (-2.8) - (-3.1) }{ (2.5) - (2) } =  -->
+            0.60
+        </me>
+    </answer>
+</exercise>
