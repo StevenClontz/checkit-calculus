@@ -34,10 +34,10 @@
       <description>Find limits where outputs approach infinity.</description>
     </outcome>
     <outcome><!-- done -->
-      <title>Difference Quotient</title>
-      <slug>DiffQuotient</slug>
+      <title>Secant slopes</title>
+      <slug>DiffSecantSlope</slug>
       <description>Estimate the value of a
-      derivative using difference quotients.</description>
+      derivative using the slope of a secant line.</description>
     </outcome>
     <outcome><!-- done -->
       <title>Derivative definition</title>
