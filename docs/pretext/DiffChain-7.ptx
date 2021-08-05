@@ -1,0 +1,18 @@
+<exercise checkit-seed="0007" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(y)= -6 \, \cos\left(y\right)^{\frac{3}{5}}</me></li>
+            <li><me>g(x)= 8 \, \sin\left(x^{2} + x + 5\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (y)= \frac{18 \, \sin\left(y\right)}{5 \, \cos\left(y\right)^{\frac{2}{5}}}</me></li>
+            <li><me>g' (x)= 8 \, {\left(2 \, x + 1\right)} \cos\left(x^{2} + x + 5\right)</me></li>
+        </ol>
+    </answer>
+</exercise>

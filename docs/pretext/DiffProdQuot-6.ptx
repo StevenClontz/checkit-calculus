@@ -1,0 +1,20 @@
+<exercise checkit-seed="0006" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(t)= \frac{2 \, {\left(t^{2} + 3 \, t + 3\right)}}{t^{\frac{1}{3}}}</me></li>
+            <li><me>h(w)= -{\left(6 \, w^{2} - 5 \, w + 5\right)} \sin\left(w\right)</me></li>
+            <li><me>g(t)= -\frac{e^{t}}{5 \, t^{2} + 3 \, t - 5}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (t)= \frac{2 \, {\left(5 \, t^{2} + 6 \, t - 3\right)}}{3 \, t^{\frac{4}{3}}}</me></li>
+            <li><me>h' (w)= -{\left(6 \, w^{2} - 5 \, w + 5\right)} \cos\left(w\right) - {\left(12 \, w - 5\right)} \sin\left(w\right)</me></li>
+            <li><me>g' (t)= -\frac{e^{t}}{5 \, t^{2} + 3 \, t - 5} + \frac{{\left(10 \, t + 3\right)} e^{t}}{{\left(5 \, t^{2} + 3 \, t - 5\right)}^{2}}</me></li>
+        </ol>
+    </answer>
+</exercise>

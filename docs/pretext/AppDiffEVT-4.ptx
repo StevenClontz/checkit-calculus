@@ -1,0 +1,27 @@
+<exercise checkit-seed="0004" checkit-slug="AppDiffEVT" checkit-title="Extreme Value Theorem">
+    <statement>
+        <p> 
+Explain how to find the absolute minimum and absolute maximum values of the
+function <m>f(x)=2 \, x^{3} - 39 \, x^{2} + 240 \, x - 81</m> on the interval <m>[2,7]</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+The absolute extrema may occur at these <m>x</m>-values:
+<m>2, 5, 7</m>.
+        </p>
+        <ul>
+            <li><p><m>f(2)=259</m></p></li>
+            <li><p><m>f(5)=394</m></p></li>
+            <li><p><m>f(7)=374</m></p></li>
+        </ul>
+        <p>
+Thus the absolute minimum is <m>259</m> and the absolute
+maximum is <m>394</m>.
+        </p>
+        <p>
+(The value <m>f(8)=367</m>
+is ignored as <m>8</m> isn't in the given interval.)
+        </p>
+    </answer>
+</exercise>

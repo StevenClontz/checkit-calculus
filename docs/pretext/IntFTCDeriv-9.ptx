@@ -1,0 +1,49 @@
+<exercise checkit-seed="0009" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 4 }^{ x } \left( 6 \, e^{\left(t^{5} + 5\right)} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 1 } \left( 4 \, \cos\left(t^{4} + 9\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 1 }^{ \cos\left(x\right) + 4 } \left( 405 \, {\left(2 \, \log\left(t\right) - 3\right)}^{4} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ \cos\left(x\right) + 7 }^{ 2 } \left( 4 \, \cos\left(t^{4} + 9\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>6 \, e^{\left(x^{5} + 5\right)}</me></p></li>
+                <li><p><me>-4 \, \cos\left(x^{4} + 9\right)</me></p></li>
+                <li><p><me>-405 \, {\left(2 \, \log\left(\cos\left(x\right) + 4\right) - 3\right)}^{4} \sin\left(x\right)</me></p></li>
+                <li><p><me>4 \, \cos\left({\left(\cos\left(x\right) + 7\right)}^{4} + 9\right) \sin\left(x\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,41 @@
+<exercise checkit-seed="0005" checkit-slug="IntFTCDef" checkit-title="FTC for Definite Integrals">
+    <statement>
+        <p>
+Explain how to compute the exact value of each of the following
+definite integrals using the Fundamental Theorem of Calculus.
+Leave all answers in exact form, with no decimal approximations.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\int_{ 6 }^{ 7 } \left( \frac{7}{x} \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ \frac{7}{6} \, \pi }^{ \frac{5}{4} \, \pi } \left( -\sin\left(x\right) \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ 0 }^{ 1 } \left( -5 \, x^{3} - 4 \, x^{2} + 5 \right) dx
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>7 \, \log\left(7\right) - 7 \, \log\left(6\right)</me></p></li>
+                <li><p><me>\frac{1}{2} \, \sqrt{3} - \frac{1}{2} \, \sqrt{2}</me></p></li>
+                <li><p><me>\frac{29}{12}</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

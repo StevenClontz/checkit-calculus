@@ -1,0 +1,22 @@
+<exercise checkit-seed="0002" checkit-slug="AppDiffRelRates" checkit-title="Related rates">
+
+
+
+
+
+
+
+
+            <statement>
+                <p>
+                    Suppose a car was <m>145</m> miles east of a town, traveling west at <m>40</m> mph.  A second car was <m>25</m> miles north of the same town, traveling north at <m>60</m> mph.  At this exact moment, how fast is the distance between the cars changing?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\frac{ -4300 }{ 5 \, \sqrt{866} }\approx -29.22</m> mph.
+                </p>
+            </answer>
+
+
+</exercise>

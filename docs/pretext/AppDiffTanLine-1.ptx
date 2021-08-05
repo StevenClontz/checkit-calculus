@@ -1,0 +1,11 @@
+<exercise checkit-seed="0001" checkit-slug="AppDiffTanLine" checkit-title="Equations of tangent lines">
+    <statement>
+        <p>
+        Let <m>f(x) = 3 \, x^{3} + 2 \, x^{2} + 4</m>. Find an equation of the line tangent to the graph at the point <m>(1, 9)</m>.
+        </p>
+
+    </statement>
+    <answer>
+        The equation of the tangent line is <m>y = 13 \, x - 4</m>.
+    </answer>
+</exercise>

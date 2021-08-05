@@ -1,0 +1,34 @@
+<exercise checkit-seed="0000" checkit-slug="LimitCont" checkit-title="Continuity">
+    <statement>
+        <ol>
+            <li>
+                <p>Determine the value of <m>b</m> to make <m>g(x)</m> continuous at <m>x=-3</m>.</p>
+                <p>
+                    <me>
+                        g(x) = \begin{cases}
+                        \frac{b x^{2} - b x + 6 \, x - 6}{x + 6}, &amp; x &lt; -3 \\\
+                        2 \, x + 8, &amp; x \geq -3
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>The function <m>h(x)</m> is discontinuous at <m>x=-3</m>. Determine if <m>h(x)</m> is left- or right-continuous and classify the type of discontinuity present at <m>x=-3</m>.</p>
+                <p>
+                    <me>
+                        h(x) = \begin{cases}
+                        -\frac{5}{2} \, x - \frac{17}{2}, &amp; x &lt; -3 \\\
+                        \frac{x^{2} + 6 \, x + 8}{x + 5}, &amp; x \geq -3
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>To make <m>g(x)</m> continuous at <m>x=-3</m>, let <m>b=\frac{5}{2}</m>.</li>
+            <li>The function <m>h(x)</m> has a jump discontinuity and is right-continuous at <m>x=-3</m>.</li>
+        </ol>
+    </answer>
+</exercise>

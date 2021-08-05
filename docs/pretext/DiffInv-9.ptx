@@ -1,0 +1,22 @@
+<exercise checkit-seed="0009" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>n(u)= -7 \, \arcsin\left(u\right) \log\left(u^{2} - 5\right)</me></li>
+            <li><me>k(x)= \log\left(-6 \, \arcsin\left(x\right) + 6 \, \arctan\left(x\right)\right)</me></li>
+            <li><me>h(v)= \frac{\arctan\left(9 \, v\right)}{\log\left(-v\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>n' (u)= -\frac{14 \, u \arcsin\left(u\right)}{u^{2} - 5} - \frac{7 \, \log\left(u^{2} - 5\right)}{\sqrt{-u^{2} + 1}}</me></li>
+            <li><me>k' (x)= \frac{\frac{1}{\sqrt{-x^{2} + 1}} - \frac{1}{x^{2} + 1}}{\arcsin\left(x\right) - \arctan\left(x\right)}</me></li>
+            <li><me>h' (v)= -\frac{\arctan\left(9 \, v\right)}{v \log\left(-v\right)^{2}} + \frac{9}{{\left(81 \, v^{2} + 1\right)} \log\left(-v\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

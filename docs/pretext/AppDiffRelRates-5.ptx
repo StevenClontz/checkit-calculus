@@ -1,0 +1,22 @@
+<exercise checkit-seed="0005" checkit-slug="AppDiffRelRates" checkit-title="Related rates">
+
+
+
+            <statement>
+                <p>
+                    Suppose a ladder of length <m>27</m> ft is leaning against a wall.  Then the base of the ladder is pulled away from the way at a rate of <m>3</m> feet/second.  What is the velocity of the top of the ladder when the base of the ladder is <m>7</m> feet away from the wall?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>-\frac{ 21 }{ 2 \, \sqrt{170} }\approx -0.81</m> feet/second.
+                </p>
+            </answer>
+
+
+
+
+
+
+
+</exercise>

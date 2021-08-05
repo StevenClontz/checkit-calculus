@@ -1,0 +1,43 @@
+<exercise checkit-seed="0003" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -12 \, x^{3} \sin\left(x^{4} + 4\right) \right) dx
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -7 \, z \sqrt{z - 3} \right) dz
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -12 \, x^{3} \sin\left(x^{4} + 4\right) \right) dx
+= 3 \, \cos\left(x^{4} + 4\right) + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -7 \, z \sqrt{z - 3} \right) dz
+= -\frac{14}{5} \, {\left(z - 3\right)}^{\frac{5}{2}} - 14 \, {\left(z - 3\right)}^{\frac{3}{2}} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

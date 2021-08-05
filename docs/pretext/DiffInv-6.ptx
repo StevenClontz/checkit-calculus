@@ -1,0 +1,22 @@
+<exercise checkit-seed="0006" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>k(x)= \log\left(-3 \, \arcsin\left(x\right) - 5 \, \arctan\left(x\right)\right)</me></li>
+            <li><me>n(w)= \frac{\arctan\left(w\right)}{\log\left(2 \, w\right)}</me></li>
+            <li><me>h(u)= 5 \, \arcsin\left(u\right) \log\left(u^{7} - 9\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>k' (x)= \frac{\frac{3}{\sqrt{-x^{2} + 1}} + \frac{5}{x^{2} + 1}}{3 \, \arcsin\left(x\right) + 5 \, \arctan\left(x\right)}</me></li>
+            <li><me>n' (w)= -\frac{\arctan\left(w\right)}{w \log\left(2 \, w\right)^{2}} + \frac{1}{{\left(w^{2} + 1\right)} \log\left(2 \, w\right)}</me></li>
+            <li><me>h' (u)= \frac{35 \, u^{6} \arcsin\left(u\right)}{u^{7} - 9} + \frac{5 \, \log\left(u^{7} - 9\right)}{\sqrt{-u^{2} + 1}}</me></li>
+        </ol>
+    </answer>
+</exercise>

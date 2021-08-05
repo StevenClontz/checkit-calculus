@@ -1,0 +1,13 @@
+<exercise checkit-seed="0009" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=4 \, x - 4 </m>. Find <m>f(x)</m> such that <m>f(1)=2</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>2 \, x^{2} - 4 \, x + 4</me>
+        </p>
+    </answer>
+</exercise>

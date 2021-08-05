@@ -1,0 +1,19 @@
+<exercise checkit-seed="0002" checkit-slug="LimitAna" checkit-title="Limits analytically">
+    <statement>
+        <p>
+            Determine the following limits and explain your reasoning.
+        </p>
+        <ol>
+            <li><me>\lim_{x\to6 } \frac{ x^{2} + 3 \, x - 4 }{ x^{2} - 2 \, x - 8 }</me></li>
+            <li><me>\lim_{x\to1 } \frac{ \frac{1}{x + 5} - \frac{1}{6} }{ x - 1 }</me></li>
+            <li><me>\lim_{x\to2 } \frac{ x^{2} - 8 \, x + 12 }{ x^{2} + 3 \, x - 10 }</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>\frac{25}{8}</me></li>
+            <li><me>-\frac{1}{36}</me></li>
+            <li><me>-\frac{4}{7}</me></li>
+        </ol>
+    </answer>
+</exercise>

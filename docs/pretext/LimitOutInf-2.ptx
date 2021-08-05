@@ -1,0 +1,13 @@
+<exercise checkit-seed="0002" checkit-slug="LimitOutInf" checkit-title="Limits with infinite outputs">
+    <statement>
+        <p>
+Explain how to find the value of the given limit at each side.
+Then explain how to find the value of the given limit itself.
+        </p>
+                <me>\lim_{x\to-1 } \frac{{\left(x + 6\right)} {\left(x + 3\right)}^{4}}{{\left(x + 1\right)} {\left(x - 5\right)}^{5}}</me>
+    </statement>
+    <answer>
+<me>\lim_{x\to-1^-} \frac{{\left(x + 6\right)} {\left(x + 3\right)}^{4}}{{\left(x + 1\right)} {\left(x - 5\right)}^{5}} = +\infty</me>
+<me>\lim_{x\to-1^+} \frac{{\left(x + 6\right)} {\left(x + 3\right)}^{4}}{{\left(x + 1\right)} {\left(x - 5\right)}^{5}} = -\infty</me>
+    </answer>
+</exercise>

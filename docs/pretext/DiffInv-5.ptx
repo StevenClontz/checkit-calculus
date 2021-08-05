@@ -1,0 +1,22 @@
+<exercise checkit-seed="0005" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>m(v)= 9 \, \arcsin\left(v\right) \log\left(v^{5} - 4\right)</me></li>
+            <li><me>k(w)= \log\left(2 \, \arcsin\left(w\right) + 5 \, \arctan\left(w\right)\right)</me></li>
+            <li><me>h(t)= \frac{\arctan\left(-3 \, t\right)}{\log\left(2 \, t\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>m' (v)= \frac{45 \, v^{4} \arcsin\left(v\right)}{v^{5} - 4} + \frac{9 \, \log\left(v^{5} - 4\right)}{\sqrt{-v^{2} + 1}}</me></li>
+            <li><me>k' (w)= \frac{\frac{2}{\sqrt{-w^{2} + 1}} + \frac{5}{w^{2} + 1}}{2 \, \arcsin\left(w\right) + 5 \, \arctan\left(w\right)}</me></li>
+            <li><me>h' (t)= -\frac{\arctan\left(-3 \, t\right)}{t \log\left(2 \, t\right)^{2}} - \frac{3}{{\left(9 \, t^{2} + 1\right)} \log\left(2 \, t\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

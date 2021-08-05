@@ -1,0 +1,13 @@
+<exercise checkit-seed="0008" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=-9 \, x^{2} - 1 </m>. Find <m>f(x)</m> such that <m>f(-6)=657</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>-3 \, x^{3} - x + 3</me>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,13 @@
+<exercise checkit-seed="0007" checkit-slug="DiffQuotient" checkit-title="Difference Quotient">
+    <statement>
+        <p>
+            Suppose that there is a function <m>g</m> such that <m>g(1) = -2.3</m> and <m>g(0.6) = -2.4</m>. Use these values to estimate <m>g'(1)</m>.
+        </p>
+    </statement>
+    <answer>
+        <me>
+            g'(1) \approx \frac{ g(0.6) - g(1) }{ (0.6) - (1) } = 
+            \frac{ (-2.4) - (-2.3) }{ (0.6) - (1) } = 0.25
+        </me>
+    </answer>
+</exercise>

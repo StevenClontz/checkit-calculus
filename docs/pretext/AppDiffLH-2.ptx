@@ -1,0 +1,72 @@
+<exercise checkit-seed="0002" checkit-slug="AppDiffLH" checkit-title="L'H&#244;pital's Rule">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each limit, explain if L'H&#244;pital's Rule may be applied.
+If it can, explain how to use this rule to find the limit.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ 6 \, \sin\left(4 \, x\right) - 8 }{ 9 \, x + 7 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -8 \, \cos\left(-7 \, x\right) + 8 }{ 4 \, x }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 7 } \frac{ x^{2} + x - 56 }{ x^{2} - 49 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -6 \, x + 7 \, e^{x} }{ 2 \, e^{\left(2 \, x\right)} + 9 }
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+         <ol>
+                <li>
+                    <p>
+L'H&#244;ptial's Rule does not apply.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -8 \, \cos\left(-7 \, x\right) + 8 }{ 4 \, x } = 0
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 7 } \frac{ x^{2} + x - 56 }{ x^{2} - 49 } = \frac{15}{14}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -6 \, x + 7 \, e^{x} }{ 2 \, e^{\left(2 \, x\right)} + 9 } = 0
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </answer>
+</exercise>

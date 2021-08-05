@@ -1,0 +1,18 @@
+<exercise checkit-seed="0002" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(y)= 3 \, \log\left(4 \, y^{2} - 3 \, y + 2\right)</me></li>
+            <li><me>h(t)= \cos\left(t\right)^{\frac{3}{5}}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (y)= \frac{3 \, {\left(8 \, y - 3\right)}}{4 \, y^{2} - 3 \, y + 2}</me></li>
+            <li><me>h' (t)= -\frac{3 \, \sin\left(t\right)}{5 \, \cos\left(t\right)^{\frac{2}{5}}}</me></li>
+        </ol>
+    </answer>
+</exercise>

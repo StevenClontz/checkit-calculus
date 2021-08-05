@@ -1,0 +1,49 @@
+<exercise checkit-seed="0007" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 5 } \left( 8 \, \log\left(3 \, \cos\left(t\right) + 1\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 5 }^{ x } \left( 9 \, {\left(9 \, \cos\left(t\right) - 5\right)}^{4} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ e^{x} + 8 }^{ 2 } \left( 8 \, \log\left(3 \, \cos\left(t\right) + 1\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 2 }^{ e^{x} + 7 } \left( 5 \, \cos\left(t^{3} + 2\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>-8 \, \log\left(3 \, \cos\left(x\right) + 1\right)</me></p></li>
+                <li><p><me>9 \, {\left(9 \, \cos\left(x\right) - 5\right)}^{4}</me></p></li>
+                <li><p><me>-8 \, e^{x} \log\left(3 \, \cos\left(e^{x} + 8\right) + 1\right)</me></p></li>
+                <li><p><me>5 \, \cos\left({\left(e^{x} + 7\right)}^{3} + 2\right) e^{x}</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

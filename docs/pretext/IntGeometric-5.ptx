@@ -1,0 +1,22 @@
+<exercise checkit-seed="0005" checkit-slug="IntGeometric" checkit-title="Geometry of definite integrals">
+    <statement>
+        <p>
+            Explain how to use geometric formulas for area to compute the following definite
+  integrals. For each part, sketch the function to support your explanation.
+         <ol>
+                <li><me>\int_{ 3 }^{ 4 }\left(\sqrt{-{\left(x - 3\right)}^{2} + 1}\right)dx</me></li>
+                <li><me>\int_{ -5 }^{ -3 }\left(-\frac{3}{5} \, x - 3\right)dx</me></li>
+                <li><me>\int_{ -9 }^{ -2 }\left(-\frac{3}{5} \, x - 3\right)dx</me></li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+<p>
+    <ol>
+            <li><p><m>\frac{1}{4} \, \pi</m></p></li>
+            <li><p><m>-\frac{6}{5}</m></p></li>
+            <li><p><m>\frac{21}{10}</m></p></li>
+    </ol>
+</p>
+    </answer>
+</exercise>

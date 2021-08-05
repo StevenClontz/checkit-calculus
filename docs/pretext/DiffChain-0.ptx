@@ -1,0 +1,18 @@
+<exercise checkit-seed="0000" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>h(y)= -4 \, \sin\left(2 \, y^{2} - 5 \, y - 5\right)</me></li>
+            <li><me>g(w)= 6 \, \cos\left(w\right)^{\frac{5}{3}}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h' (y)= -4 \, {\left(4 \, y - 5\right)} \cos\left(2 \, y^{2} - 5 \, y - 5\right)</me></li>
+            <li><me>g' (w)= -10 \, \cos\left(w\right)^{\frac{2}{3}} \sin\left(w\right)</me></li>
+        </ol>
+    </answer>
+</exercise>

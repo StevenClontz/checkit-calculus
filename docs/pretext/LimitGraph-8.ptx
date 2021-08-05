@@ -1,0 +1,39 @@
+<exercise checkit-seed="0008" checkit-slug="LimitGraph" checkit-title="Limits graphically">
+    <statement>
+        <p>Sketch the graph of a function <m>h(x)</m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</p>
+        <ol>
+            <!-- Vertical Asymptote -->
+                    <li><p><m>\lim_{x\to 0^-} h(x)</m> and <m>\lim_{x\to 0^+} h(x)</m> are both infinite.</p></li>
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote -->
+            <!-- Removable Discontinuity -->
+                    <li><p><m>\lim_{x\to -3} h(x)</m> exists and <m>h(-3)</m> is defined, but <m>\lim_{x\to -3} h(x)\neq h(-3)</m>.</p></li>
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote -->
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+                    <li><p><m>\lim_{x\to 1^-} h(x)=0</m> and <m>\lim_{x\to 1^+} h(x)=4</m>.</p></li>
+        </ol>
+    </statement>
+    <answer>
+        <p>Answers vary. Here are some things to check for:</p>
+        <ul>
+            <li>Does your graph represent a function? If your graph fails the vertical line test, it is not a function. This means there is more than one point on the graph with the same <m>x</m>-value, which is not allowed!</li>
+        </ul>
+        <ol>
+            <!-- Vertical Asymptote Answers -->
+                    <li><p>The graph should have a vertical asymptote at <m>x=0</m>. The function should grow in magnitude as it approaches the vertical asymptote from both the left and right.</p></li>
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote Answers -->
+            <!-- Removable Discontinuity -->
+                    <li><p>There should be a removable discontinuity (hole) on the graph at <m>x=-3</m> (indicated by an open circle on the graph at this point). The function should, however, be defined at <m>x=-3</m>, so a point should appear on the graph at <m>x=-3</m> above or below the hole in the graph.</p></li>
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote Answers -->
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+                    <li><p>There is a jump discontinuity at <m>x=1</m> with the graph approaching the point <m>(1,0)</m> as <m>x</m> approaches <m>1</m> from the left and approaching the point <m>(1,4)</m> as <m>x</m> approaches <m>1</m> from the right.</p></li>
+        </ol>
+    </answer>
+</exercise>

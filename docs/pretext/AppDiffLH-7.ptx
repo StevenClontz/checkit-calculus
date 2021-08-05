@@ -1,0 +1,72 @@
+<exercise checkit-seed="0007" checkit-slug="AppDiffLH" checkit-title="L'H&#244;pital's Rule">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each limit, explain if L'H&#244;pital's Rule may be applied.
+If it can, explain how to use this rule to find the limit.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ 5 \, \sin\left(3 \, x\right) }{ -7 \, x }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ 3 \, x + 9 \, e^{x} }{ 7 \, x + 8 \, e^{x} }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to -5 } \frac{ x^{2} - 25 }{ x^{2} + 12 \, x + 35 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -7 \, \sin\left(-2 \, x\right) + 4 }{ 5 \, x - 6 }
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+         <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ 5 \, \sin\left(3 \, x\right) }{ -7 \, x } = -\frac{15}{7}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ 3 \, x + 9 \, e^{x} }{ 7 \, x + 8 \, e^{x} } = \frac{9}{8}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to -5 } \frac{ x^{2} - 25 }{ x^{2} + 12 \, x + 35 } = -5
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+L'H&#244;ptial's Rule does not apply.
+                    </p>
+                </li>
+        </ol>
+    </answer>
+</exercise>

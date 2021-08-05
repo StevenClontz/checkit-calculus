@@ -1,0 +1,18 @@
+<exercise checkit-seed="0006" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(x)= -5 \, \log\left(-5 \, x^{2} + x - 4\right)</me></li>
+            <li><me>g(t)= -9 \, e^{\left(\frac{7}{3} \, t\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (x)= -\frac{5 \, {\left(10 \, x - 1\right)}}{5 \, x^{2} - x + 4}</me></li>
+            <li><me>g' (t)= -21 \, e^{\left(\frac{7}{3} \, t\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

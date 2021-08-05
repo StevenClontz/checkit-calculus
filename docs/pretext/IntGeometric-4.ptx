@@ -1,0 +1,22 @@
+<exercise checkit-seed="0004" checkit-slug="IntGeometric" checkit-title="Geometry of definite integrals">
+    <statement>
+        <p>
+            Explain how to use geometric formulas for area to compute the following definite
+  integrals. For each part, sketch the function to support your explanation.
+         <ol>
+                <li><me>\int_{ -6 }^{ 4 }\left(-\sqrt{-{\left(x + 1\right)}^{2} + 25}\right)dx</me></li>
+                <li><me>\int_{ -5 }^{ -2 }\left(-\frac{2}{3} \, x - 2\right)dx</me></li>
+                <li><me>\int_{ -3 }^{ -2 }\left(-\frac{2}{3} \, x - 2\right)dx</me></li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+<p>
+    <ol>
+            <li><p><m>-\frac{25}{2} \, \pi</m></p></li>
+            <li><p><m>1</m></p></li>
+            <li><p><m>-\frac{1}{3}</m></p></li>
+    </ol>
+</p>
+    </answer>
+</exercise>

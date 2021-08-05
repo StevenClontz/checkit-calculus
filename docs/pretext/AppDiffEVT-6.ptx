@@ -1,0 +1,27 @@
+<exercise checkit-seed="0006" checkit-slug="AppDiffEVT" checkit-title="Extreme Value Theorem">
+    <statement>
+        <p> 
+Explain how to find the absolute minimum and absolute maximum values of the
+function <m>f(x)=-2 \, x^{3} + 9 \, x^{2} + 24 \, x - 44</m> on the interval <m>[1,8]</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+The absolute extrema may occur at these <m>x</m>-values:
+<m>1, 4, 8</m>.
+        </p>
+        <ul>
+            <li><p><m>f(1)=-13</m></p></li>
+            <li><p><m>f(4)=68</m></p></li>
+            <li><p><m>f(8)=-300</m></p></li>
+        </ul>
+        <p>
+Thus the absolute minimum is <m>-300</m> and the absolute
+maximum is <m>68</m>.
+        </p>
+        <p>
+(The value <m>f(-1)=-57</m>
+is ignored as <m>-1</m> isn't in the given interval.)
+        </p>
+    </answer>
+</exercise>

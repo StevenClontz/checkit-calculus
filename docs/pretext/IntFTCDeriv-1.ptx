@@ -1,0 +1,49 @@
+<exercise checkit-seed="0001" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ \sin\left(x\right) + 7 }^{ 4 } \left( 7 \, \sin\left(6 \, e^{t} - 3\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 4 }^{ x^{3} + 5 } \left( 6 \, {\left(\sin\left(t\right) - 7\right)}^{5} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 2 } \left( 7 \, \sin\left(6 \, e^{t} - 3\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 3 }^{ x } \left( 7 \, \log\left(5 \, \sin\left(t\right) - 1\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>-7 \, \cos\left(x\right) \sin\left(6 \, e^{\left(\sin\left(x\right) + 7\right)} - 3\right)</me></p></li>
+                <li><p><me>18 \, x^{2} {\left(\sin\left(x^{3} + 5\right) - 7\right)}^{5}</me></p></li>
+                <li><p><me>-7 \, \sin\left(6 \, e^{x} - 3\right)</me></p></li>
+                <li><p><me>7 \, \log\left(5 \, \sin\left(x\right) - 1\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

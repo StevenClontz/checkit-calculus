@@ -1,0 +1,22 @@
+<exercise checkit-seed="0007" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>m(u)= \frac{\arctan\left(-4 \, u\right)}{\log\left(5 \, u\right)}</me></li>
+            <li><me>h(x)= \log\left(-7 \, \arcsin\left(x\right) - 5 \, \arctan\left(x\right)\right)</me></li>
+            <li><me>k(v)= 8 \, \arcsin\left(v\right) \log\left(v^{7} - 3\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>m' (u)= -\frac{\arctan\left(-4 \, u\right)}{u \log\left(5 \, u\right)^{2}} - \frac{4}{{\left(16 \, u^{2} + 1\right)} \log\left(5 \, u\right)}</me></li>
+            <li><me>h' (x)= \frac{\frac{7}{\sqrt{-x^{2} + 1}} + \frac{5}{x^{2} + 1}}{7 \, \arcsin\left(x\right) + 5 \, \arctan\left(x\right)}</me></li>
+            <li><me>k' (v)= \frac{56 \, v^{6} \arcsin\left(v\right)}{v^{7} - 3} + \frac{8 \, \log\left(v^{7} - 3\right)}{\sqrt{-v^{2} + 1}}</me></li>
+        </ol>
+    </answer>
+</exercise>

@@ -1,0 +1,22 @@
+<exercise checkit-seed="0008" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>5 \, \cot\left(x\right) \csc\left(x\right)</me></li>
+                <li><me>\frac{5}{x}</me></li>
+                <li><me>7 \, x^{4} - 8 \, x^{3} - 8</me></li>
+                <li><me>\frac{4}{x^{6}}</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>-\frac{5}{\sin\left(x\right)}+C</me></p></li>
+                <li><p><me>5 \, \log\left(x\right)+C</me></p></li>
+                <li><p><me>\frac{7}{5} \, x^{5} - 2 \, x^{4} - 8 \, x+C</me></p></li>
+                <li><p><me>-\frac{4}{5 \, x^{5}}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

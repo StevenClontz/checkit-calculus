@@ -1,0 +1,19 @@
+<exercise checkit-seed="0007" checkit-slug="LimitAna" checkit-title="Limits analytically">
+    <statement>
+        <p>
+            Determine the following limits and explain your reasoning.
+        </p>
+        <ol>
+            <li><me>\lim_{x\to-3 } \frac{ x^{2} - 9 \, x + 18 }{ x^{2} - 3 \, x - 10 }</me></li>
+            <li><me>\lim_{x\to-5 } \frac{ \frac{1}{x + 3} + \frac{1}{2} }{ x + 5 }</me></li>
+            <li><me>\lim_{x\to-1 } \frac{ x^{2} - 2 \, x - 3 }{ x^{2} - 3 \, x - 4 }</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>\frac{27}{4}</me></li>
+            <li><me>-\frac{1}{4}</me></li>
+            <li><me>\frac{4}{5}</me></li>
+        </ol>
+    </answer>
+</exercise>

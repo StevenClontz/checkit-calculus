@@ -1,0 +1,18 @@
+<exercise checkit-seed="0001" checkit-slug="DiffDef" checkit-title="Derivative definition">
+    <statement>
+        <p>
+            Find <m>f'(x)</m> using the limit definition of the derivative. Then evaluate at <m>x=3</m>.
+        </p>
+        <me>
+            f(x) = 4 \, x^{2} + x - 6
+        </me>
+    </statement>
+    <answer>
+        <me>
+           f'(x) = 8 \, x + 1
+        </me>
+        <me> 
+            f'(3) = 25
+        </me>
+    </answer>
+</exercise>

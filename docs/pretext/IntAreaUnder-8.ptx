@@ -1,0 +1,44 @@
+<exercise checkit-seed="0008" checkit-slug="IntAreaUnder" checkit-title="Area under curves">
+    <statement>
+        <p>
+            Answer the following questions concerning
+            <m>f(x)=6 \, x^{2} - 24 \, x - 30</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+What is the total area between <m>f(x)=6 \, x^{2} - 24 \, x - 30</m> and the <m>x</m>-axis
+from <m>x=3</m> to <m>x=9</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+What is the net area between <m>f(x)=6 \, x^{2} - 24 \, x - 30</m> and the <m>x</m>-axis
+from <m>x=3</m> to <m>x=9</m>?
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+         <ol>
+            <li>
+                <p>
+                    <me>
+\left| \int_{ 3 }^{ 5 } 
+\left( 6 \, x^{2} - 24 \, x - 30 \right) dx \right| +
+\left| \int_{ 5 }^{ 9 } 
+\left( 6 \, x^{2} - 24 \, x - 30 \right) dx \right| = 472
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int_{ 3 }^{ 9 } 
+\left( 6 \, x^{2} - 24 \, x - 30 \right) dx = 360
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

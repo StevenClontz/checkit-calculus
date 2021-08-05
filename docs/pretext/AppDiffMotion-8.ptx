@@ -1,0 +1,43 @@
+<exercise checkit-seed="0008" checkit-slug="AppDiffMotion" checkit-title="Equations of motion">
+    <statement>
+        <p>
+Suppose the position of an object in meters
+is modeled by the following function.
+<me>s(t)=2 \, t^{3} + 3 \, t^{2} + 7 \, t - 85</me>
+        </p>
+        <p>
+Explain how to find the object's position, displacement,
+velocity, speed, and acceleration at <m>6</m>
+seconds. Use appropriate units for each.
+                </p>
+    </statement>
+    <answer>
+        <ul>
+            <li>
+                <p>
+Position: <m>497</m> meters
+                </p>
+            </li>
+            <li>
+                <p>
+Displacement: <m>582</m> meters
+                </p>
+            </li>
+            <li>
+                <p>
+Velocity: <m>259</m> meters per second
+                </p>
+            </li>
+            <li>
+                <p>
+Speed: <m>259</m> meters per second
+                </p>
+            </li>
+            <li>
+                <p>
+Acceleration: <m>78</m> meters per <m>s^2</m>
+                </p>
+            </li>
+        </ul>
+    </answer>
+</exercise>

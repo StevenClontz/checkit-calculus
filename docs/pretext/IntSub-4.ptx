@@ -1,0 +1,43 @@
+<exercise checkit-seed="0004" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 20 \, {\left(\sin\left(t\right) - 6\right)}^{3} \cos\left(t\right) \right) dt
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( 9 \, z \sqrt{z - 3} \right) dz
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 20 \, {\left(\sin\left(t\right) - 6\right)}^{3} \cos\left(t\right) \right) dt
+= 5 \, {\left(\sin\left(t\right) - 6\right)}^{4} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( 9 \, z \sqrt{z - 3} \right) dz
+= \frac{18}{5} \, {\left(z - 3\right)}^{\frac{5}{2}} + 18 \, {\left(z - 3\right)}^{\frac{3}{2}} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

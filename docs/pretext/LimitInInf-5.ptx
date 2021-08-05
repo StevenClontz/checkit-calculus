@@ -1,0 +1,44 @@
+<exercise checkit-seed="0005" checkit-slug="LimitInInf" checkit-title="Limits with infinite inputs">
+    <statement>
+        <p>
+Explain how to find
+the value of each limit.
+        </p>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {x^6} + 4 \, {x^2} + 9}{4 \, {\left(2 \, x + {x^5} - 1\right)}}
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {x^6} + 4 \, {x^2} + 9}{4 \, {\left(2 \, x + {x^5} - 1\right)}}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {\left(2 \, {x^4} - 2 \, {x^5} - 1\right)}}{9 \, {x^6} + 8 \, {x^3} + 3}
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {\left(2 \, {x^4} - 2 \, {x^5} - 1\right)}}{9 \, {x^6} + 8 \, {x^3} + 3}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^4} + 5 \, {x^3} + 4}{3 \, {x^4} - 8 \, {x^2} - 1}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^4} + 5 \, {x^3} + 4}{3 \, {x^4} - 8 \, {x^2} - 1}
+                </me></p></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {x^6} + 4 \, {x^2} + 9}{4 \, {\left(2 \, x + {x^5} - 1\right)}} = +\infty
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {x^6} + 4 \, {x^2} + 9}{4 \, {\left(2 \, x + {x^5} - 1\right)}} = -\infty
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {\left(2 \, {x^4} - 2 \, {x^5} - 1\right)}}{9 \, {x^6} + 8 \, {x^3} + 3} = 0
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {\left(2 \, {x^4} - 2 \, {x^5} - 1\right)}}{9 \, {x^6} + 8 \, {x^3} + 3} = 0
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^4} + 5 \, {x^3} + 4}{3 \, {x^4} - 8 \, {x^2} - 1} = \frac{4}{3}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^4} + 5 \, {x^3} + 4}{3 \, {x^4} - 8 \, {x^2} - 1} = \frac{4}{3}
+                </me></p></li>
+        </ol>
+    </answer>
+</exercise>

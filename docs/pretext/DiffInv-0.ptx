@@ -1,0 +1,22 @@
+<exercise checkit-seed="0000" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>m(t)= \log\left(-5 \, \arcsin\left(t\right) - 8 \, \arctan\left(t\right)\right)</me></li>
+            <li><me>k(v)= -8 \, \arcsin\left(v\right) \log\left(v^{9} + 6\right)</me></li>
+            <li><me>h(u)= \frac{\arctan\left(-3 \, u\right)}{\log\left(-u\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>m' (t)= \frac{\frac{5}{\sqrt{-t^{2} + 1}} + \frac{8}{t^{2} + 1}}{5 \, \arcsin\left(t\right) + 8 \, \arctan\left(t\right)}</me></li>
+            <li><me>k' (v)= -\frac{72 \, v^{8} \arcsin\left(v\right)}{v^{9} + 6} - \frac{8 \, \log\left(v^{9} + 6\right)}{\sqrt{-v^{2} + 1}}</me></li>
+            <li><me>h' (u)= -\frac{\arctan\left(-3 \, u\right)}{u \log\left(-u\right)^{2}} - \frac{3}{{\left(9 \, u^{2} + 1\right)} \log\left(-u\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

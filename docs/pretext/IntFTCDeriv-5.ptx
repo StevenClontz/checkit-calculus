@@ -1,0 +1,49 @@
+<exercise checkit-seed="0005" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 3 } \left( 4 \, \cos\left(7 \, \log\left(t\right) - 9\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x^{4} + 4 }^{ 2 } \left( 4 \, \cos\left(7 \, \log\left(t\right) - 9\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 2 }^{ x } \left( {\left(4 \, \sin\left(t\right) - 9\right)}^{5} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 4 }^{ x^{4} + 4 } \left( \log\left(t^{5} + 4\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>-4 \, \cos\left(7 \, \log\left(x\right) - 9\right)</me></p></li>
+                <li><p><me>-16 \, x^{3} \cos\left(7 \, \log\left(x^{4} + 4\right) - 9\right)</me></p></li>
+                <li><p><me>{\left(4 \, \sin\left(x\right) - 9\right)}^{5}</me></p></li>
+                <li><p><me>4 \, x^{3} \log\left({\left(x^{4} + 4\right)}^{5} + 4\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,22 @@
+<exercise checkit-seed="0003" checkit-slug="IntGeometric" checkit-title="Geometry of definite integrals">
+    <statement>
+        <p>
+            Explain how to use geometric formulas for area to compute the following definite
+  integrals. For each part, sketch the function to support your explanation.
+         <ol>
+                <li><me>\int_{ -8 }^{ -5 }\left(-\frac{5}{6} \, x - 5\right)dx</me></li>
+                <li><me>\int_{ -6 }^{ -3 }\left(-\frac{5}{6} \, x - 5\right)dx</me></li>
+                <li><me>\int_{ -2 }^{ 6 }\left(-\sqrt{-{\left(x - 2\right)}^{2} + 16}\right)dx</me></li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+<p>
+    <ol>
+            <li><p><m>\frac{5}{4}</m></p></li>
+            <li><p><m>-\frac{15}{4}</m></p></li>
+            <li><p><m>-8 \, \pi</m></p></li>
+    </ol>
+</p>
+    </answer>
+</exercise>

@@ -1,0 +1,11 @@
+<exercise checkit-seed="0000" checkit-slug="AppDiffTanLine" checkit-title="Equations of tangent lines">
+    <statement>
+        <p>
+        Let <m>g(x) = 5 \, x^{2} - 2 \, x</m>. Find an equation of the line tangent to the graph at the point <m>(-3, 51)</m>.
+        </p>
+
+    </statement>
+    <answer>
+        The equation of the tangent line is <m>y = -32 \, x - 45</m>.
+    </answer>
+</exercise>

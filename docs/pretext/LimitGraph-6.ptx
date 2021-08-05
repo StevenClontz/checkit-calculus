@@ -1,0 +1,39 @@
+<exercise checkit-seed="0006" checkit-slug="LimitGraph" checkit-title="Limits graphically">
+    <statement>
+        <p>Sketch the graph of a function <m>g(x)</m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</p>
+        <ol>
+            <!-- Vertical Asymptote -->
+                    <li><p><m>g(x)</m> has a vertical asymptote at <m>-3</m>, but <m>\lim_{x\to -3^-} g(x)</m> is finite.</p></li>
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote -->
+            <!-- Removable Discontinuity -->
+                    <li><p><m>\lim_{x\to 2} g(x)=-1</m>, but <m>g(2)=-2</m>.</p></li>
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote -->
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+                    <li><p><m>\lim_{x\to -1^-} g(x)=3</m> but <m>\lim_{x\to -1^+} g(x)\neq3</m>.</p></li>
+        </ol>
+    </statement>
+    <answer>
+        <p>Answers vary. Here are some things to check for:</p>
+        <ul>
+            <li>Does your graph represent a function? If your graph fails the vertical line test, it is not a function. This means there is more than one point on the graph with the same <m>x</m>-value, which is not allowed!</li>
+        </ul>
+        <ol>
+            <!-- Vertical Asymptote Answers -->
+                    <li><p>The graph should have a vertical asymptote at <m>x=-3</m>. As the function approaches the vertical asymptote from the left, the function should bump straight into the vertical asymptote. As the function approaches the vertical asymptote from the right, the function outputs should grow infinitely large in magnitude (either in the postive or negative <m>y</m>-direction).</p></li>
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote Answers -->
+            <!-- Removable Discontinuity -->
+                    <li><p>The graph should approach the point <m>(2,-1)</m>, but there should be a removable discontinuity (hole) in the graph right at that point (indicated by an open circle). The actual value of the function at <m>x=2</m> should be <m>-2</m>, so the point <m>(2,-2)</m> should be included on the graph.</p></li>
+            <!-- Jump Discontinuity -->
+            <!-- Vertical Asymptote Answers -->
+            <!-- Removable Discontinuity -->
+            <!-- Jump Discontinuity -->
+                    <li><p>There is a jump or infinite discontinuity at <m>x=-1</m>, but the function approaches the point <m>(-1,3)</m> as <m>x</m> approaches <m>-1</m> from the left.</p></li>
+        </ol>
+    </answer>
+</exercise>

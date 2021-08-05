@@ -1,0 +1,15 @@
+<exercise checkit-seed="0009" checkit-slug="IntRiemann" checkit-title="Approximating definite integrals">
+    <statement>
+        <p>
+Explain how to approximate the area under the curve
+<m>f(x)=-6 \, x^{3} + 4 \, x^{2} + 9 \, x</m> on the
+interval <m>[0,3]</m> using a left Riemann
+sum with 7 rectangles of uniform width.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>-25.898</m>
+        </p>
+    </answer>
+</exercise>

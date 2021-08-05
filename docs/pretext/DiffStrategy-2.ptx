@@ -1,0 +1,23 @@
+<exercise checkit-seed="0002" checkit-slug="DiffStrategy" checkit-title="Differentiation strategy">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>h(x) = \left( -\frac{2 \, x^{4} - 1}{3 \, x + 2} \right)^5 </me></li>
+            <li><me>g(y) = \sqrt{\cos\left(5 \, y^{2} + 3\right)}  </me></li>
+            <li><me>f(t) = {\left(3 \, t^{4} + t\right)}^{2} t^{\frac{1}{4}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h'(x) =  5 \left( -\frac{2 \, x^{4} - 1}{3 \, x + 2} \right)^4 \left( -\frac{8 \, x^{3}}{3 \, x + 2} + \frac{3 \, {\left(2 \, x^{4} - 1\right)}}{{\left(3 \, x + 2\right)}^{2}} \right) </me></li>
+            <li><me>g'(y) = -\frac{5 \, y \sin\left(5 \, y^{2} + 3\right)}{\sqrt{\cos\left(5 \, y^{2} + 3\right)}} </me></li>
+            <li><me>f'(t) = 2 \, {\left(3 \, t^{4} + t\right)} {\left(12 \, t^{3} + 1\right)} t^{\frac{1}{4}} + \frac{{\left(3 \, t^{4} + t\right)}^{2}}{4 \, t^{\frac{3}{4}}} </me></li>
+        </ol>
+
+    </answer>
+</exercise>

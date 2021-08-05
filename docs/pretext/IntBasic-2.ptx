@@ -1,0 +1,22 @@
+<exercise checkit-seed="0002" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>2 \, \sec\left(x\right)^{2}</me></li>
+                <li><me>\frac{8}{\sqrt{x}}</me></li>
+                <li><me>-6 \, x^{4} + 7 \, x^{3} + 3</me></li>
+                <li><me>3 \, e^{x}</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>2 \, \tan\left(x\right)+C</me></p></li>
+                <li><p><me>16 \, \sqrt{x}+C</me></p></li>
+                <li><p><me>-\frac{6}{5} \, x^{5} + \frac{7}{4} \, x^{4} + 3 \, x+C</me></p></li>
+                <li><p><me>3 \, e^{x}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

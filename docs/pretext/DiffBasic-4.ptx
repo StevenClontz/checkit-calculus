@@ -1,0 +1,23 @@
+<exercise checkit-seed="0004" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>g(t) = 8 \, t^{5} - t^{2} + 2 </me></li>
+            <li><me>h(x) = \sqrt[3]{  x^{ 5 } } + \frac{ 3 } { x ^5} </me></li>
+            <li><me>f(t) = -2 \, \log\left(t\right) - 2 \, \sin\left(t\right)</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g'(t) =  40 \, t^{4} - 2 \, t </me></li>
+            <li><me>h'(x) = x^{\frac{2}{3}} - \frac{15}{x^{6}}</me></li>
+            <li><me>f'(t) = -\frac{2 \, {\left(t \cos\left(t\right) + 1\right)}}{t}</me></li>
+        </ol>
+
+    </answer>
+</exercise>

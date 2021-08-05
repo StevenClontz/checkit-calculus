@@ -1,0 +1,44 @@
+<exercise checkit-seed="0003" checkit-slug="IntAreaUnder" checkit-title="Area under curves">
+    <statement>
+        <p>
+            Answer the following questions concerning
+            <m>f(x)=6 \, x^{2} - 78 \, x + 216</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+What is the total area between <m>f(x)=6 \, x^{2} - 78 \, x + 216</m> and the <m>x</m>-axis
+from <m>x=0</m> to <m>x=7</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+What is the net area between <m>f(x)=6 \, x^{2} - 78 \, x + 216</m> and the <m>x</m>-axis
+from <m>x=0</m> to <m>x=7</m>?
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+         <ol>
+            <li>
+                <p>
+                    <me>
+\left| \int_{ 0 }^{ 4 } 
+\left( 6 \, x^{2} - 78 \, x + 216 \right) dx \right| +
+\left| \int_{ 4 }^{ 7 } 
+\left( 6 \, x^{2} - 78 \, x + 216 \right) dx \right| = 449
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int_{ 0 }^{ 7 } 
+\left( 6 \, x^{2} - 78 \, x + 216 \right) dx = 287
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

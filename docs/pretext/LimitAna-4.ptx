@@ -1,0 +1,19 @@
+<exercise checkit-seed="0004" checkit-slug="LimitAna" checkit-title="Limits analytically">
+    <statement>
+        <p>
+            Determine the following limits and explain your reasoning.
+        </p>
+        <ol>
+            <li><me>\lim_{x\to6 } \frac{ x - 6 }{ \sqrt{x + 19} - 5 }</me></li>
+            <li><me>\lim_{x\to-6 } \frac{ x^{2} + x - 12 }{ x^{2} - 10 \, x + 24 }</me></li>
+            <li><me>\lim_{x\to-2 } \frac{ x^{2} - 2 \, x - 8 }{ x^{2} - 3 \, x - 10 }</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>10</me></li>
+            <li><me>\frac{3}{20}</me></li>
+            <li><me>\frac{6}{7}</me></li>
+        </ol>
+    </answer>
+</exercise>

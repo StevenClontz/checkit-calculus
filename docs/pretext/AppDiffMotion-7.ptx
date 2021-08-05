@@ -1,0 +1,43 @@
+<exercise checkit-seed="0007" checkit-slug="AppDiffMotion" checkit-title="Equations of motion">
+    <statement>
+        <p>
+Suppose the position of an object in miles
+is modeled by the following function.
+<me>s(t)=3 \, t^{3} - 4 \, t^{2} + 7 \, t + 19</me>
+        </p>
+        <p>
+Explain how to find the object's position, displacement,
+velocity, speed, and acceleration at <m>3</m>
+seconds. Use appropriate units for each.
+                </p>
+    </statement>
+    <answer>
+        <ul>
+            <li>
+                <p>
+Position: <m>85</m> miles
+                </p>
+            </li>
+            <li>
+                <p>
+Displacement: <m>66</m> miles
+                </p>
+            </li>
+            <li>
+                <p>
+Velocity: <m>64</m> miles per second
+                </p>
+            </li>
+            <li>
+                <p>
+Speed: <m>64</m> miles per second
+                </p>
+            </li>
+            <li>
+                <p>
+Acceleration: <m>46</m> miles per <m>s^2</m>
+                </p>
+            </li>
+        </ul>
+    </answer>
+</exercise>

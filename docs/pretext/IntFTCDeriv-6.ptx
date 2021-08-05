@@ -1,0 +1,49 @@
+<exercise checkit-seed="0006" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 4 }^{ \sin\left(x\right) + 3 } \left( 9 \, e^{\left(t^{3} + 8\right)} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 4 } \left( 7 \, {\left(5 \, \cos\left(t\right) + 7\right)}^{4} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 5 }^{ x } \left( 2 \, \cos\left(t^{3} - 2\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ \cos\left(x\right) + 8 }^{ 2 } \left( 7 \, {\left(5 \, \cos\left(t\right) + 7\right)}^{4} \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>9 \, \cos\left(x\right) e^{\left({\left(\sin\left(x\right) + 3\right)}^{3} + 8\right)}</me></p></li>
+                <li><p><me>-7 \, {\left(5 \, \cos\left(x\right) + 7\right)}^{4}</me></p></li>
+                <li><p><me>2 \, \cos\left(x^{3} - 2\right)</me></p></li>
+                <li><p><me>7 \, {\left(5 \, \cos\left(\cos\left(x\right) + 8\right) + 7\right)}^{4} \sin\left(x\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

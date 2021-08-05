@@ -1,0 +1,43 @@
+<exercise checkit-seed="0008" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -4 \, x {\left(x - 3\right)}^{\frac{1}{4}} \right) dx
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{4 \, \cos\left(z\right)}{\sin\left(z\right) - 1} \right) dz
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -4 \, x {\left(x - 3\right)}^{\frac{1}{4}} \right) dx
+= -\frac{16}{9} \, {\left(x - 3\right)}^{\frac{9}{4}} - \frac{48}{5} \, {\left(x - 3\right)}^{\frac{5}{4}} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{4 \, \cos\left(z\right)}{\sin\left(z\right) - 1} \right) dz
+= 4 \, \log\left(4 \, \sin\left(z\right) - 4\right) + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

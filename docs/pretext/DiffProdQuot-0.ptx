@@ -1,0 +1,20 @@
+<exercise checkit-seed="0000" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>g(x)= {\left(2 \, x^{2} - 5 \, x - 3\right)} \cos\left(x\right)</me></li>
+            <li><me>f(x)= -\frac{e^{x}}{2 \, x^{2} + x - 4}</me></li>
+            <li><me>h(x)= \frac{3 \, x^{2} - 4 \, x - 4}{\sqrt{x}}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g' (x)= {\left(4 \, x - 5\right)} \cos\left(x\right) - {\left(2 \, x^{2} - 5 \, x - 3\right)} \sin\left(x\right)</me></li>
+            <li><me>f' (x)= -\frac{e^{x}}{2 \, x^{2} + x - 4} + \frac{{\left(4 \, x + 1\right)} e^{x}}{{\left(2 \, x^{2} + x - 4\right)}^{2}}</me></li>
+            <li><me>h' (x)= \frac{9 \, x^{2} - 4 \, x + 4}{2 \, x^{\frac{3}{2}}}</me></li>
+        </ol>
+    </answer>
+</exercise>

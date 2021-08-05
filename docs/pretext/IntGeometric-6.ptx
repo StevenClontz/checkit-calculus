@@ -1,0 +1,22 @@
+<exercise checkit-seed="0006" checkit-slug="IntGeometric" checkit-title="Geometry of definite integrals">
+    <statement>
+        <p>
+            Explain how to use geometric formulas for area to compute the following definite
+  integrals. For each part, sketch the function to support your explanation.
+         <ol>
+                <li><me>\int_{ -1 }^{ 4 }\left(6 \, x + 6\right)dx</me></li>
+                <li><me>\int_{ 0 }^{ 4 }\left(-\sqrt{-x^{2} + 16}\right)dx</me></li>
+                <li><me>\int_{ -2 }^{ 2 }\left(6 \, x + 6\right)dx</me></li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+<p>
+    <ol>
+            <li><p><m>75</m></p></li>
+            <li><p><m>-4 \, \pi</m></p></li>
+            <li><p><m>24</m></p></li>
+    </ol>
+</p>
+    </answer>
+</exercise>

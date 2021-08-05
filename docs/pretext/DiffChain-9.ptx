@@ -1,0 +1,18 @@
+<exercise checkit-seed="0009" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>g(w)= 7 \, e^{\left(\frac{3}{5} \, w\right)}</me></li>
+            <li><me>h(x)= -3 \, \cos\left(-3 \, x^{2} + 5 \, x - 3\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g' (w)= \frac{21}{5} \, e^{\left(\frac{3}{5} \, w\right)}</me></li>
+            <li><me>h' (x)= -3 \, {\left(6 \, x - 5\right)} \sin\left(-3 \, x^{2} + 5 \, x - 3\right)</me></li>
+        </ol>
+    </answer>
+</exercise>

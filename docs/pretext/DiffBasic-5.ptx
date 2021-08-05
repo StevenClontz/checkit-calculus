@@ -1,0 +1,23 @@
+<exercise checkit-seed="0005" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>f(x) = 3 \, x^{3} - 6 \, x + 2 </me></li>
+            <li><me>h(w) = \sqrt[2]{  w^{ 11 } } + \frac{ 4 } { w ^6} </me></li>
+            <li><me>g(y) = -2 \, \cos\left(y\right) - 3 \, e^{y}</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f'(x) =  9 \, x^{2} - 6 </me></li>
+            <li><me>h'(w) = w^{\frac{9}{2}} - \frac{24}{w^{7}}</me></li>
+            <li><me>g'(y) = -3 \, e^{y} + 2 \, \sin\left(y\right)</me></li>
+        </ol>
+
+    </answer>
+</exercise>

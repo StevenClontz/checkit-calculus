@@ -1,0 +1,41 @@
+<exercise checkit-seed="0009" checkit-slug="IntFTCDef" checkit-title="FTC for Definite Integrals">
+    <statement>
+        <p>
+Explain how to compute the exact value of each of the following
+definite integrals using the Fundamental Theorem of Calculus.
+Leave all answers in exact form, with no decimal approximations.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\int_{ \frac{1}{4} \, \pi }^{ \frac{1}{3} \, \pi } \left( -4 \, \cot\left(x\right) \csc\left(x\right) \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ 5 }^{ 8 } \left( -\frac{6}{x} \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ -3 }^{ 2 } \left( 9 \, x^{3} + 4 \, x^{2} - 6 \, x \right) dx
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>\frac{8}{3} \, \sqrt{3} - 4 \, \sqrt{2}</me></p></li>
+                <li><p><me>6 \, \log\left(5\right) - 18 \, \log\left(2\right)</me></p></li>
+                <li><p><me>-\frac{1015}{12}</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

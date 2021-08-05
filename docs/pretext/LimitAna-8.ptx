@@ -1,0 +1,19 @@
+<exercise checkit-seed="0008" checkit-slug="LimitAna" checkit-title="Limits analytically">
+    <statement>
+        <p>
+            Determine the following limits and explain your reasoning.
+        </p>
+        <ol>
+            <li><me>\lim_{x\to4 } \frac{ \frac{1}{x - 9} + \frac{1}{5} }{ x - 4 }</me></li>
+            <li><me>\lim_{x\to1 } \frac{ x^{2} - 5 \, x + 4 }{ x^{2} + 3 \, x - 4 }</me></li>
+            <li><me>\lim_{x\to4 } \frac{ x^{2} - 1 }{ x^{2} + 3 \, x - 10 }</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>-\frac{1}{25}</me></li>
+            <li><me>-\frac{3}{5}</me></li>
+            <li><me>\frac{5}{6}</me></li>
+        </ol>
+    </answer>
+</exercise>

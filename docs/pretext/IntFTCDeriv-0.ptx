@@ -1,0 +1,49 @@
+<exercise checkit-seed="0000" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 5 }^{ x } \left( \cos\left(8 \, e^{t} + 7\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 1 }^{ x^{3} + 7 } \left( \frac{3}{{\left(9 \, \cos\left(t\right) + 8\right)}^{3}} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x^{3} + 4 }^{ 3 } \left( 2 \, {\left(5 \, \log\left(t\right) - 3\right)}^{5} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 5 } \left( 2 \, {\left(5 \, \log\left(t\right) - 3\right)}^{5} \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>\cos\left(8 \, e^{x} + 7\right)</me></p></li>
+                <li><p><me>\frac{9 \, x^{2}}{{\left(9 \, \cos\left(x^{3} + 7\right) + 8\right)}^{3}}</me></p></li>
+                <li><p><me>-6 \, x^{2} {\left(5 \, \log\left(x^{3} + 4\right) - 3\right)}^{5}</me></p></li>
+                <li><p><me>-2 \, {\left(5 \, \log\left(x\right) - 3\right)}^{5}</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

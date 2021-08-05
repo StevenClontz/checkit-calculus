@@ -1,0 +1,41 @@
+<exercise checkit-seed="0007" checkit-slug="IntFTCDef" checkit-title="FTC for Definite Integrals">
+    <statement>
+        <p>
+Explain how to compute the exact value of each of the following
+definite integrals using the Fundamental Theorem of Calculus.
+Leave all answers in exact form, with no decimal approximations.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\int_{ 5 }^{ 7 } \left( 2 \, e^{x} \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ -1 }^{ 0 } \left( 9 \, x^{3} - 9 \, x^{2} + 2 \, x \right) dx
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\int_{ \frac{2}{3} \, \pi }^{ \frac{5}{6} \, \pi } \left( 2 \, \csc\left(x\right)^{2} \right) dx
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>2 \, e^{7} - 2 \, e^{5}</me></p></li>
+                <li><p><me>-\frac{25}{4}</me></p></li>
+                <li><p><me>\frac{4}{3} \, \sqrt{3}</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

@@ -1,0 +1,23 @@
+<exercise checkit-seed="0006" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>g(w) = 6 \, w^{4} + 5 \, w^{2} - 1 </me></li>
+            <li><me>h(x) = \sqrt[7]{  x^{ 5 } } + \frac{ -4 } { x ^6} </me></li>
+            <li><me>f(t) = 5 \, \cos\left(t\right) - 6 \, e^{t}</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g'(w) =  24 \, w^{3} + 10 \, w </me></li>
+            <li><me>h'(x) = \frac{1}{x^{\frac{2}{7}}} + \frac{24}{x^{7}}</me></li>
+            <li><me>f'(t) = -6 \, e^{t} - 5 \, \sin\left(t\right)</me></li>
+        </ol>
+
+    </answer>
+</exercise>

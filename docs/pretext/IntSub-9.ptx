@@ -1,0 +1,43 @@
+<exercise checkit-seed="0009" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 4 \, y {\left(y - 1\right)}^{\frac{1}{3}} \right) dy
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -\frac{180 \, z^{4}}{{\left(z^{5} + 5\right)}^{5}} \right) dz
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 4 \, y {\left(y - 1\right)}^{\frac{1}{3}} \right) dy
+= \frac{12}{7} \, {\left(y - 1\right)}^{\frac{7}{3}} + 3 \, {\left(y - 1\right)}^{\frac{4}{3}} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -\frac{180 \, z^{4}}{{\left(z^{5} + 5\right)}^{5}} \right) dz
+= \frac{9}{{\left(z^{5} + 5\right)}^{4}} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

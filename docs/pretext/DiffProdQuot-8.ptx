@@ -1,0 +1,20 @@
+<exercise checkit-seed="0008" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(w)= -{\left(6 \, w^{2} - 2 \, w - 1\right)} \log\left(w\right)</me></li>
+            <li><me>h(w)= -\frac{2 \, {\left(w^{2} + 3 \, w + 1\right)}}{w^{4}}</me></li>
+            <li><me>g(y)= -\frac{e^{y}}{3 \, y^{2} + 3 \, y - 5}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (w)= -2 \, {\left(6 \, w - 1\right)} \log\left(w\right) - \frac{6 \, w^{2} - 2 \, w - 1}{w}</me></li>
+            <li><me>h' (w)= \frac{2 \, {\left(2 \, w^{2} + 9 \, w + 4\right)}}{w^{5}}</me></li>
+            <li><me>g' (y)= -\frac{e^{y}}{3 \, y^{2} + 3 \, y - 5} + \frac{3 \, {\left(2 \, y + 1\right)} e^{y}}{{\left(3 \, y^{2} + 3 \, y - 5\right)}^{2}}</me></li>
+        </ol>
+    </answer>
+</exercise>

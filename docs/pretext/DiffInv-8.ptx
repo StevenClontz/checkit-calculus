@@ -1,0 +1,22 @@
+<exercise checkit-seed="0008" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>h(u)= \frac{\arctan\left(-5 \, u\right)}{\log\left(u\right)}</me></li>
+            <li><me>n(x)= 4 \, \arcsin\left(x\right) \log\left(x^{9} + 3\right)</me></li>
+            <li><me>j(t)= \log\left(-5 \, \arcsin\left(t\right) + \arctan\left(t\right)\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h' (u)= -\frac{\arctan\left(-5 \, u\right)}{u \log\left(u\right)^{2}} - \frac{5}{{\left(25 \, u^{2} + 1\right)} \log\left(u\right)}</me></li>
+            <li><me>n' (x)= \frac{36 \, x^{8} \arcsin\left(x\right)}{x^{9} + 3} + \frac{4 \, \log\left(x^{9} + 3\right)}{\sqrt{-x^{2} + 1}}</me></li>
+            <li><me>j' (t)= \frac{\frac{5}{\sqrt{-t^{2} + 1}} - \frac{1}{t^{2} + 1}}{5 \, \arcsin\left(t\right) - \arctan\left(t\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

@@ -1,0 +1,18 @@
+<exercise checkit-seed="0009" checkit-slug="DiffDef" checkit-title="Derivative definition">
+    <statement>
+        <p>
+            Find <m>f'(x)</m> using the limit definition of the derivative. Then evaluate at <m>x=-9</m>.
+        </p>
+        <me>
+            f(x) = 3 \, x^{2} + 2 \, x - 3
+        </me>
+    </statement>
+    <answer>
+        <me>
+           f'(x) = 6 \, x + 2
+        </me>
+        <me> 
+            f'(-9) = -52
+        </me>
+    </answer>
+</exercise>

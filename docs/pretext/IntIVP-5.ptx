@@ -1,0 +1,13 @@
+<exercise checkit-seed="0005" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=6 \, x^{2} - 4 </m>. Find <m>f(x)</m> such that <m>f(-3)=-35</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>2 \, x^{3} - 4 \, x + 7</me>
+        </p>
+    </answer>
+</exercise>

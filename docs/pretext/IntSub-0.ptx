@@ -1,0 +1,43 @@
+<exercise checkit-seed="0000" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -5 \, y {\left(y - 3\right)}^{\frac{1}{3}} \right) dy
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{25 \, \cos\left(5 \, \log\left(t\right) + 2\right)}{t} \right) dt
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -5 \, y {\left(y - 3\right)}^{\frac{1}{3}} \right) dy
+= -\frac{15}{7} \, {\left(y - 3\right)}^{\frac{7}{3}} - \frac{45}{4} \, {\left(y - 3\right)}^{\frac{4}{3}} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{25 \, \cos\left(5 \, \log\left(t\right) + 2\right)}{t} \right) dt
+= 5 \, \sin\left(5 \, \log\left(t\right) + 2\right) + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

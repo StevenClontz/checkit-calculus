@@ -1,0 +1,20 @@
+<exercise checkit-seed="0002" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(y)= \frac{y^{2} + y - 4}{y^{\frac{1}{6}}}</me></li>
+            <li><me>h(w)= -{\left(3 \, w^{2} - 6 \, w + 4\right)} e^{w}</me></li>
+            <li><me>g(x)= -\frac{5 \, x^{2} + 3 \, x + 1}{\cos\left(x\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (y)= \frac{11 \, y^{2} + 5 \, y + 4}{6 \, y^{\frac{7}{6}}}</me></li>
+            <li><me>h' (w)= -{\left(3 \, w^{2} - 6 \, w + 4\right)} e^{w} - 6 \, {\left(w - 1\right)} e^{w}</me></li>
+            <li><me>g' (x)= -\frac{10 \, x + 3}{\cos\left(x\right)} - \frac{{\left(5 \, x^{2} + 3 \, x + 1\right)} \sin\left(x\right)}{\cos\left(x\right)^{2}}</me></li>
+        </ol>
+    </answer>
+</exercise>

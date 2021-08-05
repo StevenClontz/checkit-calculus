@@ -1,0 +1,22 @@
+<exercise checkit-seed="0003" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>\csc\left(x\right)^{2}</me></li>
+                <li><me>-2 \, x^{4} + 8 \, x^{3} + 2 \, x^{2}</me></li>
+                <li><me>6 \, \sin\left(x\right)</me></li>
+                <li><me>\frac{4}{x^{6}}</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>-\frac{1}{\tan\left(x\right)}+C</me></p></li>
+                <li><p><me>-\frac{2}{5} \, x^{5} + 2 \, x^{4} + \frac{2}{3} \, x^{3}+C</me></p></li>
+                <li><p><me>-6 \, \cos\left(x\right)+C</me></p></li>
+                <li><p><me>-\frac{4}{5 \, x^{5}}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

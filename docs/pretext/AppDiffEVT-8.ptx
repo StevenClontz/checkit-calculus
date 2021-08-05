@@ -1,0 +1,27 @@
+<exercise checkit-seed="0008" checkit-slug="AppDiffEVT" checkit-title="Extreme Value Theorem">
+    <statement>
+        <p> 
+Explain how to find the absolute minimum and absolute maximum values of the
+function <m>f(x)=-2 \, x^{3} + 12 \, x^{2} + 30 \, x - 71</m> on the interval <m>[3,9]</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+The absolute extrema may occur at these <m>x</m>-values:
+<m>3, 5, 9</m>.
+        </p>
+        <ul>
+            <li><p><m>f(3)=73</m></p></li>
+            <li><p><m>f(5)=129</m></p></li>
+            <li><p><m>f(9)=-287</m></p></li>
+        </ul>
+        <p>
+Thus the absolute minimum is <m>-287</m> and the absolute
+maximum is <m>129</m>.
+        </p>
+        <p>
+(The value <m>f(-1)=-87</m>
+is ignored as <m>-1</m> isn't in the given interval.)
+        </p>
+    </answer>
+</exercise>

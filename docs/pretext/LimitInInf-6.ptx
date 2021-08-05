@@ -1,0 +1,44 @@
+<exercise checkit-seed="0006" checkit-slug="LimitInInf" checkit-title="Limits with infinite inputs">
+    <statement>
+        <p>
+Explain how to find
+the value of each limit.
+        </p>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^5} + 7 \, {x^3} + 3}{2 \, {x^2} + 2 \, {x^6} - 1}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^5} + 7 \, {x^3} + 3}{2 \, {x^2} + 2 \, {x^6} - 1}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{2 \, {x^4} + 3 \, {x^3} + 8}{3 \, {x^4} - 5 \, {x^2} + 4}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{2 \, {x^4} + 3 \, {x^3} + 8}{3 \, {x^4} - 5 \, {x^2} + 4}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{3 \, {x^4} - 9 \, {x^6} + 1}{3 \, {x^5} + 5 \, {x^2} + 3}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{3 \, {x^4} - 9 \, {x^6} + 1}{3 \, {x^5} + 5 \, {x^2} + 3}
+                </me></p></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^5} + 7 \, {x^3} + 3}{2 \, {x^2} + 2 \, {x^6} - 1} = 0
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^5} + 7 \, {x^3} + 3}{2 \, {x^2} + 2 \, {x^6} - 1} = 0
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{2 \, {x^4} + 3 \, {x^3} + 8}{3 \, {x^4} - 5 \, {x^2} + 4} = \frac{2}{3}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{2 \, {x^4} + 3 \, {x^3} + 8}{3 \, {x^4} - 5 \, {x^2} + 4} = \frac{2}{3}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{3 \, {x^4} - 9 \, {x^6} + 1}{3 \, {x^5} + 5 \, {x^2} + 3} = +\infty
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{3 \, {x^4} - 9 \, {x^6} + 1}{3 \, {x^5} + 5 \, {x^2} + 3} = -\infty
+                </me></p></li>
+        </ol>
+    </answer>
+</exercise>

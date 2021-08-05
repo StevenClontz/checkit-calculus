@@ -1,0 +1,44 @@
+<exercise checkit-seed="0005" checkit-slug="IntAreaUnder" checkit-title="Area under curves">
+    <statement>
+        <p>
+            Answer the following questions concerning
+            <m>f(x)=6 \, x^{2} - 36 \, x - 42</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+What is the total area between <m>f(x)=6 \, x^{2} - 36 \, x - 42</m> and the <m>x</m>-axis
+from <m>x=-4</m> to <m>x=2</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+What is the net area between <m>f(x)=6 \, x^{2} - 36 \, x - 42</m> and the <m>x</m>-axis
+from <m>x=-4</m> to <m>x=2</m>?
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+         <ol>
+            <li>
+                <p>
+                    <me>
+\left| \int_{ -4 }^{ -1 } 
+\left( 6 \, x^{2} - 36 \, x - 42 \right) dx \right| +
+\left| \int_{ -1 }^{ 2 } 
+\left( 6 \, x^{2} - 36 \, x - 42 \right) dx \right| = 432
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int_{ -4 }^{ 2 } 
+\left( 6 \, x^{2} - 36 \, x - 42 \right) dx = 108
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

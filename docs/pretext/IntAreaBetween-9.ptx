@@ -1,0 +1,49 @@
+<exercise checkit-seed="0009" checkit-slug="IntAreaBetween" checkit-title="Area between curves">
+    <statement>
+        <p>
+Let <m>\mathbf{R}</m> be the finite region bounded by the graphs of
+<m>y={\left(x - 3\right)}^{2} + 2</m> and <m>y=9 \, x - 25</m>.
+        </p>
+
+        <p>
+Sketch an illustration of <m>\mathbf R</m>, and then
+explain how to express the area of <m>\mathbf R</m> in the
+following two ways:
+        </p>
+
+        <ol>
+            <li>
+                <p>
+As a definite integral with respect to <m>x</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+As a definite integral with respect to <m>y</m>.
+                </p>
+            </li>
+        </ol>
+        <p>
+(Do not evaluate either definite integral.)
+        </p>
+    </statement>
+
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int_{ 3 }^{ 12 } \left(-{\left(x - 3\right)}^{2} + 9 \, x - 27\right)dx
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int_{ 2 }^{ 83 } \left(\frac{1}{9} \, y + \sqrt{y - 2} - \frac{2}{9}\right)dy
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

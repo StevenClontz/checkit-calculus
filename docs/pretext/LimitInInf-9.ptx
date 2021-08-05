@@ -1,0 +1,44 @@
+<exercise checkit-seed="0009" checkit-slug="LimitInInf" checkit-title="Limits with infinite inputs">
+    <statement>
+        <p>
+Explain how to find
+the value of each limit.
+        </p>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {\left(2 \, {x^2} - 2 \, {x^6} - 3\right)}}{7 \, x + {x^4} - 3}
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {\left(2 \, {x^2} - 2 \, {x^6} - 3\right)}}{7 \, x + {x^4} - 3}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^3} - 2 \, {x^2} - 9}{5 \, x + 6 \, {x^6} + 2}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^3} - 2 \, {x^2} - 9}{5 \, x + 6 \, {x^6} + 2}
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{2 \, {x^3} + 4 \, {x^2} + 7}{2 \, {\left(3 \, x - 2 \, {x^3} - 3\right)}}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{2 \, {x^3} + 4 \, {x^2} + 7}{2 \, {\left(3 \, x - 2 \, {x^3} - 3\right)}}
+                </me></p></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+                <li><p><me>
+\lim_{x\to-\infty } -\frac{3 \, {\left(2 \, {x^2} - 2 \, {x^6} - 3\right)}}{7 \, x + {x^4} - 3} = +\infty
+\,\text{ and }\,
+\lim_{x\to+\infty } -\frac{3 \, {\left(2 \, {x^2} - 2 \, {x^6} - 3\right)}}{7 \, x + {x^4} - 3} = +\infty
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{4 \, {x^3} - 2 \, {x^2} - 9}{5 \, x + 6 \, {x^6} + 2} = 0
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{4 \, {x^3} - 2 \, {x^2} - 9}{5 \, x + 6 \, {x^6} + 2} = 0
+                </me></p></li>
+                <li><p><me>
+\lim_{x\to-\infty } \frac{2 \, {x^3} + 4 \, {x^2} + 7}{2 \, {\left(3 \, x - 2 \, {x^3} - 3\right)}} = -\frac{1}{2}
+\,\text{ and }\,
+\lim_{x\to+\infty } \frac{2 \, {x^3} + 4 \, {x^2} + 7}{2 \, {\left(3 \, x - 2 \, {x^3} - 3\right)}} = -\frac{1}{2}
+                </me></p></li>
+        </ol>
+    </answer>
+</exercise>

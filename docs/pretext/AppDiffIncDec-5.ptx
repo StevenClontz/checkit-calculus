@@ -1,0 +1,39 @@
+<exercise checkit-seed="0005" checkit-slug="AppDiffIncDec" checkit-title="Derivative tests">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+Explain how to find the following for the function <m>f(x)=x^{3} + \frac{39}{2} \, x^{2} + 120 \, x - 6</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+The open intervals where <m>f(x)</m> is increasing or decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+The relative extrema of <m>f(x)</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function increases on <m>(-\infty,-8)</m>,
+decreases on <m>(-8,-5)</m>, and increases on
+<m>(-5,\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=(-8,-230)</m> is a relative maximum,
+and the point <m>(x,y)=(-5,-\frac{487}{2})</m> is a relative minimum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

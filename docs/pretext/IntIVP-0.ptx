@@ -1,0 +1,13 @@
+<exercise checkit-seed="0000" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=-12 \, x - 6 </m>. Find <m>f(x)</m> such that <m>f(5)=-179</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>-6 \, x^{2} - 6 \, x + 1</me>
+        </p>
+    </answer>
+</exercise>

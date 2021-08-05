@@ -1,0 +1,39 @@
+<exercise checkit-seed="0008" checkit-slug="AppDiffIncDec" checkit-title="Derivative tests">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+Explain how to find the following for the function <m>f(x)=-x^{3} + \frac{21}{2} \, x^{2} - 18 \, x + 7</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+The open intervals where <m>f(x)</m> is increasing or decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+The relative extrema of <m>f(x)</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function decreases on <m>(-\infty,1)</m>,
+increases on <m>(1,6)</m>, and decreases on
+<m>(6,\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=(1,-\frac{3}{2})</m> is a relative minimum,
+and the point <m>(x,y)=(6,61)</m> is a relative maximum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

@@ -1,0 +1,43 @@
+<exercise checkit-seed="0002" checkit-slug="AppDiffMotion" checkit-title="Equations of motion">
+    <statement>
+        <p>
+Suppose the position of an object in feet
+is modeled by the following function.
+<me>s(t)=3 \, t^{3} + 3 \, t^{2} - 6 \, t + 26</me>
+        </p>
+        <p>
+Explain how to find the object's position, displacement,
+velocity, speed, and acceleration at <m>5</m>
+seconds. Use appropriate units for each.
+                </p>
+    </statement>
+    <answer>
+        <ul>
+            <li>
+                <p>
+Position: <m>446</m> feet
+                </p>
+            </li>
+            <li>
+                <p>
+Displacement: <m>420</m> feet
+                </p>
+            </li>
+            <li>
+                <p>
+Velocity: <m>249</m> feet per second
+                </p>
+            </li>
+            <li>
+                <p>
+Speed: <m>249</m> feet per second
+                </p>
+            </li>
+            <li>
+                <p>
+Acceleration: <m>96</m> feet per <m>s^2</m>
+                </p>
+            </li>
+        </ul>
+    </answer>
+</exercise>

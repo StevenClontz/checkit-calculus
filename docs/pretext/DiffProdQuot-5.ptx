@@ -1,0 +1,20 @@
+<exercise checkit-seed="0005" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>g(t)= \frac{5 \, t^{2} - 2 \, t - 4}{t^{9}}</me></li>
+            <li><me>h(x)= {\left(4 \, x^{2} + 5 \, x - 1\right)} \cos\left(x\right)</me></li>
+            <li><me>f(y)= \frac{\log\left(y\right)}{2 \, {\left(y^{2} - 3 \, y + 3\right)}}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g' (t)= -\frac{35 \, t^{2} - 16 \, t - 36}{t^{10}}</me></li>
+            <li><me>h' (x)= {\left(8 \, x + 5\right)} \cos\left(x\right) - {\left(4 \, x^{2} + 5 \, x - 1\right)} \sin\left(x\right)</me></li>
+            <li><me>f' (y)= -\frac{{\left(2 \, y - 3\right)} \log\left(y\right)}{2 \, {\left(y^{2} - 3 \, y + 3\right)}^{2}} + \frac{1}{2 \, {\left(y^{2} - 3 \, y + 3\right)} y}</me></li>
+        </ol>
+    </answer>
+</exercise>

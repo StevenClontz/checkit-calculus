@@ -1,0 +1,22 @@
+<exercise checkit-seed="0002" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>m(t)= \log\left(8 \, \arcsin\left(t\right) + 4 \, \arctan\left(t\right)\right)</me></li>
+            <li><me>j(u)= \frac{\arctan\left(-9 \, u\right)}{\log\left(-3 \, u\right)}</me></li>
+            <li><me>h(w)= -\arcsin\left(w\right) \log\left(w^{4} - 9\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>m' (t)= \frac{\frac{2}{\sqrt{-t^{2} + 1}} + \frac{1}{t^{2} + 1}}{2 \, \arcsin\left(t\right) + \arctan\left(t\right)}</me></li>
+            <li><me>j' (u)= -\frac{\arctan\left(-9 \, u\right)}{u \log\left(-3 \, u\right)^{2}} - \frac{9}{{\left(81 \, u^{2} + 1\right)} \log\left(-3 \, u\right)}</me></li>
+            <li><me>h' (w)= -\frac{4 \, w^{3} \arcsin\left(w\right)}{w^{4} - 9} - \frac{\log\left(w^{4} - 9\right)}{\sqrt{-w^{2} + 1}}</me></li>
+        </ol>
+    </answer>
+</exercise>

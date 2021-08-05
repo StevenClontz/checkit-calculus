@@ -1,0 +1,18 @@
+<exercise checkit-seed="0003" checkit-slug="DiffImp" checkit-title="Implicit differentiation">
+    <statement>
+        <p>
+Explain how to use implicit differentiation to find
+<m>\frac{dy}{dx}</m> for each of the following equations.
+        </p>
+        <ol>
+                <li><p><me>-x e^{y} + 2 \, y \sin\left(x\right) = \left(-4\right)</me></p></li>
+                <li><p><me>0 = -2 \, y^{4} + 4 \, x^{2} + 5</me></p></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+                <li><p><me>\frac{dy}{dx}=\frac{2 \, y \cos\left(x\right) - e^{y}}{x e^{y} - 2 \, \sin\left(x\right)}</me></p></li>
+                <li><p><me>\frac{dy}{dx}=\frac{x}{y^{3}}</me></p></li>
+        </ol>
+    </answer>
+</exercise>

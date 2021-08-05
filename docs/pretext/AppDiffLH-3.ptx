@@ -1,0 +1,72 @@
+<exercise checkit-seed="0003" checkit-slug="AppDiffLH" checkit-title="L'H&#244;pital's Rule">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each limit, explain if L'H&#244;pital's Rule may be applied.
+If it can, explain how to use this rule to find the limit.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -9 \, \cos\left(5 \, x\right) + 9 }{ -5 \, x }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -9 \, x - 6 \, \log\left(x\right) }{ 6 \, x + 4 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -4 \, \cos\left(-6 \, x\right) }{ -3 \, x - 7 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 2 } \frac{ x^{2} - 8 \, x + 12 }{ x^{2} + x - 6 }
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+         <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -9 \, \cos\left(5 \, x\right) + 9 }{ -5 \, x } = 0
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -9 \, x - 6 \, \log\left(x\right) }{ 6 \, x + 4 } = -\frac{3}{2}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+L'H&#244;ptial's Rule does not apply.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 2 } \frac{ x^{2} - 8 \, x + 12 }{ x^{2} + x - 6 } = -\frac{4}{5}
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </answer>
+</exercise>

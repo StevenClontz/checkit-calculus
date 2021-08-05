@@ -1,0 +1,23 @@
+<exercise checkit-seed="0001" checkit-slug="DiffStrategy" checkit-title="Differentiation strategy">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>g(t) = \left( \frac{5 \, t^{3} + 2}{4 \, t^{4} - 3} \right)^4 </me></li>
+            <li><me>f(y) = \sqrt{\cos\left(6 \, y^{4} - 6 \, y\right)}  </me></li>
+            <li><me>h(x) = 4 \, {\left(2 \, x^{6} - x\right)}^{2} x^{\frac{1}{4}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g'(t) =  4 \left( \frac{5 \, t^{3} + 2}{4 \, t^{4} - 3} \right)^3 \left( -\frac{16 \, {\left(5 \, t^{3} + 2\right)} t^{3}}{{\left(4 \, t^{4} - 3\right)}^{2}} + \frac{15 \, t^{2}}{4 \, t^{4} - 3} \right) </me></li>
+            <li><me>f'(y) = -\frac{3 \, {\left(4 \, y^{3} - 1\right)} \sin\left(6 \, y^{4} - 6 \, y\right)}{\sqrt{\cos\left(6 \, y^{4} - 6 \, y\right)}} </me></li>
+            <li><me>h'(x) = 8 \, {\left(2 \, x^{6} - x\right)} {\left(12 \, x^{5} - 1\right)} x^{\frac{1}{4}} + \frac{{\left(2 \, x^{6} - x\right)}^{2}}{x^{\frac{3}{4}}} </me></li>
+        </ol>
+
+    </answer>
+</exercise>

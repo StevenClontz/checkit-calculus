@@ -1,0 +1,23 @@
+<exercise checkit-seed="0009" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>h(t) = -6 \, t^{6} + t^{4} + 1 </me></li>
+            <li><me>f(y) = \sqrt[11]{  y^{ 2 } } + \frac{ 3 } { y ^6} </me></li>
+            <li><me>g(t) = -3 \, e^{t} + 6 \, \sin\left(t\right)</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h'(t) =  -36 \, t^{5} + 4 \, t^{3} </me></li>
+            <li><me>f'(y) = \frac{1}{y^{\frac{9}{11}}} - \frac{18}{y^{7}}</me></li>
+            <li><me>g'(t) = 6 \, \cos\left(t\right) - 3 \, e^{t}</me></li>
+        </ol>
+
+    </answer>
+</exercise>

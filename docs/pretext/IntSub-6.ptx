@@ -1,0 +1,43 @@
+<exercise checkit-seed="0006" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{84 \, {\left(3 \, \log\left(z\right) - 5\right)}^{3}}{z} \right) dz
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -9 \, y {\left(y - 3\right)}^{\frac{1}{3}} \right) dy
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{84 \, {\left(3 \, \log\left(z\right) - 5\right)}^{3}}{z} \right) dz
+= 7 \, {\left(3 \, \log\left(z\right) - 5\right)}^{4} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( -9 \, y {\left(y - 3\right)}^{\frac{1}{3}} \right) dy
+= -\frac{27}{7} \, {\left(y - 3\right)}^{\frac{7}{3}} - \frac{81}{4} \, {\left(y - 3\right)}^{\frac{4}{3}} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

@@ -1,0 +1,43 @@
+<exercise checkit-seed="0001" checkit-slug="AppDiffMotion" checkit-title="Equations of motion">
+    <statement>
+        <p>
+Suppose the position of an object in kilometers
+is modeled by the following function.
+<me>s(t)=t^{3} + 5 \, t^{2} - 5 \, t - 88</me>
+        </p>
+        <p>
+Explain how to find the object's position, displacement,
+velocity, speed, and acceleration at <m>4</m>
+seconds. Use appropriate units for each.
+                </p>
+    </statement>
+    <answer>
+        <ul>
+            <li>
+                <p>
+Position: <m>36</m> kilometers
+                </p>
+            </li>
+            <li>
+                <p>
+Displacement: <m>124</m> kilometers
+                </p>
+            </li>
+            <li>
+                <p>
+Velocity: <m>83</m> kilometers per second
+                </p>
+            </li>
+            <li>
+                <p>
+Speed: <m>83</m> kilometers per second
+                </p>
+            </li>
+            <li>
+                <p>
+Acceleration: <m>34</m> kilometers per <m>s^2</m>
+                </p>
+            </li>
+        </ul>
+    </answer>
+</exercise>

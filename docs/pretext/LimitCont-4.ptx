@@ -1,0 +1,34 @@
+<exercise checkit-seed="0004" checkit-slug="LimitCont" checkit-title="Continuity">
+    <statement>
+        <ol>
+            <li>
+                <p>Determine the value of <m>b</m> to make <m>f(x)</m> continuous at <m>x=2</m>.</p>
+                <p>
+                    <me>
+                        f(x) = \begin{cases}
+                        \frac{b x^{2} - 7 \, b x - 4 \, x + 28}{x - 7}, &amp; x &lt; 2 \\\
+                        -x + 1, &amp; x \geq 2
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>The function <m>g(x)</m> is discontinuous at <m>x=4</m>. Determine if <m>g(x)</m> is left- or right-continuous and classify the type of discontinuity present at <m>x=4</m>.</p>
+                <p>
+                    <me>
+                        g(x) = \begin{cases}
+                        -x + 10, &amp; x &lt; 4 \\\
+                        \frac{x^{2} - 4 \, x + 4}{x - 1}, &amp; x \geq 4
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>To make <m>f(x)</m> continuous at <m>x=2</m>, let <m>b=\frac{3}{2}</m>.</li>
+            <li>The function <m>g(x)</m> has a jump discontinuity and is right-continuous at <m>x=4</m>.</li>
+        </ol>
+    </answer>
+</exercise>

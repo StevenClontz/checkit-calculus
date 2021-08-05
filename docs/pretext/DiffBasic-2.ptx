@@ -1,0 +1,23 @@
+<exercise checkit-seed="0002" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>h(w) = -6 \, w^{6} - 4 \, w^{3} - w </me></li>
+            <li><me>f(y) = \sqrt[3]{  y^{ 5 } } + \frac{ -8 } { y ^4} </me></li>
+            <li><me>g(x) = 6 \, \cos\left(x\right) - 3 \, \log\left(x\right)</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h'(w) =  -36 \, w^{5} - 12 \, w^{2} - 1 </me></li>
+            <li><me>f'(y) = y^{\frac{2}{3}} + \frac{32}{y^{5}}</me></li>
+            <li><me>g'(x) = -\frac{3 \, {\left(2 \, x \sin\left(x\right) + 1\right)}}{x}</me></li>
+        </ol>
+
+    </answer>
+</exercise>

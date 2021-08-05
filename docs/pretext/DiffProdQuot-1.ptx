@@ -1,0 +1,20 @@
+<exercise checkit-seed="0001" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>g(t)= -{\left(6 \, t^{2} + 5 \, t + 3\right)} \sin\left(t\right)</me></li>
+            <li><me>h(w)= \frac{6 \, w^{2} - 5 \, w + 6}{\sqrt{w}}</me></li>
+            <li><me>f(y)= \frac{\cos\left(y\right)}{2 \, y^{2} + 2 \, y + 3}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g' (t)= -{\left(6 \, t^{2} + 5 \, t + 3\right)} \cos\left(t\right) - {\left(12 \, t + 5\right)} \sin\left(t\right)</me></li>
+            <li><me>h' (w)= \frac{18 \, w^{2} - 5 \, w - 6}{2 \, w^{\frac{3}{2}}}</me></li>
+            <li><me>f' (y)= -\frac{2 \, {\left(2 \, y + 1\right)} \cos\left(y\right)}{{\left(2 \, y^{2} + 2 \, y + 3\right)}^{2}} - \frac{\sin\left(y\right)}{2 \, y^{2} + 2 \, y + 3}</me></li>
+        </ol>
+    </answer>
+</exercise>

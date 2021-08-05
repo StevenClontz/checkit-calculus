@@ -1,0 +1,22 @@
+<exercise checkit-seed="0009" checkit-slug="AppDiffRelRates" checkit-title="Related rates">
+
+
+
+
+
+
+
+            <statement>
+                <p>
+                    Suppose a person who was <m> 6.2 </m> feet tall was standing between a light on the ground and a wall.  They are <m>30</m> feet away from the light and <m>35</m> feet away from the wall.  If they start walking torwards the wall at a speed of <m>2.4</m> feet/second, how fast would the height of the shadow they cast change and in what direction?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\frac{ 156.0 }{ 900 }\approx 0.17</m> feet/second down.
+                </p>
+            </answer>
+
+
+
+</exercise>

@@ -1,0 +1,23 @@
+<exercise checkit-seed="0000" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>f(x) = -25 \, x^{5} + 2 \, x^{4} - 3 </me></li>
+            <li><me>h(x) = \sqrt[3]{  x^{ 7 } } + \frac{ 8 } { x ^4} </me></li>
+            <li><me>g(x) = -5 \, \cos\left(x\right) - 5 \, \log\left(x\right)</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f'(x) =  -125 \, x^{4} + 8 \, x^{3} </me></li>
+            <li><me>h'(x) = x^{\frac{4}{3}} - \frac{32}{x^{5}}</me></li>
+            <li><me>g'(x) = \frac{5 \, {\left(x \sin\left(x\right) - 1\right)}}{x}</me></li>
+        </ol>
+
+    </answer>
+</exercise>

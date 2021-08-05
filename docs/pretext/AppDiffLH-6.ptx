@@ -1,0 +1,72 @@
+<exercise checkit-seed="0006" checkit-slug="AppDiffLH" checkit-title="L'H&#244;pital's Rule">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each limit, explain if L'H&#244;pital's Rule may be applied.
+If it can, explain how to use this rule to find the limit.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 8 } \frac{ x^{2} + x - 72 }{ x^{2} - 15 \, x + 56 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -4 \, \sin\left(3 \, x\right) }{ -3 \, x }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -9 \, x^{2} + 3 \, x + 9 }{ -8 \, x^{3} - 2 \, x - 3 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ 7 \, \sin\left(-8 \, x\right) - 7 }{ -3 \, x - 6 }
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+         <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 8 } \frac{ x^{2} + x - 72 }{ x^{2} - 15 \, x + 56 } = 17
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -4 \, \sin\left(3 \, x\right) }{ -3 \, x } = 4
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ -9 \, x^{2} + 3 \, x + 9 }{ -8 \, x^{3} - 2 \, x - 3 } = 0
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+L'H&#244;ptial's Rule does not apply.
+                    </p>
+                </li>
+        </ol>
+    </answer>
+</exercise>

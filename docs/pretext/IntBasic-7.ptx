@@ -1,0 +1,22 @@
+<exercise checkit-seed="0007" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>\frac{3}{x^{8}}</me></li>
+                <li><me>4 \, \cot\left(x\right) \csc\left(x\right)</me></li>
+                <li><me>7 \, \cos\left(x\right)</me></li>
+                <li><me>9 \, x^{4} + 9 \, x^{3} - 9 \, x^{2}</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>-\frac{3}{7 \, x^{7}}+C</me></p></li>
+                <li><p><me>-\frac{4}{\sin\left(x\right)}+C</me></p></li>
+                <li><p><me>7 \, \sin\left(x\right)+C</me></p></li>
+                <li><p><me>\frac{9}{5} \, x^{5} + \frac{9}{4} \, x^{4} - 3 \, x^{3}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

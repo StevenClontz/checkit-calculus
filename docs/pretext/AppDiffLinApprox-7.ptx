@@ -1,0 +1,44 @@
+<exercise checkit-seed="0007" checkit-slug="AppDiffLinApprox" checkit-title="Linear Approximation">
+    <statement>
+        <p>
+A certain function <m>p(x)</m> satisfies
+<m>p(9) = 89</m> and <m>p'(9) = 9</m>.
+            <ol>
+                <li>
+                    <p>
+Explain how to find the local linearization <m>L(x)</m>
+of <m>p(x)</m> at <m>9</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Explain how to estimate the value of <m>p(9.049)</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Suppose that <m>p'(9)=0</m> and you know that
+<m>p''(x) &lt; 0</m> for <m>x &gt; 9</m>.
+Explain how to determine if your estimate of <m>p(9.049)</m>
+is too large or too small.
+                    </p>
+                </li>
+                <li>
+                    <p>
+Suppose that <m>p''(x) &gt; 0</m> for <m>x &lt; 9</m>.
+Use this fact and the additional information above to sketch an accurate
+graph of <m>y=p(x)</m> near <m>x=9</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <ol>
+            <li><p><m>L(x)=9 \, x + 8</m></p></li>
+            <li><p><m>p(9.049) \approx 89.4424</m></p></li>
+            <li><p>The estimate is too small.</p></li>
+            <li><p>N/A</p></li>
+        </ol>
+    </answer>
+</exercise>

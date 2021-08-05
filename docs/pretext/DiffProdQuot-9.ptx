@@ -1,0 +1,20 @@
+<exercise checkit-seed="0009" checkit-slug="DiffProdQuot" checkit-title="Product/Quotient Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>f(t)= -\frac{4 \, t^{2} + 6 \, t + 5}{\log\left(t\right)}</me></li>
+            <li><me>g(t)= -\frac{2 \, {\left(2 \, t^{2} - t + 2\right)}}{t^{5}}</me></li>
+            <li><me>h(t)= {\left(5 \, t^{2} - 3 \, t + 6\right)} e^{t}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f' (t)= -\frac{2 \, {\left(4 \, t + 3\right)}}{\log\left(t\right)} + \frac{4 \, t^{2} + 6 \, t + 5}{t \log\left(t\right)^{2}}</me></li>
+            <li><me>g' (t)= \frac{4 \, {\left(3 \, t^{2} - 2 \, t + 5\right)}}{t^{6}}</me></li>
+            <li><me>h' (t)= {\left(5 \, t^{2} - 3 \, t + 6\right)} e^{t} + {\left(10 \, t - 3\right)} e^{t}</me></li>
+        </ol>
+    </answer>
+</exercise>

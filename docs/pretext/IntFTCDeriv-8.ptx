@@ -1,0 +1,49 @@
+<exercise checkit-seed="0008" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ \sin\left(x\right) + 6 }^{ 4 } \left( 6 \, \cos\left(8 \, \log\left(t\right) - 5\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 3 }^{ x^{2} + 7 } \left( 875 \, {\left(\log\left(t\right) - 1\right)}^{3} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 2 }^{ x } \left( 4 \, \log\left(3 \, \cos\left(t\right) - 4\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 3 } \left( 6 \, \cos\left(8 \, \log\left(t\right) - 5\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>-6 \, \cos\left(x\right) \cos\left(8 \, \log\left(\sin\left(x\right) + 6\right) - 5\right)</me></p></li>
+                <li><p><me>1750 \, x {\left(\log\left(x^{2} + 7\right) - 1\right)}^{3}</me></p></li>
+                <li><p><me>4 \, \log\left(3 \, \cos\left(x\right) - 4\right)</me></p></li>
+                <li><p><me>-6 \, \cos\left(8 \, \log\left(x\right) - 5\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

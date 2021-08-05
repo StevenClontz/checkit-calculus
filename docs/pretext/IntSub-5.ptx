@@ -1,0 +1,43 @@
+<exercise checkit-seed="0005" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 4 \, z {\left(z - 1\right)}^{\frac{1}{4}} \right) dz
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( 25 \, {\left(5 \, e^{x} + 4\right)}^{4} e^{x} \right) dx
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( 4 \, z {\left(z - 1\right)}^{\frac{1}{4}} \right) dz
+= \frac{16}{9} \, {\left(z - 1\right)}^{\frac{9}{4}} + \frac{16}{5} \, {\left(z - 1\right)}^{\frac{5}{4}} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( 25 \, {\left(5 \, e^{x} + 4\right)}^{4} e^{x} \right) dx
+= {\left(5 \, e^{x} + 4\right)}^{5} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

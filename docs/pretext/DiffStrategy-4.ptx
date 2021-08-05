@@ -1,0 +1,23 @@
+<exercise checkit-seed="0004" checkit-slug="DiffStrategy" checkit-title="Differentiation strategy">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>h(w) = \left( \frac{w - 4}{5 \, w^{2} - 2} \right)^4 </me></li>
+            <li><me>f(x) = \sqrt{\cos\left(4 \, x^{4} - 4\right)}  </me></li>
+            <li><me>g(t) = {\left(4 \, t^{2} + 5\right)}^{3} t^{\frac{1}{4}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h'(w) =  4 \left( \frac{w - 4}{5 \, w^{2} - 2} \right)^3 \left( -\frac{10 \, {\left(w - 4\right)} w}{{\left(5 \, w^{2} - 2\right)}^{2}} + \frac{1}{5 \, w^{2} - 2} \right) </me></li>
+            <li><me>f'(x) = -\frac{8 \, x^{3} \sin\left(4 \, x^{4} - 4\right)}{\sqrt{\cos\left(4 \, x^{4} - 4\right)}} </me></li>
+            <li><me>g'(t) = 24 \, {\left(4 \, t^{2} + 5\right)}^{2} t^{\frac{5}{4}} + \frac{{\left(4 \, t^{2} + 5\right)}^{3}}{4 \, t^{\frac{3}{4}}} </me></li>
+        </ol>
+
+    </answer>
+</exercise>

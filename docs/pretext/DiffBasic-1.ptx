@@ -1,0 +1,23 @@
+<exercise checkit-seed="0001" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>g(t) = -4 \, t^{6} - 6 \, t^{2} - 2 </me></li>
+            <li><me>h(y) = \sqrt[2]{  y^{ 3 } } + \frac{ 2 } { y ^2} </me></li>
+            <li><me>f(y) = \cos\left(y\right) - 6 \, e^{y}</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g'(t) =  -24 \, t^{5} - 12 \, t </me></li>
+            <li><me>h'(y) = \sqrt{y} - \frac{4}{y^{3}}</me></li>
+            <li><me>f'(y) = -6 \, e^{y} - \sin\left(y\right)</me></li>
+        </ol>
+
+    </answer>
+</exercise>

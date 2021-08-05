@@ -1,0 +1,39 @@
+<exercise checkit-seed="0002" checkit-slug="AppDiffIncDec" checkit-title="Derivative tests">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+Explain how to find the following for the function <m>f(x)=-x^{3} + \frac{33}{2} \, x^{2} - 72 \, x + 3</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+The open intervals where <m>f(x)</m> is increasing or decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+The relative extrema of <m>f(x)</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function decreases on <m>(-\infty,3)</m>,
+increases on <m>(3,8)</m>, and decreases on
+<m>(8,\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=(3,-\frac{183}{2})</m> is a relative minimum,
+and the point <m>(x,y)=(8,-29)</m> is a relative maximum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

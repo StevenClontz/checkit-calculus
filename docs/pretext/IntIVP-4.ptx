@@ -1,0 +1,13 @@
+<exercise checkit-seed="0004" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=-6 \, x^{2} + 6 \, x </m>. Find <m>f(x)</m> such that <m>f(4)=-77</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>-2 \, x^{3} + 3 \, x^{2} + 3</me>
+        </p>
+    </answer>
+</exercise>

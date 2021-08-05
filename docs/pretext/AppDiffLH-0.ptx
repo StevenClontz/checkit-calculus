@@ -1,0 +1,72 @@
+<exercise checkit-seed="0000" checkit-slug="AppDiffLH" checkit-title="L'H&#244;pital's Rule">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each limit, explain if L'H&#244;pital's Rule may be applied.
+If it can, explain how to use this rule to find the limit.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -9 \, \sin\left(7 \, x\right) }{ 3 \, x }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ 9 \, x^{2} + 3 \, x - 5 }{ -2 \, x^{3} + 8 \, x - 8 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 8 } \frac{ x^{2} - 17 \, x + 72 }{ x^{2} - 11 \, x + 24 }
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ 4 \, \cos\left(8 \, x\right) }{ 2 \, x - 5 }
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+         <ol>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 0 } \frac{ -9 \, \sin\left(7 \, x\right) }{ 3 \, x } = -21
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to \infty } \frac{ 9 \, x^{2} + 3 \, x - 5 }{ -2 \, x^{3} + 8 \, x - 8 } = 0
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\lim_{x\to 8 } \frac{ x^{2} - 17 \, x + 72 }{ x^{2} - 11 \, x + 24 } = -\frac{1}{5}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+L'H&#244;ptial's Rule does not apply.
+                    </p>
+                </li>
+        </ol>
+    </answer>
+</exercise>

@@ -1,0 +1,43 @@
+<exercise checkit-seed="0002" checkit-slug="IntSub" checkit-title="Substitution method">
+    <statement>
+        <p>
+Expain how to find each of the below indefinite integrals.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -5 \, z \sqrt{z - 4} \right) dz
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{24 \, {\left(\log\left(y\right) - 9\right)}^{2}}{y} \right) dy
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <p>
+                    <me>
+\int \left( -5 \, z \sqrt{z - 4} \right) dz
+= -2 \, {\left(z - 4\right)}^{\frac{5}{2}} - \frac{40}{3} \, {\left(z - 4\right)}^{\frac{3}{2}} + C
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <me>
+\int \left( \frac{24 \, {\left(\log\left(y\right) - 9\right)}^{2}}{y} \right) dy
+= 8 \, {\left(\log\left(y\right) - 9\right)}^{3} + C
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

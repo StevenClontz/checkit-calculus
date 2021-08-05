@@ -1,0 +1,22 @@
+<exercise checkit-seed="0005" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>-5 \, x^{3} - 9 \, x - 6</me></li>
+                <li><me>\frac{1}{6 \, x^{3}}</me></li>
+                <li><me>10 \, \sin\left(x\right)</me></li>
+                <li><me>6 \, \sec\left(x\right) \tan\left(x\right)</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>-\frac{5}{4} \, x^{4} - \frac{9}{2} \, x^{2} - 6 \, x+C</me></p></li>
+                <li><p><me>-\frac{1}{12 \, x^{2}}+C</me></p></li>
+                <li><p><me>-10 \, \cos\left(x\right)+C</me></p></li>
+                <li><p><me>\frac{6}{\cos\left(x\right)}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

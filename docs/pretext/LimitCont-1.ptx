@@ -1,0 +1,34 @@
+<exercise checkit-seed="0001" checkit-slug="LimitCont" checkit-title="Continuity">
+    <statement>
+        <ol>
+            <li>
+                <p>Determine the value of <m>b</m> to make <m>h(x)</m> continuous at <m>x=4</m>.</p>
+                <p>
+                    <me>
+                        h(x) = \begin{cases}
+                        b x + \frac{12}{5}, &amp; x \leq 4 \\\
+                        -x^{2} + 12 \, x - 28, &amp; x &gt; 4
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>The function <m>f(x)</m> is discontinuous at <m>x=2</m>. Determine if <m>f(x)</m> is left- or right-continuous and classify the type of discontinuity present at <m>x=2</m>.</p>
+                <p>
+                    <me>
+                        f(x) = \begin{cases}
+                        -\frac{1}{2} \, x + 7, &amp; x &lt; 2 \\\
+                        \frac{x - 4}{x^{2}}, &amp; x \geq 2
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>To make <m>h(x)</m> continuous at <m>x=4</m>, let <m>b=\frac{2}{5}</m>.</li>
+            <li>The function <m>f(x)</m> has a jump discontinuity and is right-continuous at <m>x=2</m>.</li>
+        </ol>
+    </answer>
+</exercise>

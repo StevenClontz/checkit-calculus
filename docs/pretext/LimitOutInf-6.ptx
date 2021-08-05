@@ -1,0 +1,13 @@
+<exercise checkit-seed="0006" checkit-slug="LimitOutInf" checkit-title="Limits with infinite outputs">
+    <statement>
+        <p>
+Explain how to find the value of the given limit at each side.
+Then explain how to find the value of the given limit itself.
+        </p>
+                <me>\lim_{x\to-4 } \frac{{\left(x - 2\right)} {\left(x - 4\right)}^{2}}{{\left(x + 4\right)} {\left(x + 3\right)}^{3}}</me>
+    </statement>
+    <answer>
+<me>\lim_{x\to-4^-} \frac{{\left(x - 2\right)} {\left(x - 4\right)}^{2}}{{\left(x + 4\right)} {\left(x + 3\right)}^{3}} = -\infty</me>
+<me>\lim_{x\to-4^+} \frac{{\left(x - 2\right)} {\left(x - 4\right)}^{2}}{{\left(x + 4\right)} {\left(x + 3\right)}^{3}} = +\infty</me>
+    </answer>
+</exercise>

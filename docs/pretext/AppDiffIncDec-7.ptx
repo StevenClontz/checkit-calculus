@@ -1,0 +1,39 @@
+<exercise checkit-seed="0007" checkit-slug="AppDiffIncDec" checkit-title="Derivative tests">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+Explain how to find the following for the function <m>f(x)=x^{3} - 6 \, x^{2} - 9</m>.
+        </p>
+        <ol>
+            <li>
+                <p>
+The open intervals where <m>f(x)</m> is increasing or decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+The relative extrema of <m>f(x)</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+            <li>
+                <p>
+The function increases on <m>(-\infty,0)</m>,
+decreases on <m>(0,4)</m>, and increases on
+<m>(4,\infty)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+The point <m>(x,y)=(0,-9)</m> is a relative maximum,
+and the point <m>(x,y)=(4,-41)</m> is a relative minimum.
+                </p>
+            </li>
+        </ol>
+    </answer>
+</exercise>

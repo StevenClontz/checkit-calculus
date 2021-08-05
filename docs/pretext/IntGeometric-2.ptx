@@ -1,0 +1,22 @@
+<exercise checkit-seed="0002" checkit-slug="IntGeometric" checkit-title="Geometry of definite integrals">
+    <statement>
+        <p>
+            Explain how to use geometric formulas for area to compute the following definite
+  integrals. For each part, sketch the function to support your explanation.
+         <ol>
+                <li><me>\int_{ 2 }^{ 4 }\left(-\frac{3}{2} \, x + 3\right)dx</me></li>
+                <li><me>\int_{ -2 }^{ 6 }\left(-\frac{3}{2} \, x + 3\right)dx</me></li>
+                <li><me>\int_{ -4 }^{ 2 }\left(\sqrt{-{\left(x - 2\right)}^{2} + 36}\right)dx</me></li>
+        </ol>
+        </p>
+    </statement>
+    <answer>
+<p>
+    <ol>
+            <li><p><m>-3</m></p></li>
+            <li><p><m>0</m></p></li>
+            <li><p><m>9 \, \pi</m></p></li>
+    </ol>
+</p>
+    </answer>
+</exercise>

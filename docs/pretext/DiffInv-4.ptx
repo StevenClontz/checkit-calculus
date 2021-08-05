@@ -1,0 +1,22 @@
+<exercise checkit-seed="0004" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>m(v)= \log\left(-4 \, \arcsin\left(v\right) + 9 \, \arctan\left(v\right)\right)</me></li>
+            <li><me>k(u)= 4 \, \arcsin\left(u\right) \log\left(u^{3} - 7\right)</me></li>
+            <li><me>h(x)= \frac{\arctan\left(-4 \, x\right)}{\log\left(-4 \, x\right)}</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>m' (v)= \frac{\frac{4}{\sqrt{-v^{2} + 1}} - \frac{9}{v^{2} + 1}}{4 \, \arcsin\left(v\right) - 9 \, \arctan\left(v\right)}</me></li>
+            <li><me>k' (u)= \frac{12 \, u^{2} \arcsin\left(u\right)}{u^{3} - 7} + \frac{4 \, \log\left(u^{3} - 7\right)}{\sqrt{-u^{2} + 1}}</me></li>
+            <li><me>h' (x)= -\frac{\arctan\left(-4 \, x\right)}{x \log\left(-4 \, x\right)^{2}} - \frac{4}{{\left(16 \, x^{2} + 1\right)} \log\left(-4 \, x\right)}</me></li>
+        </ol>
+    </answer>
+</exercise>

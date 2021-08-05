@@ -1,0 +1,22 @@
+<exercise checkit-seed="0008" checkit-slug="AppDiffRelRates" checkit-title="Related rates">
+
+
+
+
+
+
+
+
+            <statement>
+                <p>
+                    Suppose a car was <m>35</m> miles east of a town, traveling east at <m>55</m> mph.  A second car was <m>70</m> miles north of the same town, traveling south at <m>65</m> mph.  At this exact moment, how fast is the distance between the cars changing?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\frac{ -2625 }{ 35 \, \sqrt{5} }\approx -33.54</m> mph.
+                </p>
+            </answer>
+
+
+</exercise>

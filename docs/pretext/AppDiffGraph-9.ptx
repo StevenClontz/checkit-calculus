@@ -1,0 +1,74 @@
+<exercise checkit-seed="0009" checkit-slug="AppDiffGraph" checkit-title="Graphing with derivatives">
+    <statement>
+        <p>
+The following chart describes the values of <m>f(x)</m> and its
+first and second derivatives at or between a few given values of <m>x</m>.
+        </p>
+        <p>
+        <me>
+\begin{array}{c|ccccccccccccccccccc}
+x
+        &amp; &amp; -11
+            &amp; &amp; -8
+            &amp; &amp; -5
+            &amp; &amp; -2
+            &amp; &amp; 0
+            &amp; &amp; 3
+            &amp; &amp; 6
+            &amp; &amp; 8
+            &amp; &amp; 11
+     \\\hline
+f(x)
+        &amp; &amp; 2
+            &amp; &amp; 1
+            &amp; &amp; DNE
+            &amp; &amp; 1
+            &amp; &amp; DNE
+            &amp; &amp; -3
+            &amp; &amp; DNE
+            &amp; &amp; -1
+            &amp; &amp; 0
+     \\
+f'(x)
+        &amp; - &amp;
+            &amp; - &amp;
+            &amp; - &amp;
+            &amp; + &amp;
+            &amp; - &amp;
+            &amp; + &amp;
+            &amp; + &amp;
+            &amp; - &amp;
+            &amp; + &amp;
+            &amp; + &amp;
+     \\
+f''(x)
+        &amp; - &amp;
+            &amp; - &amp;
+            &amp; - &amp;
+            &amp; - &amp;
+            &amp; - &amp;
+            &amp; - &amp;
+            &amp; + &amp;
+            &amp; + &amp;
+            &amp; + &amp;
+            &amp; - &amp;
+     \\
+\end{array}
+        </me>
+        </p>
+        <p>
+Assume that <m>f(x)</m> has vertical asymptotes at each
+<m>x</m>-value where <m>f(x)</m> does not exist, that
+<m>\lim_{x\to-\infty}f(x)= 3</m>, and that
+<m>\lim_{x\to\infty}f(x)= 2</m>.
+        </p>
+        <p>
+Use this information to sketch a reasonable graph of <m>f(x)</m>.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            (Answer not available.)
+        </p>
+    </answer>
+</exercise>

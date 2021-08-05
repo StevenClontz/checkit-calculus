@@ -1,0 +1,34 @@
+<exercise checkit-seed="0003" checkit-slug="LimitCont" checkit-title="Continuity">
+    <statement>
+        <ol>
+            <li>
+                <p>Determine the value of <m>b</m> to make <m>f(x)</m> continuous at <m>x=5</m>.</p>
+                <p>
+                    <me>
+                        f(x) = \begin{cases}
+                        \frac{b x^{2} - 3 \, b x - 6 \, x + 18}{x - 1}, &amp; x &lt; 5 \\\
+                        -3 \, x + 17, &amp; x \geq 5
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>The function <m>h(x)</m> is discontinuous at <m>x=3</m>. Determine if <m>h(x)</m> is left- or right-continuous and classify the type of discontinuity present at <m>x=3</m>.</p>
+                <p>
+                    <me>
+                        h(x) = \begin{cases}
+                        \frac{3}{2} \, x - \frac{31}{6}, &amp; x \leq 3 \\\
+                        \frac{x^{2} - 4 \, x + 3}{x^{2} - 9 \, x + 18}, &amp; x &gt; 3
+                        \end{cases}
+                    </me>
+                </p>
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>To make <m>f(x)</m> continuous at <m>x=5</m>, let <m>b=2</m>.</li>
+            <li>The function <m>h(x)</m> has a removable discontinuity and is left-continuous at <m>x=3</m>.</li>
+        </ol>
+    </answer>
+</exercise>

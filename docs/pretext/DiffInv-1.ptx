@@ -1,0 +1,22 @@
+<exercise checkit-seed="0001" checkit-slug="DiffInv" checkit-title="Inverse differentiation">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>j(x)= \log\left(4 \, \arcsin\left(x\right) - 2 \, \arctan\left(x\right)\right)</me></li>
+            <li><me>n(w)= \frac{\arctan\left(-8 \, w\right)}{\log\left(-4 \, w\right)}</me></li>
+            <li><me>k(v)= 9 \, \arcsin\left(v\right) \log\left(v^{6} + 4\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>j' (x)= \frac{\frac{2}{\sqrt{-x^{2} + 1}} - \frac{1}{x^{2} + 1}}{2 \, \arcsin\left(x\right) - \arctan\left(x\right)}</me></li>
+            <li><me>n' (w)= -\frac{\arctan\left(-8 \, w\right)}{w \log\left(-4 \, w\right)^{2}} - \frac{8}{{\left(64 \, w^{2} + 1\right)} \log\left(-4 \, w\right)}</me></li>
+            <li><me>k' (v)= \frac{54 \, v^{5} \arcsin\left(v\right)}{v^{6} + 4} + \frac{9 \, \log\left(v^{6} + 4\right)}{\sqrt{-v^{2} + 1}}</me></li>
+        </ol>
+    </answer>
+</exercise>

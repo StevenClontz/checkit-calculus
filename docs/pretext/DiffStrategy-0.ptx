@@ -1,0 +1,23 @@
+<exercise checkit-seed="0000" checkit-slug="DiffStrategy" checkit-title="Differentiation strategy">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>g(y) = \left( \frac{2 \, y^{3} + 1}{y^{2} - 2} \right)^4 </me></li>
+            <li><me>f(x) = \sqrt{\cos\left(3 \, x^{3} + 2\right)}  </me></li>
+            <li><me>h(w) = w^{\frac{37}{4}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>g'(y) =  4 \left( \frac{2 \, y^{3} + 1}{y^{2} - 2} \right)^3 \left( \frac{6 \, y^{2}}{y^{2} - 2} - \frac{2 \, {\left(2 \, y^{3} + 1\right)} y}{{\left(y^{2} - 2\right)}^{2}} \right) </me></li>
+            <li><me>f'(x) = -\frac{9 \, x^{2} \sin\left(3 \, x^{3} + 2\right)}{2 \, \sqrt{\cos\left(3 \, x^{3} + 2\right)}} </me></li>
+            <li><me>h'(w) = \frac{37}{4} \, w^{\frac{33}{4}} </me></li>
+        </ol>
+
+    </answer>
+</exercise>

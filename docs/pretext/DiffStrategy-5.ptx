@@ -1,0 +1,23 @@
+<exercise checkit-seed="0005" checkit-slug="DiffStrategy" checkit-title="Differentiation strategy">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>h(y) = \left( \frac{3 \, {\left(y - 2\right)}}{2 \, {\left(y^{6} + 1\right)}} \right)^6 </me></li>
+            <li><me>f(w) = \sqrt{\cos\left(5 \, w^{2} - 6 \, w\right)}  </me></li>
+            <li><me>g(x) = {\left(3 \, x^{2} + 5 \, x\right)} x^{\frac{1}{4}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h'(y) =  6 \left( \frac{3 \, {\left(y - 2\right)}}{2 \, {\left(y^{6} + 1\right)}} \right)^5 \left( -\frac{9 \, {\left(y - 2\right)} y^{5}}{{\left(y^{6} + 1\right)}^{2}} + \frac{3}{2 \, {\left(y^{6} + 1\right)}} \right) </me></li>
+            <li><me>f'(w) = -\frac{{\left(5 \, w - 3\right)} \sin\left(5 \, w^{2} - 6 \, w\right)}{\sqrt{\cos\left(5 \, w^{2} - 6 \, w\right)}} </me></li>
+            <li><me>g'(x) = {\left(6 \, x + 5\right)} x^{\frac{1}{4}} + \frac{3 \, x^{2} + 5 \, x}{4 \, x^{\frac{3}{4}}} </me></li>
+        </ol>
+
+    </answer>
+</exercise>

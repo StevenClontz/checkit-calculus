@@ -1,0 +1,22 @@
+<exercise checkit-seed="0004" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>-3 \, x^{4} + x^{2} - 9 \, x</me></li>
+                <li><me>\frac{10}{x}</me></li>
+                <li><me>\frac{5}{x^{\frac{1}{8}}}</me></li>
+                <li><me>2 \, \sec\left(x\right) \tan\left(x\right)</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>-\frac{3}{5} \, x^{5} + \frac{1}{3} \, x^{3} - \frac{9}{2} \, x^{2}+C</me></p></li>
+                <li><p><me>10 \, \log\left(x\right)+C</me></p></li>
+                <li><p><me>\frac{40}{7} \, x^{\frac{7}{8}}+C</me></p></li>
+                <li><p><me>\frac{2}{\cos\left(x\right)}+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

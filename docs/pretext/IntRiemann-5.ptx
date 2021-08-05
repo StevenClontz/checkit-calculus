@@ -1,0 +1,15 @@
+<exercise checkit-seed="0005" checkit-slug="IntRiemann" checkit-title="Approximating definite integrals">
+    <statement>
+        <p>
+Explain how to approximate the area under the curve
+<m>f(x)=-5 \, x^{3} + 7 \, x^{2} - 4 \, x</m> on the
+interval <m>[3,4]</m> using a right Riemann
+sum with 5 rectangles of uniform width.
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <m>-161</m>
+        </p>
+    </answer>
+</exercise>

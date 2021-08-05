@@ -1,0 +1,107 @@
+<exercise checkit-seed="0006" checkit-slug="AppDiffConcavity" checkit-title="Concavity and inflection">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+For each of the following functions, describe the open intervals
+where it is concave up or concave down, and any inflection points.      
+        </p>
+        <ol>
+                <li>
+                    <p><m>f(x)=\frac{1}{4} \, x^{5} - \frac{10}{3} \, x^{4} + \frac{40}{3} \, x^{3}</m></p>
+                </li>
+                <li>
+                    <p><m>f(x)=-\frac{1}{4} \, x^{5} + \frac{15}{2} \, x^{3}</m></p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+         <ol>
+                <li>
+                    <p><m>f''(x)=5 \, {\left(x - 4\right)}^{2} x</m></p>
+                    <ul>
+                                <li>
+                                    <p>
+<m>(-\infty, 0 )</m> is concave <em>up</em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>0</m>
+<em>is</em>
+
+an inflection point
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>( 0, 4 )</m> is concave <em>down</em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>4</m>
+
+is <em>not</em>
+an inflection point
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>( 4 , \infty )</m> is concave <em>down</em>
+                                    </p>
+                                </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><m>f''(x)=-5 \, {\left(x + 3\right)} {\left(x - 3\right)} x</m></p>
+                    <ul>
+                                <li>
+                                    <p>
+<m>(-\infty, -3 )</m> is concave <em>up</em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>-3</m>
+<em>is</em>
+
+an inflection point
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>( -3 , 0 )</m> is concave <em>down</em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>0</m>
+<em>is</em>
+
+an inflection point
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>( 0 , 3 )</m> is concave <em>up</em>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>3</m>
+<em>is</em>
+
+an inflection point
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+<m>( 3 , \infty )</m> is concave <em>down</em>
+                                    </p>
+                                </li>
+                    </ul>
+                </li>
+        </ol>
+    </answer>
+</exercise>

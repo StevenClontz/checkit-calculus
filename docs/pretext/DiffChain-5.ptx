@@ -1,0 +1,18 @@
+<exercise checkit-seed="0005" checkit-slug="DiffChain" checkit-title="Chain Rule">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li><me>h(w)= 4 \, \cos\left(w\right)^{\frac{2}{7}}</me></li>
+            <li><me>f(y)= -8 \, \log\left(4 \, y^{2} - 3 \, y - 2\right)</me></li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li><me>h' (w)= -\frac{8 \, \sin\left(w\right)}{7 \, \cos\left(w\right)^{\frac{5}{7}}}</me></li>
+            <li><me>f' (y)= -\frac{8 \, {\left(8 \, y - 3\right)}}{4 \, y^{2} - 3 \, y - 2}</me></li>
+        </ol>
+    </answer>
+</exercise>

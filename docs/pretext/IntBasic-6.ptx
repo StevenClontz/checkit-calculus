@@ -1,0 +1,22 @@
+<exercise checkit-seed="0006" checkit-slug="IntBasic" checkit-title="Basic antiderivatives">
+   <statement>
+        <p>
+Explain how to find the general antiderivative for each function.
+        </p>
+        <ol>
+                <li><me>7 \, x^{3} - 4 \, x^{2} - 5 \, x</me></li>
+                <li><me>\frac{6}{x^{4}}</me></li>
+                <li><me>2 \, \cot\left(x\right) \csc\left(x\right)</me></li>
+                <li><me>9 \, \cos\left(x\right)</me></li>
+        </ol>
+    </statement>
+
+    <answer>
+        <ol>
+                <li><p><me>\frac{7}{4} \, x^{4} - \frac{4}{3} \, x^{3} - \frac{5}{2} \, x^{2}+C</me></p></li>
+                <li><p><me>-\frac{2}{x^{3}}+C</me></p></li>
+                <li><p><me>-\frac{2}{\sin\left(x\right)}+C</me></p></li>
+                <li><p><me>9 \, \sin\left(x\right)+C</me></p></li>
+        </ol>
+    </answer>
+</exercise>

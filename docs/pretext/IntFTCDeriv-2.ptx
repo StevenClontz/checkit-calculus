@@ -1,0 +1,49 @@
+<exercise checkit-seed="0002" checkit-slug="IntFTCDeriv" checkit-title="FTC for Derivatives">
+    <!-- The contents of <statement></statement> should specify
+         the task you wish them to complete. -->
+    <statement>
+        <p>
+            Demonstrate and explain how to evaluate the derivative for each of the following definite integrals using the Fundamental Theorem of Calculus.
+        </p>
+        <ol>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 1 }^{ x^{2} + 4 } \left( \sin\left(\log\left(t\right) + 1\right) \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ x }^{ 5 } \left( 8 \, {\left(\log\left(t\right) - 9\right)}^{3} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ 4 }^{ x } \left( 5 \, e^{\left(2 \, \cos\left(t\right) + 9\right)} \right) dt
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <me>
+\frac{d}{dx} \int_{ \sin\left(x\right) + 8 }^{ 1 } \left( 8 \, {\left(\log\left(t\right) - 9\right)}^{3} \right) dt
+                        </me>
+                    </p>
+                </li>
+        </ol>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+                <li><p><me>2 \, x \sin\left(\log\left(x^{2} + 4\right) + 1\right)</me></p></li>
+                <li><p><me>-8 \, {\left(\log\left(x\right) - 9\right)}^{3}</me></p></li>
+                <li><p><me>5 \, e^{\left(2 \, \cos\left(x\right) + 9\right)}</me></p></li>
+                <li><p><me>-8 \, {\left(\log\left(\sin\left(x\right) + 8\right) - 9\right)}^{3} \cos\left(x\right)</me></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

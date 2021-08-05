@@ -1,0 +1,23 @@
+<exercise checkit-seed="0007" checkit-slug="DiffBasic" checkit-title="Basic derivative rules">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>f(t) = 4 \, t^{6} - 3 \, t </me></li>
+            <li><me>g(w) = \sqrt[3]{  w^{ 11 } } + \frac{ 2 } { w ^2} </me></li>
+            <li><me>h(t) = \cos\left(t\right) + \log\left(t\right)</me></li>
+        </ol>
+
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>f'(t) =  24 \, t^{5} - 3 </me></li>
+            <li><me>g'(w) = w^{\frac{8}{3}} - \frac{4}{w^{3}}</me></li>
+            <li><me>h'(t) = -\frac{t \sin\left(t\right) - 1}{t}</me></li>
+        </ol>
+
+    </answer>
+</exercise>

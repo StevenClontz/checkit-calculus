@@ -1,0 +1,13 @@
+<exercise checkit-seed="0001" checkit-slug="IntIVP" checkit-title="Initial Value Problems">
+   <statement>
+        <p>
+           Let <m> f'(x)=12 \, x^{2} + 1 </m>. Find <m>f(x)</m> such that <m>f(-1)=6</m>. 
+        </p>
+    </statement>
+
+    <answer>
+        <p>
+            <me>4 \, x^{3} + x + 11</me>
+        </p>
+    </answer>
+</exercise>
