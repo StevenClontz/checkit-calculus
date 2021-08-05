@@ -2,17 +2,56 @@
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
         <p>
-Explain how to find the value of the given limit at each side.
-Then explain how to find the value of the given limit itself.
+Explain how to find the value of each limit.
         </p>
+        <ol>
             {{#limitsonesided}}
-                <me>\lim_{x\to{{a}} } {{f}}</me>
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}}^- } {{f}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}}^+ } {{f}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}} } {{f}}</me>
+                </p>
+            </li>
             {{/limitsonesided}}
+        </ol>
     </statement>
     <answer>
+        <ol>
             {{#limitsonesided}}
-<me>\lim_{x\to{{a}}^-} {{f}} = {{limitleft}}</me>
-<me>\lim_{x\to{{a}}^+} {{f}} = {{limitright}}</me>
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}}^- } {{f}}={{limitleft}}</me>
+                </p>
+            </li>
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}}^+ } {{f}}={{limitright}}</me>
+                </p>
+            </li>
+            {{#same_limits}}
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}} } {{f}}={{limitright}}</me>
+                </p>
+            </li>
+            {{/same_limits}}
+            {{^same_limits}}
+            <li>
+                <p> 
+                    <me>\lim_{x\to{{a}} } {{f}} \text{ does not exist }</me>
+                </p>
+            </li>
+            {{/same_limits}}
             {{/limitsonesided}}
+        </ol>
     </answer>
 </exercise>

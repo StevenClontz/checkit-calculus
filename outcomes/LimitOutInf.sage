@@ -17,9 +17,16 @@ def generator():
     # Calculuate left- and right-hand limits
     limleftf3 = limit(f3, x=a3, dir='-')
     limrightf3 = limit(f3, x=a3, dir='+')
+    same_limits = bool(limleftf3==limrightf3)
 
     limitsonesided = [
-        {"f":f3,"a":a3,"limitleft":limleftf3,"limitright":limrightf3},
+        {
+          "f":f3,
+          "a":a3,
+          "limitleft":limleftf3,
+          "limitright":limrightf3,
+          "same_limits": same_limits,
+        },
     ]
 
     return {
