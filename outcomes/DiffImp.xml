@@ -1,17 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
-    <!-- The contents of <statement></statement> should specify
-         the task you wish them to complete. -->
     <statement>
         <p>
-            Say hello <m>{{number}}</m> times.
+Explain how to use implicit differentiation to find
+<m>\frac{dy}{dx}</m> for each of the following equations.
         </p>
+        <ol>
+            {{#equations}}
+                <li><p><me>{{equation}}</me></p></li>
+            {{/equations}}
+        </ol>
     </statement>
-    <!-- The contents of <answer></answer> summarize the
-         "final answer" related to this task. -->
     <answer>
-        <p>
-            {{hellos}}
-        </p>
+        <ol>
+            {{#equations}}
+                <li><p><me>\frac{dy}{dx}={{yp}}</me></p></li>
+            {{/equations}}
+        </ol>
     </answer>
 </exercise>

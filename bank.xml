@@ -62,7 +62,7 @@
       <slug>DiffChain</slug>
       <description>Compute derivatives using the Chain Rule.</description>
     </outcome>
-    <outcome><!-- Guillermo -->
+    <outcome><!-- done -->
       <title>Implicit differentiation</title>
       <slug>DiffImp</slug>
       <description>Find derivatives of implicitly-defined
@@ -120,7 +120,7 @@
       <description>Determine the intervals of concavity of a function and find
       all of its points of inflection.</description>
     </outcome>
-    <outcome><!-- Steven -->
+    <outcome><!-- done -->
       <title>Graphing with derivatives</title>
       <slug>AppDiffGraph</slug>
       <description>Use derivatives to analytically graph
