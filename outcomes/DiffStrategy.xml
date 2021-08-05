@@ -6,18 +6,42 @@
             Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
         </p>
         <ol>
-            <li> <me>{{fn1}}({{xp}}) = \left( {{f1}} \right)^{{exp_f1}} </me></li>
+            <!-- <li> <me>{{fn1}}({{xp}}) = \left( {{f1}} \right)^{{exp_f1}} </me></li>
             <li><me>{{fn2}}({{xe}}) = {{f2}}  </me></li>
-            <li><me>{{fn3}}({{xt}}) = {{f3}}</me></li>
+            <li><me>{{fn3}}({{xt}}) = {{f3}}</me></li> -->
+            {{#functions}}
+                {{#frac}}
+                    <li><p><me>
+                        {{fn}}({{x}}) = \left( {{frac}} \right)^{ {{exp}} }
+                    </me></p></li>
+                {{/frac}}
+                {{^frac}}
+                    <li><p><me>{{fn}}({{x}}) = {{f}}</me></p></li>
+                {{/frac}}
+            {{/functions}}
         </ol>
         
 
     </statement>
     <answer>
         <ol>
-            <li><me>{{fn1}}&apos;({{xp}}) =  {{exp_f1}} \left( {{f1}} \right)^{{exp_f1_}} \left( {{df1_p1}} \right) </me></li>
+            <!-- <li><me>{{fn1}}&apos;({{xp}}) =  {{exp_f1}} \left( {{f1}} \right)^{{exp_f1_}} \left( {{df1_p1}} \right) </me></li>
             <li><me>{{fn2}}&apos;({{xe}}) = {{df2}} </me></li>
-            <li><me>{{fn3}}&apos;({{xt}}) = {{df3}} </me></li>
+            <li><me>{{fn3}}&apos;({{xt}}) = {{df3}} </me></li> -->
+            {{#functions}}
+            {{/functions}}
+            {{#functions}}
+                {{#frac}}
+                    <li><p><me>
+                        {{fn}} ' ({{x}}) = {{exp}}
+                        \left( {{frac}} \right)^{ {{exp_m1}} }
+                        \left( {{dfrac}} \right)
+                    </me></p></li>
+                {{/frac}}
+                {{^frac}}
+                    <li><p><me>{{fn}} ' ({{x}}) = {{df}}</me></p></li>
+                {{/frac}}
+            {{/functions}}
         </ol>
 
     </answer>

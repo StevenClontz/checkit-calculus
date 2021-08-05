@@ -24,9 +24,19 @@ def generator():
     x3 = listvars[2]
     
     ## send exponent to xml file separately.  remember to differentiate f1^exp_f1
-    exp_f1 = randint(3,6)
-    f1 = ((randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1]))/(randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1])))
-    f1_ = f1^exp_f1
+    exp = randint(3,6)
+    frac = ((randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1]))/(randint(1,6)*choice([-1,1])*x1^randint(1,6) + randint(1,6)*choice([-1,1])))
+    funcs = [
+        {
+            "fn": functionnames[0],
+            "frac": frac,
+            "dfrac": frac.diff(),
+            "exp": exp,
+            "exp_m1": exp-1,
+            "x":x1,
+            'foo':True,
+        }
+    ]
     
     trig = [
             cos(randint(1,6)*choice([-1,1])*x2^randint(2,4) + randint(1,6)*choice([-1,1])*x2^randint(0,1)),
@@ -34,32 +44,49 @@ def generator():
            ]
     shuffle(trig)
     f2 = sqrt(trig[0])
+    funcs += [
+        {
+            "f": f2,
+            "fn": functionnames[1],
+            "x":x2,
+            "df":f2.diff(),
+        }
+    ]
     
     f3 = x3^(1/randint(2,4)) * (randint(1,6)*x3^randint(1,6) + randint(1,6)*choice([-1,1])*x3^randint(0,6))^randint(1,6)
+    funcs += [
+        {
+            "f": f3,
+            "fn": functionnames[2],
+            "x":x3,
+            "df":f3.diff(),
+        }
+    ]
     
-    df1_p1 = f1.diff()
-    df1 = f1_.diff()
-    df2 = f2.diff()
-    df3 = f3.diff()
+    # df1_p1 = f1.diff()
+    # df1 = f1_.diff()
+    # df2 = f2.diff()
+    # df3 = f3.diff()
 
-    
+    shuffle(funcs)
     return {
-      "f1": f1,
-      "exp_f1": exp_f1,
-      "f2": f2,
-      "f3": f3,
-      "xp": listvars[0],
-      "xe": listvars[1],
-      "xt": listvars[2],
-     "fn1": functionnames[0],
-     "fn2": functionnames[1],
-     "fn3": functionnames[2],
-    "df1":df1,
-        "exp_f1": exp_f1,
-        "exp_f1_": exp_f1 -1,
-        "df1_p1": df1_p1,
-        "df2":df2,
-        "df3":df3,
+        "functions": funcs,
+        # "f1": f1,
+        # "exp_f1": exp_f1,
+        # "f2": f2,
+        # "f3": f3,
+        # "xp": listvars[0],
+        # "xe": listvars[1],
+        # "xt": listvars[2],
+        # "fn1": functionnames[0],
+        # "fn2": functionnames[1],
+        # "fn3": functionnames[2],
+        # "df1":df1,
+        # "exp_f1": exp_f1,
+        # "exp_f1_": exp_f1 -1,
+        # "df1_p1": df1_p1,
+        # "df2":df2,
+        # "df3":df3,
     }
 
 
