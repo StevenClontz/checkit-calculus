@@ -2,11 +2,13 @@
     <statement>
         <p>
 The following chart describes the values of <m>f(x)</m> and its
-first and second derivatives at or between a few given values of <m>x</m>.
+first and second derivatives at or between a few given values of <m>x</m>,
+where <m>\nexists</m> denotes that <m>f(x)</m> does not exist at that value
+of <m>x</m>.
         </p>
         <p>
         <me>
-\begin{array}{c|ccccccccccccccccccc}
+\begin{array}{c|cccccccccccccccccccc}
 x
         &amp; &amp; -10
             &amp; &amp; -8
@@ -21,37 +23,37 @@ x
 f(x)
         &amp; &amp; -2
             &amp; &amp; 0
-            &amp; &amp; DNE
+            &amp; &amp; \nexists
             &amp; &amp; 5
-            &amp; &amp; DNE
+            &amp; &amp; \nexists
             &amp; &amp; 3
-            &amp; &amp; DNE
+            &amp; &amp; \nexists
             &amp; &amp; -5
             &amp; &amp; -3
      \\
-f'(x)
-        &amp; + &amp;
-            &amp; + &amp;
-            &amp; - &amp;
-            &amp; + &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; + &amp;
-            &amp; + &amp;
-            &amp; + &amp;
+f'(x) &amp;
+        + &amp; &amp;
+            + &amp; &amp;
+            - &amp; &amp;
+            + &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            + &amp; &amp;
+            + &amp; &amp;
+            + 
      \\
-f''(x)
-        &amp; + &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; + &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; - &amp;
-            &amp; - &amp;
+f''(x) &amp;
+        + &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            + &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            - &amp; &amp;
+            - 
      \\
 \end{array}
         </me>
