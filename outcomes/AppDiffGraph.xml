@@ -3,26 +3,28 @@
     <statement>
         <p>
 The following chart describes the values of <m>f(x)</m> and its
-first and second derivatives at or between a few given values of <m>x</m>.
+first and second derivatives at or between a few given values of <m>x</m>,
+where <m>\nexists</m> denotes that <m>f(x)</m> does not exist at that value
+of <m>x</m>.
         </p>
         <p>
         <me>
-\begin{array}{c|{{#xs}}cc{{/xs}}c}
+\begin{array}{c|{{#fps}}cc{{/fps}}}
 x
     {{#xs}}
-        &amp; &amp; {{.}}
+        &amp; &amp; {{x}}
     {{/xs}} \\\hline
 f(x)
     {{#fs}}
-        &amp; &amp; {{.}}
+        &amp; &amp; {{f}}
     {{/fs}} \\
-f'(x)
+f'(x) &amp;
     {{#fps}}
-        &amp; {{.}} &amp;
+        {{fp}} {{^last}}&amp; &amp;{{/last}}
     {{/fps}} \\
-f''(x)
+f''(x) &amp;
     {{#fpps}}
-        &amp; {{.}} &amp;
+        {{fpp}} {{^last}}&amp; &amp;{{/last}}
     {{/fpps}} \\
 \end{array}
         </me>

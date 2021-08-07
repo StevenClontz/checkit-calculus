@@ -64,7 +64,7 @@ def generator():
             fpps.append("-")
     
     # asymptote
-    fs.append("DNE")
+    fs.append(r"\nexists")
     
     # middle left of graph
     if middle_humps[0]:
@@ -99,7 +99,7 @@ def generator():
             fpps.append("-")
 
     # asymptote
-    fs.append("DNE")
+    fs.append(r"\nexists")
 
     # middle right of graph
     if middle_humps[1]:
@@ -134,7 +134,7 @@ def generator():
             fpps.append("-")
 
     # asymptote
-    fs.append("DNE")
+    fs.append(r"\nexists")
     
     # far right of graph
     r = randrange(-3,4) #right limit
@@ -180,12 +180,21 @@ def generator():
             fpps.append("+")
             fpps.append("+")
             fpps.append("+")
+            
+    def with_last(l,label):
+        return [
+            {
+                label: item,
+                "last": bool(i==len(l)-1),
+            }
+            for i,item in enumerate(l)
+        ]
 
     return {
-        "xs": xs,
-        "fs": fs,
-        "fps": fps,
-        "fpps": fpps,
+        "xs": with_last(xs,"x"),
+        "fs": with_last(fs,"f"),
+        "fps": with_last(fps,"fp"),
+        "fpps": with_last(fpps,"fpp"),
         "l": l,
         "r": r,
         "asymptotes": asymptotes,
