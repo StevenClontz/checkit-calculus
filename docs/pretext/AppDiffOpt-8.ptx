@@ -1,12 +1,16 @@
 <exercise checkit-seed="0008" checkit-slug="AppDiffOpt" checkit-title="Applied optimization">
     <statement>
         <p>
-            Coming soon...
+A homeowner plans to grow a garden within a rectangular plot
+of land. One side of this rectangle will be against a long exterior wall,
+and the other three sides must be surrounded with 
+<m>440</m> meters
+of fencing. Explain how to compute the maximum area of such a garden.
         </p>
     </statement>
     <answer>
         <p>
-            TBA...
+            <m>24200</m> meters squared.
         </p>
     </answer>
 </exercise>

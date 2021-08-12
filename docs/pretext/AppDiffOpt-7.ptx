@@ -1,12 +1,15 @@
 <exercise checkit-seed="0007" checkit-slug="AppDiffOpt" checkit-title="Applied optimization">
     <statement>
         <p>
-            Coming soon...
+A farmer wishes to corral several animals using <m>600</m> yards
+of fencing. The corral must be rectangular, but one side of this corral 
+can utilize an existing long barn wall rather than the fencing.
+Explain how to compute the maximum area of such a corral.
         </p>
     </statement>
     <answer>
         <p>
-            TBA...
+            <m>45000</m> yards squared.
         </p>
     </answer>
 </exercise>
