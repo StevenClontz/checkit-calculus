@@ -1,13 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <exercise xmlns="https://spatext.clontz.org" version="0.0">
     <statement>
+        {{#garden}}
         <p>
-            Coming soon...
+A homeowner plans to grow a garden within a rectangular plot
+of land. One side of this rectangle will be against a long exterior wall,
+and the other three sides must be surrounded with 
+<m>{{fencing}}</m> {{units}}
+of fencing. Explain how to compute the maximum area of such a garden.
         </p>
+        {{/garden}}
+        {{#corral}}
+        <p>
+A farmer wishes to corral several animals using <m>{{fencing}}</m> {{units}}
+of fencing. The corral must be rectangular, but one side of this corral 
+can utilize an existing long barn wall rather than the fencing.
+Explain how to compute the maximum area of such a corral.
+        </p>
+        {{/corral}}
     </statement>
     <answer>
         <p>
-            TBA...
+            <m>{{area}}</m> {{units}} squared.
         </p>
     </answer>
 </exercise>

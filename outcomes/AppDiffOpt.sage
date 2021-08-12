@@ -1,6 +1,11 @@
 def generator():
-    random_int = randrange(2,10)
+    fencing = 20*randrange(4,31)
+    units = choice(["feet", "meters", "yards"])
+    area = fencing^2/8
+    scenario = choice(["garden", "corral"])
     return {
-        "number": random_int,
-        "hellos": "hello "*random_int,
+        "fencing": fencing,
+        "units": units,
+        "area": area,
+        scenario: True,
     }
