@@ -53,7 +53,11 @@ def generator():
         }
     ]
     
-    f3 = x3^(1/randint(2,4)) * (randint(1,6)*x3^randint(1,6) + randint(1,6)*choice([-1,1])*x3^randint(0,6))^randint(1,6)
+    exps = list(range(1,6))
+    shuffle(exps)
+    primes = [2,3,5,7]
+    shuffle(primes)
+    f3 = x3^(1/randint(2,4)) * (primes[0]*x3^exps[0] + primes[1]*choice([-1,1])*x3^exps[1])^randint(2,6)
     funcs += [
         {
             "f": f3,
