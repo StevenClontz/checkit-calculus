@@ -8,11 +8,11 @@
             <!-- <li> <me>() = \left(  \right)^ </me></li>
             <li><me>() =   </me></li>
             <li><me>() = </me></li> -->
-                    <li><p><me>h(w) = w^{\frac{37}{4}}</me></p></li>
+                    <li><p><me>f(x) = \sqrt{\cos\left(3 \, x^{3} + 2\right)}</me></p></li>
                     <li><p><me>
                         g(y) = \left( \frac{2 \, y^{3} + 1}{y^{2} - 2} \right)^{ 4 }
                     </me></p></li>
-                    <li><p><me>f(x) = \sqrt{\cos\left(3 \, x^{3} + 2\right)}</me></p></li>
+                    <li><p><me>h(w) = {\left(5 \, w^{3} - 7 \, w\right)}^{6} w^{\frac{1}{3}}</me></p></li>
         </ol>
         
 
@@ -22,13 +22,13 @@
             <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
             <li><me>&apos;() =  </me></li>
             <li><me>&apos;() =  </me></li> -->
-                    <li><p><me>h ' (w) = \frac{37}{4} \, w^{\frac{33}{4}}</me></p></li>
+                    <li><p><me>f ' (x) = -\frac{9 \, x^{2} \sin\left(3 \, x^{3} + 2\right)}{2 \, \sqrt{\cos\left(3 \, x^{3} + 2\right)}}</me></p></li>
                     <li><p><me>
                         g ' (y) = 4
                         \left( \frac{2 \, y^{3} + 1}{y^{2} - 2} \right)^{ 3 }
                         \left( \frac{6 \, y^{2}}{y^{2} - 2} - \frac{2 \, {\left(2 \, y^{3} + 1\right)} y}{{\left(y^{2} - 2\right)}^{2}} \right)
                     </me></p></li>
-                    <li><p><me>f ' (x) = -\frac{9 \, x^{2} \sin\left(3 \, x^{3} + 2\right)}{2 \, \sqrt{\cos\left(3 \, x^{3} + 2\right)}}</me></p></li>
+                    <li><p><me>h ' (w) = 6 \, {\left(5 \, w^{3} - 7 \, w\right)}^{5} {\left(15 \, w^{2} - 7\right)} w^{\frac{1}{3}} + \frac{{\left(5 \, w^{3} - 7 \, w\right)}^{6}}{3 \, w^{\frac{2}{3}}}</me></p></li>
         </ol>
 
     </answer>

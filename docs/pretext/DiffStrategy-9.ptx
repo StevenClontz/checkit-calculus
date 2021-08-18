@@ -8,11 +8,11 @@
             <!-- <li> <me>() = \left(  \right)^ </me></li>
             <li><me>() =   </me></li>
             <li><me>() = </me></li> -->
+                    <li><p><me>f(w) = \sqrt{\sin\left(-4 \, w^{4} - 3 \, w\right)}</me></p></li>
                     <li><p><me>
                         h(x) = \left( \frac{3 \, {\left(x^{6} - 1\right)}}{5 \, x^{6} + 6} \right)^{ 5 }
                     </me></p></li>
-                    <li><p><me>g(t) = {\left(5 \, t^{6} - 6 \, t^{2}\right)}^{5} \sqrt{t}</me></p></li>
-                    <li><p><me>f(w) = \sqrt{\sin\left(-4 \, w^{4} - 3 \, w\right)}</me></p></li>
+                    <li><p><me>g(t) = {\left(2 \, t^{4} + 3 \, t^{3}\right)}^{6} \sqrt{t}</me></p></li>
         </ol>
         
 
@@ -22,13 +22,13 @@
             <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
             <li><me>&apos;() =  </me></li>
             <li><me>&apos;() =  </me></li> -->
+                    <li><p><me>f ' (w) = -\frac{{\left(16 \, w^{3} + 3\right)} \cos\left(-4 \, w^{4} - 3 \, w\right)}{2 \, \sqrt{\sin\left(-4 \, w^{4} - 3 \, w\right)}}</me></p></li>
                     <li><p><me>
                         h ' (x) = 5
                         \left( \frac{3 \, {\left(x^{6} - 1\right)}}{5 \, x^{6} + 6} \right)^{ 4 }
                         \left( \frac{18 \, x^{5}}{5 \, x^{6} + 6} - \frac{90 \, {\left(x^{6} - 1\right)} x^{5}}{{\left(5 \, x^{6} + 6\right)}^{2}} \right)
                     </me></p></li>
-                    <li><p><me>g ' (t) = 30 \, {\left(5 \, t^{6} - 6 \, t^{2}\right)}^{4} {\left(5 \, t^{5} - 2 \, t\right)} \sqrt{t} + \frac{{\left(5 \, t^{6} - 6 \, t^{2}\right)}^{5}}{2 \, \sqrt{t}}</me></p></li>
-                    <li><p><me>f ' (w) = -\frac{{\left(16 \, w^{3} + 3\right)} \cos\left(-4 \, w^{4} - 3 \, w\right)}{2 \, \sqrt{\sin\left(-4 \, w^{4} - 3 \, w\right)}}</me></p></li>
+                    <li><p><me>g ' (t) = 6 \, {\left(2 \, t^{4} + 3 \, t^{3}\right)}^{5} {\left(8 \, t^{3} + 9 \, t^{2}\right)} \sqrt{t} + \frac{{\left(2 \, t^{4} + 3 \, t^{3}\right)}^{6}}{2 \, \sqrt{t}}</me></p></li>
         </ol>
 
     </answer>

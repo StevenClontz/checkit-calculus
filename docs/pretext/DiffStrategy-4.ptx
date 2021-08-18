@@ -8,11 +8,11 @@
             <!-- <li> <me>() = \left(  \right)^ </me></li>
             <li><me>() =   </me></li>
             <li><me>() = </me></li> -->
-                    <li><p><me>g(t) = {\left(4 \, t^{2} + 5\right)}^{3} t^{\frac{1}{4}}</me></p></li>
+                    <li><p><me>f(x) = \sqrt{\cos\left(4 \, x^{4} - 4\right)}</me></p></li>
+                    <li><p><me>g(t) = {\left(7 \, t^{3} - 5 \, t^{2}\right)}^{2} \sqrt{t}</me></p></li>
                     <li><p><me>
                         h(w) = \left( \frac{w - 4}{5 \, w^{2} - 2} \right)^{ 4 }
                     </me></p></li>
-                    <li><p><me>f(x) = \sqrt{\cos\left(4 \, x^{4} - 4\right)}</me></p></li>
         </ol>
         
 
@@ -22,13 +22,13 @@
             <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
             <li><me>&apos;() =  </me></li>
             <li><me>&apos;() =  </me></li> -->
-                    <li><p><me>g ' (t) = 24 \, {\left(4 \, t^{2} + 5\right)}^{2} t^{\frac{5}{4}} + \frac{{\left(4 \, t^{2} + 5\right)}^{3}}{4 \, t^{\frac{3}{4}}}</me></p></li>
+                    <li><p><me>f ' (x) = -\frac{8 \, x^{3} \sin\left(4 \, x^{4} - 4\right)}{\sqrt{\cos\left(4 \, x^{4} - 4\right)}}</me></p></li>
+                    <li><p><me>g ' (t) = 2 \, {\left(7 \, t^{3} - 5 \, t^{2}\right)} {\left(21 \, t^{2} - 10 \, t\right)} \sqrt{t} + \frac{{\left(7 \, t^{3} - 5 \, t^{2}\right)}^{2}}{2 \, \sqrt{t}}</me></p></li>
                     <li><p><me>
                         h ' (w) = 4
                         \left( \frac{w - 4}{5 \, w^{2} - 2} \right)^{ 3 }
                         \left( -\frac{10 \, {\left(w - 4\right)} w}{{\left(5 \, w^{2} - 2\right)}^{2}} + \frac{1}{5 \, w^{2} - 2} \right)
                     </me></p></li>
-                    <li><p><me>f ' (x) = -\frac{8 \, x^{3} \sin\left(4 \, x^{4} - 4\right)}{\sqrt{\cos\left(4 \, x^{4} - 4\right)}}</me></p></li>
         </ol>
 
     </answer>

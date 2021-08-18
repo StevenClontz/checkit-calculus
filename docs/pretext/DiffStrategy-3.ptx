@@ -8,11 +8,11 @@
             <!-- <li> <me>() = \left(  \right)^ </me></li>
             <li><me>() =   </me></li>
             <li><me>() = </me></li> -->
+                    <li><p><me>f(w) = {\left(5 \, w^{5} + 7 \, w^{3}\right)}^{6} w^{\frac{1}{4}}</me></p></li>
                     <li><p><me>h(x) = \sqrt{\sin\left(5 \, x^{3} + 4\right)}</me></p></li>
                     <li><p><me>
                         g(y) = \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^{ 5 }
                     </me></p></li>
-                    <li><p><me>f(w) = 216 \, w^{\frac{55}{3}}</me></p></li>
         </ol>
         
 
@@ -22,13 +22,13 @@
             <!-- <li><me>&apos;() =   \left(  \right)^ \left(  \right) </me></li>
             <li><me>&apos;() =  </me></li>
             <li><me>&apos;() =  </me></li> -->
+                    <li><p><me>f ' (w) = 6 \, {\left(5 \, w^{5} + 7 \, w^{3}\right)}^{5} {\left(25 \, w^{4} + 21 \, w^{2}\right)} w^{\frac{1}{4}} + \frac{{\left(5 \, w^{5} + 7 \, w^{3}\right)}^{6}}{4 \, w^{\frac{3}{4}}}</me></p></li>
                     <li><p><me>h ' (x) = \frac{15 \, x^{2} \cos\left(5 \, x^{3} + 4\right)}{2 \, \sqrt{\sin\left(5 \, x^{3} + 4\right)}}</me></p></li>
                     <li><p><me>
                         g ' (y) = 5
                         \left( -\frac{2 \, y + 3}{2 \, {\left(y^{6} - 2\right)}} \right)^{ 4 }
                         \left( \frac{3 \, {\left(2 \, y + 3\right)} y^{5}}{{\left(y^{6} - 2\right)}^{2}} - \frac{1}{y^{6} - 2} \right)
                     </me></p></li>
-                    <li><p><me>f ' (w) = 3960 \, w^{\frac{52}{3}}</me></p></li>
         </ol>
 
     </answer>
